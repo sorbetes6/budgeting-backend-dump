@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\Chart;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Counter;
 use App\Livewire\NavBar;
@@ -22,3 +23,5 @@ Route::get('/', function () {
 Route::get('/counter', Counter::class);
 
 Route::get('/navbar', NavBar::class);
+
+Route::get('/chart', Chart::class);
