@@ -126,7 +126,7 @@
 
     <!-- WELCOME! -->
     <div class="relative w-[500px] h-80 rounded-lg shadow border border-gray border-opacity-20 bg-cover bg-center ml-[280px] mt-[142px]" style="background-image: url('css/images/background.png')">
-        <div class="absolute inset-0 bg-gray-300 bg-opacity-90 rounded-lg"></div> <!-- Background overlay for transparency -->
+        <div class="absolute inset-0 bg-gray-300 bg-opacity-90 rounded-lg"></div> 
         <img class="w-[500px] h-[320px] opacity-40 mx-auto mt-auto" src="css/images/background.png">
         <div class= "absolute inset-0 flex flex-col items-start ml-6 justify-top text-left left-2 mt-8">
             <div class="flex items-center">
@@ -134,7 +134,7 @@
                 <img class="h-[40px] ml-2" src="css/images/image 4.png">
             </div>
             <h1 class="text-2xl font-extrabold ml-2 mt-3 mb-3 text-blue-800 z-10 relative">PLM Budget System</h1>
-            <h2 class="text-[50px] font-extrabold ml-2 mb-1 text-blue-800 z-10 relative">Welcome,</h1>
+            <h2 class="text-[55px] font-extrabold ml-2 mb-1 text-blue-800 z-10 relative">Welcome,</h1>
             <p class= "text-2xl font-bold ml-2 text-cyan-800 z-10 relative">Maribeth Solquio.</p>
         </div>
     </div>
@@ -165,8 +165,13 @@
             <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Payment Request Form</h1>
         </div>
-        <div class="flex items-center justify-center ml-6 mt-2  w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
+        <div class="flex items-center justify-center ml-6 mt-2  w-[150px] h-[65px] bg-blue-800 text-[13px] text-white rounded-md p-4">
             <h1 class="text-[11px] text-white">Budget Utilization Request</h1>
+        </div>
+        <div class="flex items-center justify-center">
+            <div class="flex items-center justify-center ml-4 mt-[-65px]  w-[150px] h-[65px] bg-blue-800 text-[13px] text-white rounded-md p-4">
+                <h1 class="text-[11px] text-white">Amendment Form</h1>
+            </div>
         </div>
     </div>
     
@@ -185,7 +190,7 @@
                 <h1 class="text-[11px] text-white">Personnel Schedule</h1>
             </div>
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <h1 class="text-[11px] text-white">Personnel Schedule</h1>
+                <h1 class="text-[11px] text-white">Project Procurement Management Plan</h1>
             </div>
         </div>
         <div class="flex items-center ml-5 mt-">                    
@@ -253,19 +258,13 @@
              
     <!-- Calendar -->
     <div class="flex items-top justify-center w-[350px] h-80 rounded-lg shadow border border-gray border-opacity-20 ml-[1330px] mt-[22px]">
-
-        <!-- Left arrow button -->
         <button class="h-10 rounded-lg shadow border border-gray border-opacity-20 mt-3 text-black font-bold py-2 px-4 rounded">
-        &lt; <!-- HTML entity for '<' -->
+        &lt; 
         </button>
-
         <h1 class="text-2xl font-bold mb-4 mt-4 ml-12">January</h1>
-
-        <!-- Right arrow button -->
         <button class="h-10 rounded-lg shadow border border-gray border-opacity-20 mt-3 ml-12 text-black font-bold py-2 px-4 rounded">
-        &gt; <!-- HTML entity for '>' -->
+        &gt; 
         </button>
-
     </div>
 
 </div>
