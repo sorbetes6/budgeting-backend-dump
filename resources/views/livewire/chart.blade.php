@@ -19,6 +19,7 @@
     </head>
 
 <div>
+    <!--Top Navigation-->
     <nav class="fixed flex top-0 z-50 w-full bg-white border-b-2 border-gray-200 dark:bg-gray-800 dark:border-gray-700">
 
         <div class="px-3 py-3 lg:px-5 lg:pl-3">
@@ -68,7 +69,8 @@
         </div>
 
     </nav>
-
+    
+    <!-- Side Navigation-->
     <aside id="logo-sidebar" class="fixed top-8 left-0 z-40 w-75 h-screen pt-20 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700" aria-label="Sidebar">
         <div class="h-full px-4 pb-4 overflow-y-auto bg-indigo-800 dark:bg-gray-800 ">
             <div class="text-white text-2xl font-extrabold font-['Inter'] leading-10 my-10">Budgeting</div>
