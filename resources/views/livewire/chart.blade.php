@@ -166,11 +166,11 @@
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Payment Request Form</h1>
         </div>
         <div class="flex items-center justify-center ml-6 mt-2  w-[150px] h-[65px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-            <h1 class="text-[11px] text-white">Budget Utilization Request</h1>
+            <a href="#" class="text-[11px] text-white btn">Budget Utilization Request</a>
         </div>
         <div class="flex items-center justify-center">
             <div class="flex items-center justify-center ml-4 mt-[-65px]  w-[150px] h-[65px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <h1 class="text-[11px] text-white">Amendment Form</h1>
+                <a href="#" class="text-[11px] text-white btn">Amendment Form</a>
             </div>
         </div>
     </div>
@@ -184,24 +184,24 @@
         </div>
         <div class="flex items-center ml-5 mt-1">                    
             <div class="flex items-center justify-center mt-1 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <h1 class="text-[11px] text-white">Activity Justification</h1>
+                <a href="#" class="text-[11px] text-white btn">Activity Justification</a>
             </div>
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <h1 class="text-[11px] text-white">Personnel Schedule</h1>
+                <a href="#" class="text-[11px] text-white btn">Personnel Schedule</a>
             </div>
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <h1 class="text-[11px] text-white">Project Procurement Management Plan</h1>
+                <a href="#" class="text-[11px] text-white btn">Project Procurement Management Plan</a>
             </div>
         </div>
         <div class="flex items-center ml-5 mt-">                    
             <div class="flex items-center justify-center mt-1 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <h1 class="text-[11px] text-white">Personal Services</h1>
+                <a href="#" class="text-[11px] text-white btn">Personal Services</a>
             </div>
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <h1 class="text-[11px] text-white">MOOE</h1>
+                <a href="#" class="text-[11px] text-white btn">MOOE</a>
             </div>
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <h1 class="text-[11px] text-white   ">Capital Outlay</h1>
+                <a href="#" class="text-[11px] text-white btn">Capital Outlay</a>
             </div>
         </div>
     </div>
@@ -218,7 +218,7 @@
                 <h2 class="flex items-top justify-left text-[11px] font-bold ml-9">Edited Status of Appropriation</h2>
                 <div class="flex items-top"> 
                     <h3 class="flex items-top justify-left text-[11px] ml-9">15 minutes ago</h3>
-                    <h4 class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[145px]">View form</h4>
+                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[145px] btn">View form</a>
                 </div>
             </div> 
         </div>  
@@ -228,7 +228,7 @@
                 <h2 class="flex items-top justify-left text-[11px] font-bold ml-9">Edited Status of Appropriation</h2>
                 <div class="flex items-top"> 
                     <h3 class="flex items-top justify-left text-[11px] ml-9">15 minutes ago</h3>
-                    <h4 class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[145px]">View form</h4>
+                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[145px] btn">View form</a>
                 </div>
             </div> 
         </div>  
@@ -238,7 +238,7 @@
                 <h2 class="flex items-top justify-left text-[11px] font-bold ml-9">Edited Status of Appropriation</h2>
                 <div class="flex items-top"> 
                     <h3 class="flex items-top justify-left text-[11px] ml-9">15 minutes ago</h3>
-                    <h4 class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[145px]">View form</h4>
+                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[145px] btn">View form</a>
                 </div>
             </div> 
         </div>  
@@ -248,7 +248,7 @@
                 <h2 class="flex items-top justify-left text-[11px] font-bold ml-9">Edited Status of Appropriation</h2>
                 <div class="flex items-top"> 
                     <h3 class="flex items-top justify-left text-[11px] ml-9">15 minutes ago</h3>
-                    <h4 class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[145px]">View form</h4>
+                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[145px] btn">View form</a>
                 </div>
             </div> 
         </div>  

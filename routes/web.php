@@ -29,3 +29,5 @@ Route::get('/navbar', NavBar::class);
 Route::get('/chart', Chart::class);
 
 Route::get('/budgetcall', BudgetCall::class);
+
+Route::get('/settings', Chart::class);
