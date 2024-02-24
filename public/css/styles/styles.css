@@ -1,0 +1,16 @@
+/* Explicitly define the appearance property */
+input, 
+select, 
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Reset other styles for better consistency */
+input[type="checkbox"], input[type="radio"] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Additional styling as needed */

@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Livewire\Counter;
 use App\Livewire\NavBar;
 use App\Livewire\BudgetCall;
-
+use App\Livewire\Settings;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,4 +30,4 @@ Route::get('/chart', Chart::class);
 
 Route::get('/budgetcall', BudgetCall::class);
 
-Route::get('/settings', Chart::class);
+Route::get('/settings', Settings::class);
