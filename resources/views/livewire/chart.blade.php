@@ -114,7 +114,7 @@
     </aside>
 
     <!-- WELCOME! -->
-    <div class="relative w-[500px] h-80 rounded-lg shadow border border-gray border-opacity-20 bg-cover bg-center ml-[280px] mt-[92px]" style="background-image: url('css/images/background.png')">
+    <div class="relative w-[500px] h-80 rounded-lg shadow border border-gray border-opacity-20 bg-cover bg-center ml-[280px] mt-[140px]" style="background-image: url('css/images/background.png')">
         <div class="absolute inset-0 bg-gray-300 bg-opacity-90 rounded-lg"></div> 
         <img class="w-[500px] h-[320px] opacity-40 mx-auto mt-auto" src="css/images/background.png">
         <div class= "absolute inset-0 flex flex-col items-start ml-6 justify-top text-left left-2 mt-8">

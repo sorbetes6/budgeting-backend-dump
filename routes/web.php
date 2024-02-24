@@ -1,9 +1,9 @@
 <?php
 
-use App\Livewire\Chart;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Counter;
 use App\Livewire\NavBar;
+use App\Livewire\Chart;
 use App\Livewire\BudgetCall;
 use App\Livewire\Settings;
 
@@ -26,7 +26,7 @@ Route::get('/counter', Counter::class);
 
 Route::get('/navbar', NavBar::class);
 
-Route::get('/chart', Chart::class);
+Route::get('/dashboard', Chart::class);
 
 Route::get('/budgetcall', BudgetCall::class);
 
