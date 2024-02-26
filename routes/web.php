@@ -5,6 +5,7 @@ use App\Livewire\NavBar;
 use App\Livewire\Chart;
 use App\Livewire\BudgetCall;
 use App\Livewire\Settings;
+use App\Livewire\ActivityJustification;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,8 +21,6 @@ use App\Livewire\Settings;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/navbar', NavBar::class);
 
 Route::get('/dashboard', Chart::class);
 
