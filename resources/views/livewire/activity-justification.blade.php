@@ -21,7 +21,7 @@
                 <form class="space-y-4" action="#">
                     <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal">Activity/Justification</label>
                     <div class="h-24 flex-col justify-start items-start gap-1 flex">
-                        <input type="major" name="major" id="major" class="w-[530px] h-9 px-3 py-2 bg-white rounded-md shadow border text-xs border-zinc-200 focus:ring-blue-500 focus:border-blue-500" placeholder="Description" />
+                        <input type="justification" name="justification" id="justification" class="w-[530px] h-9 px-3 py-2 bg-white rounded-md shadow border text-sm border-zinc-200 focus:ring-blue-500 focus:border-blue-500" placeholder="Description" />
                     </div>
                 </form>
             </div>
@@ -30,13 +30,12 @@
                 <form class="space-y-4" action="#">
                     <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal required">Method of Accomplishing Objectives</label>
                     <div class="h-24 flex-col justify-start items-start gap-1 flex">
-                        <input type="major" name="major" id="major" class="w-[530px] h-9 px-3 py-2 bg-white rounded-md shadow border text-xs border-zinc-200 focus:ring-blue-500 focus:border-blue-500" placeholder="Description" required />
+                        <input type="method" name="method" id="method" class="w-[530px] h-9 px-3 py-2 bg-white rounded-md shadow border text-sm border-zinc-200 focus:ring-blue-500 focus:border-blue-500" placeholder="Description" required />
                     </div>
                 </form>
             </div>
         </div>
     </div>
-
 
     <div class="flex">
         <!--Card 2-->
@@ -53,7 +52,7 @@
                                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Personal Services:</label>
                             </div>
                             <div class="flex-grow-0 flex-shrink-0">
-                                <input type="specific" name="specific" id="specific" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                                <input type="personal-services" name="personal-services" id="personal-services" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
                             </div>
                         </div>
                     </li>
@@ -63,7 +62,7 @@
                                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Maintenance and other Operating Expenses:</label>
                             </div>
                             <div class="flex-grow-0 flex-shrink-0">
-                                <input type="specific" name="specific" id="specific" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                                <input type="mooe" name="mooe" id="mooe" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
                             </div>
                         </div>
                     </li>
@@ -73,7 +72,7 @@
                                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Capital/Equipment Outlay:</label>
                             </div>
                             <div class="flex-grow-0 flex-shrink-0">
-                                <input type="specific" name="specific" id="specific" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                                <input type="outlay" name="outlay" id="outlay" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
                             </div>
                         </div>
                     </li>
@@ -83,7 +82,7 @@
                                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Total:</label>
                             </div>
                             <div class="flex-grow-0 flex-shrink-0">
-                                <input type="specific" name="specific" id="specific" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                                <input type="total-justification" name="total-justification" id="total-justification" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
                             </div>
                         </div>
                     </li>
@@ -91,48 +90,49 @@
             </div>
         </div>
 
-        <!--Card 5-->
-        <div class="w-[583px] h-min px-8 py-6 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 my-3 mx-10">
-            <div class="flex items-center justify-between mb-2">
-                <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal">Cost per Student</label>
-            </div>
-            <div class="flow-root p-0">
-                <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700 ">
-                    <li class="sm:py-4">
-                        <div class="flex items-center">
-                            <div class="flex-1 min-w-0">
-                                <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Estimated Number of Students:</label>
+        <div class="flex flex-col">
+            <!--Card 5-->
+            <div class="w-[583px] h-min px-8 py-6 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 my-3 mx-10">
+                <div class="flex items-center justify-between mb-2">
+                    <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal">Cost per Student</label>
+                </div>
+                <div class="flow-root p-0">
+                    <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700 ">
+                        <li class="sm:py-4">
+                            <div class="flex items-center">
+                                <div class="flex-1 min-w-0">
+                                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Estimated Number of Students:</label>
+                                </div>
+                                <div class="flex-grow-0 flex-shrink-0">
+                                    <input type="estimated-students" name="estimated-students" id="estimated-students" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                                </div>
                             </div>
-                            <div class="flex-grow-0 flex-shrink-0">
-                                <input type="specific" name="specific" id="specific" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                        </li>
+                        <li class="py-3 sm:py-4">
+                            <div class="flex items-center">
+                                <div class="flex-1 min-w-0">
+                                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Total Cost (excluding Capital Outlay):</label>
+                                </div>
+                                <div class="flex-grow-0 flex-shrink-0">
+                                    <input type="totalcost-justification" name="totalcost-justification" id="totalcost-justification" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="py-3 sm:py-4">
-                        <div class="flex items-center">
-                            <div class="flex-1 min-w-0">
-                                <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Total Cost (excluding Capital Outlay):</label>
+                        </li>
+                        <li class="py-3 sm:py-4">
+                            <div class="flex items-center">
+                                <div class="flex-1 min-w-0">
+                                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Cost per Student:</label>
+                                </div>
+                                <div class="flex-grow-0 flex-shrink-0">
+                                    <input type="cost-student" name="cost-student" id="cost-student" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                                </div>
                             </div>
-                            <div class="flex-grow-0 flex-shrink-0">
-                                <input type="specific" name="specific" id="specific" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
-                            </div>
-                        </div>
-                    </li>
-                    <li class="py-3 sm:py-4">
-                        <div class="flex items-center">
-                            <div class="flex-1 min-w-0">
-                                <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Cost per Student:</label>
-                            </div>
-                            <div class="flex-grow-0 flex-shrink-0">
-                                <input type="specific" name="specific" id="specific" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-
     <div class="flex flex-row-reverse">
         <button class="w-32 h-12 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center gap-2 inline-flex text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
     </div>

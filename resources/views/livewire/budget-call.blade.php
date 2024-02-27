@@ -29,22 +29,21 @@
     <div id="default-tab-content">
         <div id="justification" role="tabpanel" aria-labelledby="justification-tab">
             @include('livewire.activity-justification')
-
         </div>
-        <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="services" role="tabpanel" aria-labelledby="services-tab">
+        <div id="services" role="tabpanel" aria-labelledby="services-tab">
             <!--Personnel Services Content-->
         </div>
-        <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="schedule" role="tabpanel" aria-labelledby="schedule-tab">
+        <div id="schedule" role="tabpanel" aria-labelledby="schedule-tab">
             <!--Personnel Schedule Content-->
         </div>
-        <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="mooe" role="tabpanel" aria-labelledby="mooe-tab">
+        <div id="mooe" role="tabpanel" aria-labelledby="mooe-tab">
             <!--MOOE Content-->
         </div>
-        <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="capitaloutlay" role="tabpanel" aria-labelledby="capital-outlay-tab">
+        <div id="capitaloutlay" role="tabpanel" aria-labelledby="capital-outlay-tab">
             <!--Capital Outlay Content-->
         </div>
-        <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="ppmp" role="tabpanel" aria-labelledby="ppmp-tab">
-            <!--PPMP Content-->
+        <div id="ppmp" role="tabpanel" aria-labelledby="ppmp-tab">
+            @include('livewire.p-p-m-p')
         </div>
     </div>
 </div>
