@@ -40,7 +40,7 @@
             <!--MOOE Content-->
         </div>
         <div id="capitaloutlay" role="tabpanel" aria-labelledby="capital-outlay-tab">
-            <!--Capital Outlay Content-->
+            @include('livewire.capital-outlay')
         </div>
         <div id="ppmp" role="tabpanel" aria-labelledby="ppmp-tab">
             @include('livewire.p-p-m-p')
