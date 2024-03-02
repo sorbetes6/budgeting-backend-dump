@@ -22,6 +22,7 @@
         <div class="px-3 py-3 lg:px-5 lg:pl-3">
             <div class="flex items-center justify-between w-16 h-16-">
 
+                <!-- NEED FUNCTIONALITY -->
                 <div class="flex items-center justify-start rtl:justify-end">
                     <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
                         <span class="sr-only">Open sidebar</span>
@@ -35,7 +36,7 @@
                     </a>
                 </div>
                 
-                <!--Search Bar-->
+                <!--Search Bar--> <!-- NEED FUNCTIONALITY -->
                 <div class="flex items-left ml-[-20px]">
                     <div class="relative">
                         <svg class="absolute left-5 top-1/2 transform -translate-y-1/2" xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28" fill="none" aria-hidden="true">
@@ -45,7 +46,7 @@
                     </div>
                 </div>
 
-                <!-- User menu -->
+                <!-- User menu --> <!-- NEED FUNCTIONALITY -->
                 <div class="hidden sm:flex sm:items-center justify-end relative ml-[70px]">
                     <div class="relative stroke-white">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -72,7 +73,8 @@
         <div class="h-full px-4 pb-4 overflow-y-auto bg-indigo-800 dark:bg-gray-800 ">
             <div class="text-white text-2xl font-extrabold font-['Inter'] leading-10 my-10">Budgeting</div>
             <ul class="space-y-2 font-medium w-78 h-10 flex-col top-5 justify-start items-start gap-1 inline-flex">
-
+                
+                <!-- NEED FUNCTIONALITY -->
                 <li>
                     <a href="#" class="w-56 px-4 py-2 flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28" fill="none">
@@ -82,6 +84,7 @@
                     </a>
                 </li>
 
+                <!-- NEED FUNCTIONALITY -->
                 <li>
                     <a href="#" class="w-56 px-4 py-2 flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none">
@@ -91,6 +94,7 @@
                     </a>
                 </li>
 
+                <!-- NEED FUNCTIONALITY -->
                 <li>
                     <a href="#" class="w-56 px-4 py-2 flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none">
@@ -100,6 +104,7 @@
                     </a>
                 </li>
 
+                <!-- NEED FUNCTIONALITY -->
                 <li>
                     <a href="#" class="w-56 px-4 py-2 flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none">
@@ -109,6 +114,7 @@
                     </a>
                 </li>
 
+                <!-- NEED FUNCTIONALITY -->
                 <li>
                     <a href="#" class="flex-w-50 px-4 py-2 mt-[310px] flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">

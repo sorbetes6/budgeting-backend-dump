@@ -1,9 +1,7 @@
 <div>
-    <div class="w-[1218px] h-[644px] relative bg-white rounded-xl shadow border border-zinc-200">
-        
+    <div class="w-[1218px] h-[550px] bg-white rounded-xl shadow border border-zinc-200">
 
-
-        <div class="relative overflow-x-auto px-14 py-2">
+        <div>
             <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                 <thead class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal gap-y-12">
                     <tr>

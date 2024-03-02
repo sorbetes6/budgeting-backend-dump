@@ -1,5 +1,5 @@
 <div class="mx-80 my-32">
-    <div class="text-black text-2xl font-medium font-['Inter'] leading-9 mt-36 ">Budget Call</div>
+    <div class="text-black text-2xl font-medium font-['Inter'] leading-9 mt-30 ">Budget Call</div>
     
     <!-- Forms Tabs-->
     <div class="mb-4 border-b border-gray-200 dark:border-gray-700">

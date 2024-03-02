@@ -22,7 +22,7 @@
     <!-- Activity Justification Document -->
     <div class="flex items-center w-[500px] h-[70px] ml-[400px] mt-[65px]">
         <div>
-            <h1 class="flex items-top justify-left text-[25px] font-extrabold ml-9">Activity Justification Document</h1>
+            <h1 class="flex items-top justify-left text-[25px] font-bold ml-9">Activity Justification Document</h1>
             <!-- NEED FUNCTIONALITY -->
             <h2 class="flex items-top justify-left text-[15px] ml-9">Access: Can edit</h2>
          </div> 
@@ -31,7 +31,7 @@
     <!-- Personal Services -->
     <div class="flex items-center w-[500px] h-[70px] ml-[400px] mt-[10px]">
         <div>
-            <h1 class="flex items-top justify-left text-[25px] font-extrabold ml-9">Personal Services</h1>
+            <h1 class="flex items-top justify-left text-[25px] font-bold ml-9">Personal Services</h1>
             <!-- NEED FUNCTIONALITY -->
             <h2 class="flex items-top justify-left text-[15px] ml-9">Access: Can edit</h2>
          </div> 
@@ -40,7 +40,7 @@
     <!-- Personnel Schedule -->
     <div class="flex items-center w-[500px] h-[70px] ml-[400px] mt-[10px]">
         <div>
-            <h1 class="flex items-top justify-left text-[25px] font-extrabold ml-9">Personnel Schedule</h1>
+            <h1 class="flex items-top justify-left text-[25px] font-bold ml-9">Personnel Schedule</h1>
             <!-- NEED FUNCTIONALITY -->
             <h2 class="flex items-top justify-left text-[15px] ml-9">Access: Can edit</h2>
          </div> 
@@ -49,7 +49,7 @@
     <!-- Maintenance and Other Operating Expenses -->
     <div class="flex items-center w-[540px] h-[70px] ml-[400px] mt-[10px]">
         <div>
-            <h1 class="flex items-top justify-left text-[25px] font-extrabold ml-9">Maintenance and Other Operating Expenses</h1>
+            <h1 class="flex items-top justify-left text-[25px] font-bold ml-9">Maintenance and Other Operating Expenses</h1>
             <!-- NEED FUNCTIONALITY -->
             <h2 class="flex items-top justify-left text-[15px] ml-9">Access: Can edit</h2>
          </div> 
@@ -58,7 +58,7 @@
     <!-- Capital Outlay -->
     <div class="flex items-center w-[550px] h-[70px] ml-[400px] mt-[10px]">
         <div>
-            <h1 class="flex items-top justify-left text-[25px] font-extrabold ml-9">Capital Outlay</h1>
+            <h1 class="flex items-top justify-left text-[25px] font-bold ml-9">Capital Outlay</h1>
             <!-- NEED FUNCTIONALITY -->
             <h2 class="flex items-top justify-left text-[15px] ml-9">Access: Can edit</h2>
          </div> 
@@ -74,7 +74,7 @@
     <!-- Project Procurement Manangement Plan -->
     <div class="flex items-center w-[550px] h-[70px] ml-[1040px] mt-[-473px]">
         <div>
-            <h1 class="flex items-top justify-left text-[25px] font-extrabold ml-9">Project Procurement Manangement Plan</h1>
+            <h1 class="flex items-top justify-left text-[25px] font-bold ml-9">Project Procurement Manangement Plan</h1>
             <!-- NEED FUNCTIONALITY -->
             <h2 class="flex items-top justify-left text-[15px] ml-9">Access: Can edit</h2>
          </div> 
@@ -83,7 +83,7 @@
     <!-- Status of Appropriations -->
     <div class="flex items-center w-[550px] h-[70px] ml-[1040px] mt-[10px]">
         <div>
-            <h1 class="flex items-top justify-left text-[25px] font-extrabold ml-9">Status of Appropriations</h1>
+            <h1 class="flex items-top justify-left text-[25px] font-bold ml-9">Status of Appropriations</h1>
             <!-- NEED FUNCTIONALITY -->
             <h2 class="flex items-top justify-left text-[15px] ml-9">Access: Can edit</h2>
          </div> 
@@ -92,7 +92,7 @@
     <!-- Budget Utilization Request -->
     <div class="flex items-center w-[550px] h-[70px] ml-[1040px] mt-[10px]">
         <div>
-            <h1 class="flex items-top justify-left text-[25px] font-extrabold ml-9">Budget Utilization Request</h1>
+            <h1 class="flex items-top justify-left text-[25px] font-bold ml-9">Budget Utilization Request</h1>
             <!-- NEED FUNCTIONALITY -->
             <h2 class="flex items-top justify-left text-[15px] ml-9">Access: Can edit</h2>
          </div> 

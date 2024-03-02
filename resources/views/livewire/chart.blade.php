@@ -20,8 +20,8 @@
             <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Status of Appropriations</h1>
         </div>
+        <!-- NEED FUNCTIONALITY -->
         <h2 class="text-[15px] font-extrabold ml-14 text-cyan-800">Personal Services</h2>
-        <img class="flex justify-center items-center ml-12 w-[400px] h-[350px] mr-1" src="css/images/pie.png">
     </div>
 
     <!-- Project Procuremente Management Plan -->
@@ -30,8 +30,8 @@
             <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Project Procurement Management Plan</h1>
         </div>
+        <!-- NEED FUNCTIONALITY -->
         <h2 class="text-[15px] font-extrabold ml-14 text-cyan-800">Overall Budget</h2>
-        <img class="flex justify-center items-center ml-12 w-[390px] h-[240px] mr-1" src="css/images/line.png">
     </div>
 
     <!-- Payment Request Form -->
@@ -40,9 +40,11 @@
             <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Payment Request Form</h1>
         </div>
+        <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center justify-center ml-6 mt-2  w-[150px] h-[65px] bg-blue-800 text-[13px] text-white rounded-md p-4">
             <a href="#" class="text-[11px] text-white btn">Budget Utilization Request</a>
         </div>
+        <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center justify-center">
             <div class="flex items-center justify-center ml-4 mt-[-65px]  w-[150px] h-[65px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="#" class="text-[11px] text-white btn">Amendment Form</a>
@@ -57,24 +59,30 @@
             <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Budget Call Forms</h1>
         </div>
-        <div class="flex items-center ml-5 mt-1">                    
+        <div class="flex items-center ml-5 mt-1">       
+            <!-- NEED FUNCTIONALITY -->             
             <div class="flex items-center justify-center mt-1 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="#" class="text-[11px] text-white btn">Activity Justification</a>
             </div>
+            <!-- NEED FUNCTIONALITY -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="#" class="text-[11px] text-white btn">Personnel Schedule</a>
             </div>
+            <!-- NEED FUNCTIONALITY -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="#" class="text-[11px] text-white btn">Project Procurement Management Plan</a>
             </div>
         </div>
-        <div class="flex items-center ml-5 mt-">                    
+        <div class="flex items-center ml-5 mt-">  
+            <!-- NEED FUNCTIONALITY -->                  
             <div class="flex items-center justify-center mt-1 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="#" class="text-[11px] text-white btn">Personal Services</a>
             </div>
+            <!-- NEED FUNCTIONALITY -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="#" class="text-[11px] text-white btn">MOOE</a>
             </div>
+            <!-- NEED FUNCTIONALITY -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="#" class="text-[11px] text-white btn">Capital Outlay</a>
             </div>
@@ -87,6 +95,7 @@
             <img class="w-[18px] h-[18px] ml-3" src="css/images/icon2.png">
             <h1 class="flex items-top justify-left text-[15px] font-bold ml-1 mt-2 mb-2">Recent Activities</h1>
         </div>  
+        <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center h-[70px] border-b-2">
             <div>
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ml-9">Maribeth Solquio</h1>
@@ -97,6 +106,7 @@
                 </div>
             </div> 
         </div>  
+        <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center h-[70px] border-b-2">
             <div>
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ml-9">Maribeth Solquio</h1>
@@ -107,6 +117,7 @@
                 </div>
             </div> 
         </div>  
+        <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center h-[70px] border-b-2">
             <div>
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ml-9">Maribeth Solquio</h1>
@@ -117,6 +128,7 @@
                 </div>
             </div> 
         </div>  
+        <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center h-[70px] border-b-2">
             <div>
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ml-9">Maribeth Solquio</h1>
@@ -132,6 +144,7 @@
     </div>  
              
     <!-- Calendar -->
+    <!-- FIX KASI BULOK PA -->
     <div class="flex flex-col items-center w-[350px] h-[320px] rounded-lg shadow border border-gray border-opacity-20 ml-[1330px] mt-[22px]">
         <div class="flex items-center">
             <button id="prevMonth" class="flex items-center justify-center w-5 h-10 rounded-lg shadow border border-gray border-opacity-20 mt-1 text-black font-bold py-5 px-5">&lt;</button>
