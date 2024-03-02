@@ -22,7 +22,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dashboard', Chart::class);
+Route::get('/chart', Chart::class);
 
 Route::get('/budgetcall', BudgetCall::class);
 
