@@ -37,7 +37,7 @@
             <!--Personnel Schedule Content-->
         </div>
         <div id="mooe" role="tabpanel" aria-labelledby="mooe-tab">
-            <!--MOOE Content-->
+            @include('livewire.mooe')
         </div>
         <div id="capitaloutlay" role="tabpanel" aria-labelledby="capital-outlay-tab">
             @include('livewire.capital-outlay')
