@@ -66,7 +66,7 @@
             </div>
             <!-- NEED FUNCTIONALITY -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="#" class="text-[11px] text-white btn">Personnel Schedule</a>
+                <a href="/budgetcall" class="text-[11px] text-white btn">Personnel Schedule</a>
             </div>
             <!-- NEED FUNCTIONALITY -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
