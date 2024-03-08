@@ -18,6 +18,7 @@
                         </th>
                     </tr>
                 </thead>
+
                 <tbody>
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
@@ -37,6 +38,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                         1-07-05-020
@@ -55,6 +57,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-030
@@ -73,6 +76,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-070
@@ -91,6 +95,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-090
@@ -109,6 +114,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-110
@@ -127,6 +133,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-130
@@ -145,6 +152,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-140
@@ -163,6 +171,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-990
@@ -181,6 +190,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-06-010
@@ -199,6 +209,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-07-010
@@ -217,6 +228,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-07-020
@@ -234,7 +246,8 @@
                                 <input type="justification" name="justification" id="justification" class="w-30 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </div>
                         </td>
-                    </tr>            
+                    </tr>     
+                           
                 </tbody>
             </table>
         </div>

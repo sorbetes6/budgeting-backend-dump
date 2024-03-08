@@ -1,5 +1,5 @@
 <div>
-    <div class="w-max max-h-max bg-white rounded-xl shadow border border-zinc-200">
+    <div class="max-w-max max-h-fit bg-white rounded-xl shadow border border-zinc-200">
         <div class="relative overflow-x-auto">
             <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                 <thead class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal gap-y-12">
@@ -37,6 +37,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-01-020
@@ -55,6 +56,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-02-010
@@ -73,6 +75,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-03-010
@@ -91,6 +94,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-03-020
@@ -109,6 +113,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-03-070
@@ -127,6 +132,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-03-080
@@ -145,6 +151,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-03-090
@@ -163,6 +170,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-03-990
@@ -181,6 +189,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                         5-02-04-010
@@ -199,6 +208,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-04-010
@@ -217,6 +227,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-05-010
@@ -235,6 +246,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-05-020
@@ -253,6 +265,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-05-030
@@ -271,6 +284,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-10-030
@@ -289,6 +303,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-11-030
@@ -307,6 +322,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-11-990
@@ -325,6 +341,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-13-040
@@ -343,6 +360,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-13-050
@@ -361,6 +379,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-13-060
@@ -379,6 +398,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-13-070
@@ -397,6 +417,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-16-020
@@ -415,6 +436,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-16-030
@@ -433,6 +455,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-99-010
@@ -451,6 +474,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-99-020
@@ -469,6 +493,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-99-050
@@ -487,6 +512,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-99-060
@@ -505,6 +531,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-99-070
@@ -522,6 +549,7 @@
                             </div>
                         </td>
                     </tr>
+
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-99-990
@@ -539,11 +567,13 @@
                                 <input type="justification" name="justification" id="justification" class="w-30 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </div>
                         </td>
-                    </tr>            
+                    </tr>  
+                              
                 </tbody>
             </table>
         </div>
     </div>
+    
     <div class="flex justify-center items-center py-10">
         <div>
             <div class="w-full flex justify-start items-center gap-4">

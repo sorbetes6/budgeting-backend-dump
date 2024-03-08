@@ -27,23 +27,30 @@
     
     <!--Forms Tabs Content-->
     <div id="default-tab-content">
+
         <div id="justification" role="tabpanel" aria-labelledby="justification-tab">
             @include('livewire.activity-justification')
         </div>
+
         <div id="services" role="tabpanel" aria-labelledby="services-tab">
             @include('livewire.personnel-services') 
         </div>
+
         <div id="schedule" role="tabpanel" aria-labelledby="schedule-tab">
             @include('livewire.personnel-schedule')
         </div>
+
         <div id="mooe" role="tabpanel" aria-labelledby="mooe-tab">
             @include('livewire.m-o-o-e')
         </div>
+
         <div id="capitaloutlay" role="tabpanel" aria-labelledby="capital-outlay-tab">
             @include('livewire.capital-outlay')
         </div>
+        
         <div id="ppmp" role="tabpanel" aria-labelledby="ppmp-tab">
             @include('livewire.p-p-m-p')
         </div>
+
     </div>
 </div>
