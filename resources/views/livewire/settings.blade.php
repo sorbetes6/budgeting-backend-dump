@@ -65,7 +65,7 @@
     </div>  
 
     <!-- Reminder -->
-    <div class="flex items-center w-[500px] h-[50px] ml-[400px] mt-[30px]">
+    <div class="flex items-center w-[500px] h-[40px] ml-[400px] mt-[30px]">
         <div>
             <h1 class="flex items-top justify-left text-[10px] ml-9">To change your access system, contact ICTO.</h1>
          </div> 
