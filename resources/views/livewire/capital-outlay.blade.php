@@ -252,4 +252,9 @@
             </table>
         </div>
     </div>
+
+    <div class="flex flex-row-reverse">
+        <button class="w-30 h-10 px-4 py-2 mt-5 bg-indigo-800 rounded-md shadow justify-center items-center gap-2 inline-flex text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
+    </div>
+
 </div>
