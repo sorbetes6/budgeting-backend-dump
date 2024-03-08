@@ -1,7 +1,6 @@
 <div>
-    <div class="w-[1218px] h-[640px] bg-white rounded-xl shadow border border-zinc-200">
-
-        <div>
+    <div class="max-w-max max-h-fit bg-white rounded-xl shadow border border-zinc-200">
+        <div class="relative overflow-x-auto">
             <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                 <thead class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal gap-y-12">
                     <tr>
@@ -235,9 +234,7 @@
                                 <input type="justification" name="justification" id="justification" class="w-30 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </div>
                         </td>
-                    </tr>
-        
-                    
+                    </tr>            
                 </tbody>
             </table>
         </div>

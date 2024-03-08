@@ -1,11 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Livewire\NavBar;
 use App\Livewire\Chart;
 use App\Livewire\BudgetCall;
 use App\Livewire\Settings;
-use App\Livewire\ActivityJustification;
 
 /*
 |--------------------------------------------------------------------------
