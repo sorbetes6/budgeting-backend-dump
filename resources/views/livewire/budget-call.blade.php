@@ -8,7 +8,7 @@
                 <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="justification-tab" data-tabs-target="#justification" type="button" role="tab" aria-controls="justification" aria-selected="false">Activity Justification</button>
             </li>
             <li class="me-[30px]" role="presentation">
-                <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="services-tab" data-tabs-target="#services" type="button" role="tab" aria-controls="services" aria-selected="false">Personnel Services</button>
+                <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="services-tab" data-tabs-target="#services" type="button" role="tab" aria-controls="services" aria-selected="false">Personal Services</button>
             </li>
             <li class="me-[30px]" role="presentation">
                 <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="schedule-tab" data-tabs-target="#schedule" type="button" role="tab" aria-controls="schedule" aria-selected="false">Personnel Schedule</button>
