@@ -549,7 +549,7 @@
                             </div>
                         </td>
                     </tr>
-
+                    
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-02-99-990
@@ -567,8 +567,7 @@
                                 <input type="justification" name="justification" id="justification" class="w-30 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </div>
                         </td>
-                    </tr>  
-                              
+                    </tr>            
                 </tbody>
             </table>
         </div>
