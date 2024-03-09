@@ -41,7 +41,7 @@
         </div>
 
         <div id="mooe" role="tabpanel" aria-labelledby="mooe-tab">
-            @include('livewire.m-o-o-e')
+            
         </div>
 
         <div id="capitaloutlay" role="tabpanel" aria-labelledby="capital-outlay-tab">
