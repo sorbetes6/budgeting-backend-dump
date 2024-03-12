@@ -29,7 +29,7 @@
                     <span class="flex items-center w-80 text-indigo-800 text-2xl font-extrabold font-['Inter'] ml-3 leading-10">PLM Budget System</span>
                     </a>
                 </div>
-                
+
                 <!--Search Bar--> <!-- NEED FUNCTIONALITY -->
                 <div class="flex items-left ml-[-20px]">
                     <div class="relative">
@@ -67,9 +67,6 @@
                         </ul>
                     </div>
                 </div>
-
-
-
             </div>
         </div>
 
@@ -80,7 +77,7 @@
         <div class="h-full px-4 pb-4 overflow-y-auto bg-indigo-800 dark:bg-gray-800 ">
             <div class="text-white text-2xl font-extrabold font-['Inter'] leading-10 my-10">Budgeting</div>
             <ul class="space-y-2 font-medium w-78 h-10 flex-col top-5 justify-start items-start gap-1 inline-flex">
-                
+
                 <li>
                     <a href="/chart" class="w-56 px-4 py-2 flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28" fill="none">
@@ -117,32 +114,32 @@
                         <ul id="budget-call-dropdown" class="hidden py-2 space-y-2">
                             <li>
                                 <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
-                                    <span class="px-11 w-full">Activity Justification</span>
+                                    <span class="px-7 w-full">Activity Justification</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
-                                    <span class="px-11 w-full">Personnel Services</span>
+                                    <span class="px-7 w-full">Personnel Services</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
-                                    <span class="px-11 w-full">Personnel Schedule</span>
+                                    <span class="px-7 w-full">Personnel Schedule</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
-                                    <span class="px-11 w-full">MOOE</span>
+                                    <span class="px-7 w-full">MOOE</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
-                                    <span class="px-11 w-full">Capital Outlay</span>
+                                    <span class="px-7 w-full">Capital Outlay</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
-                                    <span class="px-11 w-full">PPMP</span>
+                                    <span class="px-7 w-full">PPMP</span>
                                 </a>
                             </li>
                         </ul>
