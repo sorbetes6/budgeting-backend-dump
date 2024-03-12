@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Livewire\Chart;
 use App\Livewire\BudgetCall;
 use App\Livewire\Settings;
+use App\Livewire\ActivityJustification;
+use App\Livewire\PersonnelServices;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +27,8 @@ Route::get('/chart', Chart::class);
 Route::get('/budgetcall', BudgetCall::class);
 
 Route::get('/settings', Settings::class);
+
+Route::get('/activity-justification', ActivityJustification::class)->name('activity-justification');
+
+Route::get('/personal-services', PersonnelServices::class)->name('personnel-services');
+
