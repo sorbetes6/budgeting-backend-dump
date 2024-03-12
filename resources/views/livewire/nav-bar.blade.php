@@ -113,17 +113,17 @@
                         </button>
                         <ul id="budget-call-dropdown" class="hidden py-2 space-y-2">
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/activity-justification" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">Activity Justification</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/personnel-services" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">Personnel Services</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/personal-schedule" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">Personnel Schedule</span>
                                 </a>
                             </li>
@@ -133,12 +133,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/capital-outlay" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">Capital Outlay</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/PPMP" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">PPMP</span>
                                 </a>
                             </li>
@@ -172,7 +172,7 @@
                         </button>
                         <ul id="payment-request-dropdown" class="hidden py-2 space-y-2">
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/BUR" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-11 w-full">BUR</span>
                                 </a>
                             </li>

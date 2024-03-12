@@ -8,7 +8,7 @@ use App\Livewire\PersonnelServices;
 use App\Livewire\PersonnelSchedule;
 use App\Livewire\CapitalOutlay;
 use App\Livewire\PPMP;
-
+use App\Livewire\BUR;
 
 
 
@@ -40,4 +40,6 @@ Route::get('/personal-schedule', PersonnelSchedule::class);
 Route::get('/capital-outlay', CapitalOutlay::class);
 
 Route::get('/PPMP', PPMP::class);
+
+Route::get('/BUR', BUR::class);
 
