@@ -2,10 +2,15 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Chart;
-use App\Livewire\BudgetCall;
 use App\Livewire\Settings;
 use App\Livewire\ActivityJustification;
 use App\Livewire\PersonnelServices;
+use App\Livewire\PersonnelSchedule;
+use App\Livewire\CapitalOutlay;
+use App\Livewire\PPMP;
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -24,11 +29,15 @@ Route::get('/', function () {
 
 Route::get('/chart', Chart::class);
 
-Route::get('/budgetcall', BudgetCall::class);
-
 Route::get('/settings', Settings::class);
 
-Route::get('/activity-justification', ActivityJustification::class)->name('activity-justification');
+Route::get('/activity-justification', ActivityJustification::class);
 
-Route::get('/personal-services', PersonnelServices::class)->name('personnel-services');
+Route::get('/personnel-services', PersonnelServices::class);
+
+Route::get('/personal-schedule', PersonnelSchedule::class);
+
+Route::get('/capital-outlay', CapitalOutlay::class);
+
+Route::get('/PPMP', PPMP::class);
 
