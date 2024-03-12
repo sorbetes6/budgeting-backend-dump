@@ -41,18 +41,31 @@
                 </div>
 
                 <!-- User menu --> <!-- NEED FUNCTIONALITY -->
-                <div class="hidden sm:flex sm:items-center justify-end relative ml-[70px]">
+                <div class="hidden sm:flex sm:items-center justify-end relative ml-[70px] focus:ring-4 focus:outline-none focus:ring-gray-500">
                     <div class="relative stroke-white">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                             <path d="M19.88 9.04991C19.88 11.7082 17.725 13.8632 15.0666 13.8632C12.4083 13.8632 10.2533 11.7082 10.2533 9.04991C10.2533 6.39157 12.4083 4.23657 15.0666 4.23657C17.725 4.23657 19.88 6.39157 19.88 9.04991Z" stroke="#434343" stroke-width="2.40667" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M15.0666 17.4732C10.4146 17.4732 6.64331 21.2445 6.64331 25.8966H23.49C23.49 21.2445 19.7187 17.4732 15.0666 17.4732Z" stroke="#434343" stroke-width="2.40667" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
-                    <select wire:model="state" class="inline-flex items-center px-3 py-2 text-sm leading-4 font-medium rounded-md text-gray-500 dark:text-gray-400 bg-white dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150 border-transparent">
-                        <option value="" class="ml-2 font-inter" selected>Maribeth Solquio</option>
-                        <option value="MyAccount" class="font-bold border-b hover:bg-blue-700 hover:text-white active:bg-[#4F74BB] rounded-md">My Account</option>
-                        <option value="LogOut" class="hover:bg-blue-700 hover:text-[#EFF0FF] active:bg-[#4F74BB] active:text-[#EFF0FF] rounded-md flex items-center justify-between stroke-[#71717A] hover:stroke-white">Log Out</option>
-                    </select>
+                    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                        <span class="text-center text-slate-600 text-base font-normal font-['Inter'] leading-9">User</span>
+                        <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg>
+                    </button>
+
+                    <!-- Dropdown menu -->
+                    <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                        <ul class="py-2 text-black text-sm font-normal font-['Inter'] leading-tight" aria-labelledby="dropdownDefaultButton">
+                            <li>
+                                <a href="/settings" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
 
@@ -103,22 +116,34 @@
                         </button>
                         <ul id="budget-call-dropdown" class="hidden py-2 space-y-2">
                             <li>
-                                <a href="#" class="flex items-center p-2 w-fit text-white text-base font-normal font-['Nunito Sans'] leading-tight transition duration-75 rounded-lg pl-11 hover:bg-[#2C56A6] active:bg-[#4F74BB]">Activity Justification</a>
+                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                    <span class="px-11 w-full">Activity Justification</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-tight transition duration-75 rounded-lg pl-11 hover:bg-[#2C56A6] active:bg-[#4F74BB]">Personnel Services</a>
+                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                    <span class="px-11 w-full">Personnel Services</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-tight transition duration-75 rounded-lg pl-11 hover:bg-[#2C56A6] active:bg-[#4F74BB]">Personnel Schedule</a>
+                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                    <span class="px-11 w-full">Personnel Schedule</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-tight transition duration-75 rounded-lg pl-11 hover:bg-[#2C56A6] active:bg-[#4F74BB]">MOOE</a>
+                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                    <span class="px-11 w-full">MOOE</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-tight transition duration-75 rounded-lg pl-11 hover:bg-[#2C56A6] active:bg-[#4F74BB]">Capital Outlay</a>
+                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                    <span class="px-11 w-full">Capital Outlay</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-tight transition duration-75 rounded-lg pl-11 hover:bg-[#2C56A6] active:bg-[#4F74BB]">PPMP</a>
+                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                    <span class="px-11 w-full">PPMP</span>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -126,7 +151,7 @@
 
                 <li>
                     <div class="self-stretch flex-col justify-start items-start gap-1 flex">
-                        <button type="button" class="w-56 px-4 py-2 flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]" aria-controls="payment-request-dropdown" data-collapse-toggle="payment-request-dropdown">
+                        <button type="button" id="payment-request-button" class="w-56 px-4 py-2 flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]" aria-controls="payment-request-dropdown" data-collapse-toggle="payment-request-dropdown">
                             <div class="grow shrink basis-0 h-7 justify-start items-center gap-2.5 flex">
                                 <div class="w-7 h-7 relative">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none">
@@ -150,10 +175,14 @@
                         </button>
                         <ul id="payment-request-dropdown" class="hidden py-2 space-y-2">
                             <li>
-                                <a href="#" class="flex items-center p-2 w-fit text-white text-base font-normal font-['Nunito Sans'] leading-tight transition duration-75 rounded-lg pl-11 hover:bg-[#2C56A6] active:bg-[#4F74BB]">BUR</a>
+                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                    <span class="px-11 w-full">BUR</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-tight transition duration-75 rounded-lg pl-11 hover:bg-[#2C56A6] active:bg-[#4F74BB]">Purchase Order</a>
+                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                    <span class="px-11 w-full">Purchase Order</span>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -168,9 +197,6 @@
                     <span class="flex-1 ms-3 whitespace-nowrap text-white text-normal font-normal font-['Nunito Sans'] leading-7">Appropriations</span>
                     </a>
                 </li>
-                
-
-            
 
                 <li>
                     <a href="/settings" class="flex-w-50 px-4 py-2 mt-[310px] flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]">
