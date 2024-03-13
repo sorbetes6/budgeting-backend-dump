@@ -6,9 +6,11 @@ use App\Livewire\Settings;
 use App\Livewire\ActivityJustification;
 use App\Livewire\PersonnelServices;
 use App\Livewire\PersonnelSchedule;
+use App\Livewire\Mooe;
 use App\Livewire\CapitalOutlay;
 use App\Livewire\PPMP;
 use App\Livewire\BUR;
+use App\Livewire\BudgetCall;
 
 
 
@@ -37,9 +39,13 @@ Route::get('/personnel-services', PersonnelServices::class);
 
 Route::get('/personal-schedule', PersonnelSchedule::class);
 
+Route::get('/MOOE', Mooe::class);
+
 Route::get('/capital-outlay', CapitalOutlay::class);
 
 Route::get('/PPMP', PPMP::class);
 
 Route::get('/BUR', BUR::class);
+
+Route::get('/budgetcall', BudgetCall::class);
 

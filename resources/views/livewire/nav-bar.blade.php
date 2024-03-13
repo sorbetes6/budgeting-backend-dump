@@ -128,7 +128,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/MOOE" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">MOOE</span>
                                 </a>
                             </li>
