@@ -42,7 +42,7 @@
         </div>
         <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center justify-center ml-6 mt-2  w-[150px] h-[65px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-            <a href="#" class="text-[11px] text-white btn">Budget Utilization Request</a>
+            <a href="/BUR" class="text-[11px] text-white btn text-center">Budget Utilization Request</a>
         </div>
         <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center justify-center">
@@ -60,17 +60,17 @@
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Budget Call Forms</h1>
         </div>
         <div class="flex items-center ml-5 mt-1">
-
+            <!-- Activity Justification -->
             <div class="flex items-center justify-center mt-1 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="/activity-justification" class="text-[11px] text-white btn">Activity Justification</a>
             </div>
-            <!-- NEED FUNCTIONALITY -->
+            <!-- Personnel Schedule -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="/personnel-schedule" class="text-[11px] text-white btn">Personnel Schedule</a>
             </div>
-            <!-- NEED FUNCTIONALITY -->
+            <!-- PPMP -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/PPMP" class="text-[11px] text-white btn">Project Procurement Management Plan</a>
+                <a href="/PPMP" class="text-[11px] text-white btn text-center">Project Procurement Management Plan</a>
             </div>
         </div>
         <div class="flex items-center ml-5 mt-">
