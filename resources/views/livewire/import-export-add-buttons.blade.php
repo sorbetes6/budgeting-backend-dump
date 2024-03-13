@@ -1,4 +1,4 @@
-<div>
+<div class="flex flex-row justify-end gap-x-3">
     <button class="w-20 h-11 px-4 py-2 bg-indigo-50 rounded-lg shadow border border-indigo-50 justify-center items-center gap-2 inline-flex">
         <span type="button" class="text-indigo-800 text-sm font-semibold font-['Inter'] leading-tight">Import</span>
     </button>
