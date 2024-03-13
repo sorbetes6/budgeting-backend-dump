@@ -27,4 +27,18 @@
             </div>
         </form>
     </div>
+
+        <button class="flex flex-row w-44 h-9 px-4 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-2 inline-flex my-6">
+            <div class="w-4 h-4 relative">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M3.33301 8.00065H12.6663M7.99967 3.33398V12.6673" stroke="#18181B" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <span type="button" class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">Add another data</span>
+        </button>
+
+
+    <div class="flex flex-row-reverse">
+        <button class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center gap-2 inline-flex text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
+    </div>
 </div>

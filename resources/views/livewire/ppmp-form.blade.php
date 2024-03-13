@@ -6,7 +6,7 @@
                 <div class="h-6 flex-col justify-start items-start gap-3 flex">
                     <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal">Program Title</label>
                     <div class="flex-grow-0 flex-shrink-0">
-                        <input type="cost-student" name="cost-student" id="cost-student" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
+                        <input type="cost-student" name="cost-student" id="cost-student" class="w-fit h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
                     </div>
                 </div>
             </form>
@@ -17,7 +17,7 @@
                 <div class="h-6 flex-col justify-start items-start gap-3 flex">
                     <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal">Program Title</label>
                     <div class="flex-grow-0 flex-shrink-0">
-                        <input type="cost-student" name="cost-student" id="cost-student" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
+                        <input type="cost-student" name="cost-student" id="cost-student" class="w-fit h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
                     </div>
                 </div>
             </form>
