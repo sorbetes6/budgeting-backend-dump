@@ -118,12 +118,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/personnel-services" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
-                                    <span class="px-7 w-full">Personnel Services</span>
+                                <a href="/personal-services" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                    <span class="px-7 w-full">Personal Services</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/personal-schedule" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/personnel-schedule" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">Personnel Schedule</span>
                                 </a>
                             </li>
