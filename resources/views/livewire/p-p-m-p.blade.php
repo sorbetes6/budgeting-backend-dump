@@ -4,7 +4,7 @@
     <div class="flex flex-row gap-x-10">
         <div class="my-2 item-start w-full">
             <label class="text-yellow-600 text-base font-normal font-['Inter'] leading-loose">Budget Call Forms ></label>
-            <label class="text-black text-base font-normal font-['Inter'] leading-loose">Maintenance and Other Operating Expenses Form No.</label>
+            <label class="text-black text-base font-normal font-['Inter'] leading-loose">Project Procurement Management Plan Form No.</label>
         </div>
         @include('livewire.import-export-add-buttons')
     </div>

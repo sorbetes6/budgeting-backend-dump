@@ -1,4 +1,4 @@
-<div class="flex flex-row justify-end gap-x-3">
+<div class="flex flex-row justify-end gap-x-3 my-1">
     <!-- Year -->
     <button id="YearDropdown" data-dropdown-toggle="yearDropdown" class="w-24 h-11 pl-2 py-1 bg-white rounded-lg border border-zinc-300 justify-start items-center gap-3 inline-flex">
         <div class="w-5 h-6 relative">
