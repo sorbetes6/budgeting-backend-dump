@@ -37,7 +37,7 @@ Route::get('/activity-justification', ActivityJustification::class);
 
 Route::get('/personal-services', PersonalServices::class);
 
-Route::get('/personal-schedule', PersonnelSchedule::class);
+Route::get('/personnel-schedule', PersonnelSchedule::class);
 
 Route::get('/MOOE', Mooe::class);
 

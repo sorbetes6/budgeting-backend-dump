@@ -66,7 +66,7 @@
             </div>
             <!-- NEED FUNCTIONALITY -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/personal-schedule" class="text-[11px] text-white btn">Personnel Schedule</a>
+                <a href="/personnel-schedule" class="text-[11px] text-white btn">Personnel Schedule</a>
             </div>
             <!-- NEED FUNCTIONALITY -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
@@ -76,7 +76,7 @@
         <div class="flex items-center ml-5 mt-">
             <!-- Personal Services -->
             <div class="flex items-center justify-center mt-1 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/personnel-services" class="text-[11px] text-white btn">Personal Services</a>
+                <a href="/personal-services" class="text-[11px] text-white btn">Personal Services</a>
             </div>
             <!-- MOOE -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
