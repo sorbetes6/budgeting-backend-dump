@@ -4,10 +4,10 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class PersonnelServices extends Component
+class PersonalServicesForm extends Component
 {
     public function render()
     {
-        return view('livewire.personnel-services');
+        return view('livewire.personal-services-form');
     }
 }

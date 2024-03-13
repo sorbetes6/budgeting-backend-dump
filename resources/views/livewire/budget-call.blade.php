@@ -8,7 +8,7 @@
                 <a href="/activity-justification" class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="justification-tab" data-tabs-target="#justification" type="button" role="tab" aria-controls="justification" aria-selected="false">Activity Justification</a>
             </li>
             <li class="me-[30px]" role="presentation">
-                <a href="/personnel-services" class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="services-tab" data-tabs-target="#services" type="button" role="tab" aria-controls="services" aria-selected="false">Personnel Services</a>
+                <a href="/personnel-services" class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="services-tab" data-tabs-target="#services" type="button" role="tab" aria-controls="services" aria-selected="false">Personal Services</a>
             </li>
             <li class="me-[30px]" role="presentation">
                 <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="schedule-tab" data-tabs-target="#schedule" type="button" role="tab" aria-controls="schedule" aria-selected="false">Personnel Schedule</button>
@@ -32,7 +32,7 @@
         </div>
 
         <div id="services" role="tabpanel" aria-labelledby="services-tab">
-            @include('livewire.personnel-services-form')
+            @include('livewire.personal-services-form')
         </div>
 
         <div id="schedule" role="tabpanel" aria-labelledby="schedule-tab">

@@ -1,7 +1,7 @@
 <div>
     <!-- WELCOME! -->
     <div class="relative w-[500px] h-80 rounded-lg shadow border border-gray border-opacity-50 bg-cover bg-center ml-[280px] mt-[140px]">
-        <div class="absolute inset-0 rounded-lg"></div> 
+        <div class="absolute inset-0 rounded-lg"></div>
         <img class="w-[500px] h-[320px] opacity-40 mx-auto mt-auto" src="css/images/background.png">
         <div class= "absolute inset-0 flex flex-col items-start ml-6 justify-top text-left left-2 mt-8">
             <div class="flex items-center">
@@ -13,7 +13,7 @@
             <p class= "text-2xl font-bold ml-2 text-cyan-800 z-10 relative">Maribeth Solquio.</p>
         </div>
     </div>
-    
+
     <!-- Status of Appropriations -->
     <div class="flex flex-col w-[500px] h-80 rounded-lg shadow border border-gray border-opacity-20 ml-[280px] mt-5">
         <div class="flex items-center ml-5 mt-5">
@@ -51,7 +51,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Budget Call Forms -->
     <div class="w-[500px] h-[150px] rounded-lg shadow border border-gray border-opacity-20 ml-[805px] mt-[-320px]">
 
@@ -59,32 +59,32 @@
             <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Budget Call Forms</h1>
         </div>
-        <div class="flex items-center ml-5 mt-1">       
-                      
+        <div class="flex items-center ml-5 mt-1">
+
             <div class="flex items-center justify-center mt-1 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/budgetcall" class="text-[11px] text-white btn">Activity Justification</a>
+                <a href="/activity-justification" class="text-[11px] text-white btn">Activity Justification</a>
             </div>
             <!-- NEED FUNCTIONALITY -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/budgetcall" class="text-[11px] text-white btn">Personnel Schedule</a>
+                <a href="/personal-schedule" class="text-[11px] text-white btn">Personnel Schedule</a>
             </div>
             <!-- NEED FUNCTIONALITY -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="#" class="text-[11px] text-white btn">Project Procurement Management Plan</a>
+                <a href="/PPMP" class="text-[11px] text-white btn">Project Procurement Management Plan</a>
             </div>
         </div>
-        <div class="flex items-center ml-5 mt-">  
-            <!-- NEED FUNCTIONALITY -->                  
+        <div class="flex items-center ml-5 mt-">
+            <!-- Personal Services -->
             <div class="flex items-center justify-center mt-1 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="#" class="text-[11px] text-white btn">Personal Services</a>
+                <a href="/personnel-services" class="text-[11px] text-white btn">Personal Services</a>
             </div>
-            <!-- NEED FUNCTIONALITY -->
+            <!-- MOOE -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="#" class="text-[11px] text-white btn">MOOE</a>
+                <a href="/MOOE" class="text-[11px] text-white btn">MOOE</a>
             </div>
-            <!-- NEED FUNCTIONALITY -->
+            <!-- Capital Outlay -->
             <div class="flex items-center justify-center mt-1 ml-2 w-[150px] h-[45px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="#" class="text-[11px] text-white btn">Capital Outlay</a>
+                <a href="/capital-outlay" class="text-[11px] text-white btn">Capital Outlay</a>
             </div>
         </div>
     </div>
@@ -94,55 +94,55 @@
         <div class="flex items-center border-b-2">
             <img class="w-[18px] h-[18px] ml-3" src="css/images/icon2.png">
             <h1 class="flex items-top justify-left text-[15px] font-bold ml-1 mt-2 mb-2">Recent Activities</h1>
-        </div>  
+        </div>
         <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center h-[70px] border-b-2">
             <div>
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ml-9">Maribeth Solquio</h1>
                 <h2 class="flex items-top justify-left text-[11px] font-bold ml-9">Edited Status of Appropriation</h2>
-                <div class="flex items-top"> 
+                <div class="flex items-top">
                     <h3 class="flex items-top justify-left text-[11px] ml-9">15 minutes ago</h3>
                     <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[145px] btn">View form</a>
                 </div>
-            </div> 
-        </div>  
+            </div>
+        </div>
         <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center h-[70px] border-b-2">
             <div>
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ml-9">Maribeth Solquio</h1>
                 <h2 class="flex items-top justify-left text-[11px] font-bold ml-9">Edited Status of Appropriation</h2>
-                <div class="flex items-top"> 
+                <div class="flex items-top">
                     <h3 class="flex items-top justify-left text-[11px] ml-9">15 minutes ago</h3>
                     <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[145px] btn">View form</a>
                 </div>
-            </div> 
-        </div>  
+            </div>
+        </div>
         <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center h-[70px] border-b-2">
             <div>
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ml-9">Maribeth Solquio</h1>
                 <h2 class="flex items-top justify-left text-[11px] font-bold ml-9">Edited Status of Appropriation</h2>
-                <div class="flex items-top"> 
+                <div class="flex items-top">
                     <h3 class="flex items-top justify-left text-[11px] ml-9">15 minutes ago</h3>
                     <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[145px] btn">View form</a>
                 </div>
-            </div> 
-        </div>  
+            </div>
+        </div>
         <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center h-[70px] border-b-2">
             <div>
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ml-9">Maribeth Solquio</h1>
                 <h2 class="flex items-top justify-left text-[11px] font-bold ml-9">Edited Status of Appropriation</h2>
-                <div class="flex items-top"> 
+                <div class="flex items-top">
                     <h3 class="flex items-top justify-left text-[11px] ml-9">15 minutes ago</h3>
                     <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[145px] btn">View form</a>
                 </div>
-            </div> 
-        </div>  
-        
-        
-    </div>  
-             
+            </div>
+        </div>
+
+
+    </div>
+
     <!-- Calendar -->
     <!-- FIX KASI BULOK PA -->
     <div class="flex flex-col items-center w-[350px] h-[320px] rounded-lg shadow border border-gray border-opacity-20 ml-[1330px] mt-[22px]">
@@ -150,7 +150,7 @@
             <button id="prevMonth" class="flex items-center justify-center w-5 h-10 rounded-lg shadow border border-gray border-opacity-20 mt-1 text-black font-bold py-5 px-5">&lt;</button>
             <h1 id="currentMonth" class="text-2xl font-bold mb-3 mt-4 ml-[70px] mr-[70px]">February</h1>
             <button id="nextMonth" class="flex items-center justify-center w-5 h-10 rounded-lg shadow border border-gray border-opacity-20 mt-1 ml-2 text-black font-bold py-5 px-5">&gt;</button>
-        </div> 
+        </div>
         <div class="flex w-full overflow-x-auto">
             <table class="calendar-table mt-4">
                 <thead>
@@ -168,7 +168,7 @@
                         <!-- Calendar days will be dynamically added here -->
                     </tbody>
             </table>
-        </div> 
+        </div>
     </div>
 
     <script>

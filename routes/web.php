@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Livewire\Chart;
 use App\Livewire\Settings;
 use App\Livewire\ActivityJustification;
-use App\Livewire\PersonnelServices;
+use App\Livewire\PersonalServices;
 use App\Livewire\PersonnelSchedule;
 use App\Livewire\Mooe;
 use App\Livewire\CapitalOutlay;
@@ -35,7 +35,7 @@ Route::get('/settings', Settings::class);
 
 Route::get('/activity-justification', ActivityJustification::class);
 
-Route::get('/personnel-services', PersonnelServices::class);
+Route::get('/personal-services', PersonalServices::class);
 
 Route::get('/personal-schedule', PersonnelSchedule::class);
 
