@@ -88,7 +88,7 @@
                 </li>
 
                 <li>
-                    <div class="self-stretch flex-col justify-start items-start gap-1 flex">
+                    <div class="self-stretch flex-col justify-start items-start flex">
                         <button type="button" class="w-56 px-4 py-2 flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]" aria-controls="budget-call-dropdown" data-collapse-toggle="budget-call-dropdown">
                             <div class="grow shrink basis-0 h-7 justify-start items-center gap-2.5 flex">
                                 <div class="w-7 h-7 relative">
@@ -111,34 +111,34 @@
                                 </svg>
                             </div>
                         </button>
-                        <ul id="budget-call-dropdown" class="hidden py-2 space-y-1">
+                        <ul id="budget-call-dropdown" class="hidden ml-4 py-2 space-y-1">
                             <li>
-                                <a href="/activity-justification" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/activity-justification" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">Activity Justification</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/personal-services" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/personal-services" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">Personal Services</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/personnel-schedule" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/personnel-schedule" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">Personnel Schedule</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/MOOE" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/MOOE" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">MOOE</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/capital-outlay" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/capital-outlay" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">Capital Outlay</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/PPMP" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/PPMP" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">PPMP</span>
                                 </a>
                             </li>
@@ -147,7 +147,7 @@
                 </li>
 
                 <li>
-                    <div class="self-stretch flex-col justify-start items-start gap-1 flex">
+                    <div class="self-stretch flex-col justify-start items-start flex">
                         <button type="button" id="payment-request-button" class="w-56 px-4 py-2 flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]" aria-controls="payment-request-dropdown" data-collapse-toggle="payment-request-dropdown">
                             <div class="grow shrink basis-0 h-7 justify-start items-center gap-2.5 flex">
                                 <div class="w-7 h-7 relative">
@@ -170,14 +170,14 @@
                                 </svg>
                             </div>
                         </button>
-                        <ul id="payment-request-dropdown" class="hidden py-2 space-y-2">
+                        <ul id="payment-request-dropdown" class="hidden py-2 space-y-1">
                             <li>
-                                <a href="/BUR" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/BUR" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-11 w-full">BUR</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="#" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-11 w-full">Purchase Order</span>
                                 </a>
                             </li>

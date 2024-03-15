@@ -102,7 +102,7 @@
                 <h2 class="flex items-top justify-left text-[11px] font-bold">Edited "Form"</h2>
                 <div class="flex items-top">
                     <h3 class="flex items-top justify-left text-[11px]">"Time" ago</h3>
-                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[115px] btn">View form</a>
+                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[150px] btn">View form</a>
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@
                 <h2 class="flex items-top justify-left text-[11px] font-bold">Edited "Form"</h2>
                 <div class="flex items-top">
                     <h3 class="flex items-top justify-left text-[11px]">"Time" ago</h3>
-                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[115px] btn">View form</a>
+                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[150px] btn">View form</a>
                 </div>
             </div>
         </div>
@@ -122,7 +122,7 @@
                 <h2 class="flex items-top justify-left text-[11px] font-bold">Edited "Form"</h2>
                 <div class="flex items-top">
                     <h3 class="flex items-top justify-left text-[11px]">"Time" ago</h3>
-                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[115px] btn">View form</a>
+                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[150px] btn">View form</a>
                 </div>
             </div>
         </div>
@@ -132,7 +132,7 @@
                 <h2 class="flex items-top justify-left text-[11px] font-bold">Edited "Form"</h2>
                 <div class="flex items-top">
                     <h3 class="flex items-top justify-left text-[11px]">"Time" ago</h3>
-                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[115px] btn">View form</a>
+                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[150px] btn">View form</a>
                 </div>
             </div>
         </div>
