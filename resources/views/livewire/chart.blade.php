@@ -43,7 +43,7 @@
         <!-- NEED FUNCTIONALITY -->
         <div class="flex">
             <div class="flex items-center justify-center ml-5 mt-2 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="#" class="text-[11px] text-white btn text-center">Budget Utilization Request</a>
+                <a href="/BUR" class="text-[11px] text-white btn text-center">Budget Utilization Request</a>
             </div>
             <!-- NEED FUNCTIONALITY -->
             <div class="flex items-center justify-center ml-3 mt-2 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
