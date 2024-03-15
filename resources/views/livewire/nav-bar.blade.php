@@ -48,7 +48,7 @@
                             <path d="M15.0666 17.4732C10.4146 17.4732 6.64331 21.2445 6.64331 25.8966H23.49C23.49 21.2445 19.7187 17.4732 15.0666 17.4732Z" stroke="#434343" stroke-width="2.40667" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
-                    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-white-700 dark:focus:ring-blue-800" type="button">
                         <span class="text-center text-slate-600 text-base font-normal font-['Inter'] leading-9">User</span>
                         <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
@@ -76,7 +76,7 @@
     <aside id="logo-sidebar" class="fixed top-6 left-0 z-40 w-75 h-screen pt-20 transition-transform -translate-x-full border-r sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700" aria-label="Sidebar">
         <div class="h-full px-4 pb-4 overflow-y-auto bg-indigo-800 dark:bg-gray-800 ">
             <div class="text-white text-2xl font-extrabold font-['Inter'] leading-10 my-10">Budgeting</div>
-            <ul class="space-y-2 font-medium w-78 h-10 flex-col top-5 justify-start items-start gap-1 inline-flex">
+            <ul class="space-y-1 font-medium w-78 h-10 flex-col top-5 justify-start items-start gap-1 inline-flex">
 
                 <li>
                     <a href="/chart" class="w-56 px-4 py-2 flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]">
@@ -111,7 +111,7 @@
                                 </svg>
                             </div>
                         </button>
-                        <ul id="budget-call-dropdown" class="hidden py-2 space-y-2">
+                        <ul id="budget-call-dropdown" class="hidden py-2 space-y-1">
                             <li>
                                 <a href="/activity-justification" class="flex items-center p-2 text-white text-base font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-7 w-full">Activity Justification</span>
