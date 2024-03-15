@@ -38,7 +38,6 @@
             <span type="button" class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">Add another data</span>
         </button>
 
-
         <div class="my-6 mx-96">
             <button class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center gap-2 inline-flex text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
         </div>
