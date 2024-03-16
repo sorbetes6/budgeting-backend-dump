@@ -1,5 +1,5 @@
 <div>
-    <div class="flex w-[1400px]">
+    <div class="flex w-[1200px]">
         <!--Card 1-->
         <div class="w-[585px] h-[90px] px-5 py-6 bg-white border border-gray-200 rounded-lg shadow sm:p-4">
             <form class="space-y-2" action="#">
@@ -25,7 +25,7 @@
     </div>
 
     <!--Row 1-->
-    <div class="flex my-5 w-[1400px]">
+    <div class="flex my-5 w-[1200px]">
         <!--Card 3-->
         <div class="w-[220px] h-24 px-4 py-3.5 bg-white rounded-xl shadow border border-zinc-200 flex-col justify-start items-start inline-flex">
             <form class="space-y-2" action="#">
@@ -73,7 +73,7 @@
     </div>
 
     <!--Row 2-->
-    <div class="flex my-5 w-[1400px]">
+    <div class="flex my-5 w-[1200px]">
         <!--Card 3-->
         <div class="w-[220px] h-24 px-4 py-2 bg-white rounded-xl shadow border border-zinc-200 flex-col justify-start items-start gap-2.5 inline-flex">
             <form class="space-y-2" action="#">
