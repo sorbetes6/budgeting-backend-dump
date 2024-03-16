@@ -17,7 +17,7 @@
     </div>
 
     <!-- Body --> 
-    <div class="w-[1420px] h-[620px] mx-[270px] rounded-lg border border-gray-300 flex flex-col items-center justify-center overflow-auto">
+    <div class="w-[1420px] h-[620px] mx-[270px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col items-center justify-center overflow-auto">
         
         <!-- Select College/Office --> 
         <div class="w-[280px] p-4 rounded-lg mt-[-10px] mr-[1130px]">
@@ -32,7 +32,7 @@
 
         <!-- Table --> 
         <div class="overflow-x-auto h-[480px]">
-            <table class="w-[1360px] h-[450px]">
+            <table class="w-[1360px]">
                 <tbody>
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"></td>
@@ -162,6 +162,5 @@
         </div>
         
     </div>
-
 
 </div>
