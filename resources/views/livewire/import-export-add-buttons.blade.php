@@ -1,6 +1,6 @@
-<div class="flex flex-row justify-end gap-x-3 my-1">
+<div class="flex flex-row justify-end gap-x-2 my-[1px]">
     <!-- Year -->
-    <button id="YearDropdown" data-dropdown-toggle="yearDropdown" class="w-24 h-11 pl-2 py-1 bg-white rounded-lg border border-zinc-300 justify-start items-center gap-3 inline-flex">
+    <button id="YearDropdown" data-dropdown-toggle="yearDropdown" class="w-24 h-10 pl-2 py-1 bg-white rounded-lg border border-zinc-300 justify-start items-center gap-3 inline-flex">
         <div class="w-5 h-6 relative">
             <svg class="w-2.5 h-2.5 m-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
@@ -29,7 +29,7 @@
     </div>
 
     <!--Sort -->
-    <button id="SortDropdown" data-dropdown-toggle="sortDropdown" class="w-36 h-11 pl-2 py-1 bg-white rounded-lg border border-zinc-300 justify-start items-center gap-2 inline-flex">
+    <button id="SortDropdown" data-dropdown-toggle="sortDropdown" class="w-[150px] h-10 pl-2 py-1 bg-white rounded-lg border border-zinc-300 justify-start items-center gap-2 inline-flex">
         <div class="w-5 h-6 relative">
             <svg class="w-2.5 h-2.5 m-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
@@ -52,16 +52,16 @@
     </div>
 
 
-    <button class="w-20 h-11 px-4 bg-indigo-50 rounded-lg shadow border border-indigo-50 justify-center items-center gap-2 inline-flex">
+    <button class="w-20 h-10 px-4 bg-indigo-50 rounded-lg shadow border border-indigo-50 justify-center items-center gap-2 inline-flex">
         <span type="button" class="text-indigo-800 text-sm font-semibold font-['Inter'] leading-tight">Import</span>
     </button>
 
-    <button class="w-20 h-11 px-4 bg-indigo-50 rounded-lg shadow border border-indigo-50 justify-center items-center gap-2 inline-flex">
+    <button class="w-20 h-10 px-4 bg-indigo-50 rounded-lg shadow border border-indigo-50 justify-center items-center gap-2 inline-flex">
         <span type="button" class="text-indigo-800 text-sm font-semibold font-['Inter'] leading-tight">Export</span>
     </button>
 
     <div class="justify-start items-start inline-flex">
-        <a href="/budgetcall" class="w-28 h-11 px-4 bg-indigo-800 rounded-lg shadow justify-center items-center gap-2 flex">
+        <a href="/budgetcall" class="w-28 h-10 px-4 bg-indigo-800 rounded-lg shadow justify-center items-center gap-2 flex">
             <span class="text-white text-base font-extrabold font-['Inter'] leading-tight">Add Form</span>
         </a>
     </div>
