@@ -1,33 +1,33 @@
 <div>
     <div class="flex flex-col sm:flex-row">
-        <!--Card 1-->
-        <div class="w-[583px] h-80 px-8 py-6 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
-            <form class="space-y-4" action="#">
+        <!--Statement of Objectives-->
+        <div class="w-[583px] h-[242px] px-6 py-6 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+            <form class="mt-[-20px] space-y-4" action="#">
                 <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal">Statement of Objectives</label>
-                <div class="h-24 flex-col justify-start items-start gap-3 flex">
+                <div class="h-[80px] flex-col justify-start items-start gap-3 flex">
                     <label for="major" class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">Major</label>
-                    <input type="major" name="major" id="major" class="w-[530px] h-[64px] px-3 py-2 bg-white rounded-md shadow border text-xs border-zinc-200 focus:ring-blue-500 focus:border-blue-500"" placeholder="Description" />
+                    <input type="major" name="major" id="major" class="w-[530px] h-9 px-3 py-2 bg-white rounded-md shadow border text-xs border-zinc-200 focus:ring-blue-500 focus:border-blue-500"" placeholder="Description" />
                 </div>
-                <div class="h-24 flex-col justify-start items-start gap-3 flex">
+                <div class="h-[80px] flex-col justify-start items-start gap-3 flex">
                     <label for="specific" class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">Specific</label>
-                    <input type="specific" name="specific" id="specific" class="w-[530px] h-[64px] px-3 py-2 bg-white rounded-md shadow border text-xs border-zinc-200 focus:ring-blue-500 focus:border-blue-500"" placeholder="Description" />
+                    <input type="specific" name="specific" id="specific" class="w-[530px] h-9 px-3 py-2 bg-white rounded-md shadow border text-xs border-zinc-200 focus:ring-blue-500 focus:border-blue-500"" placeholder="Description" />
                 </div>
             </form>
         </div>
 
         <div class="flex flex-col">
-            <!--Card 3-->
-            <div class="w-[583px] h-[143px] px-8 py-6 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 mx-7">
-                <form class="space-y-4" action="#">
+            <!--Activity/Justification-->
+            <div class="w-[583px] h-[110px] px-6 py-6 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 mx-7">
+                <form class="mt-[-20px] space-y-4" action="#">
                     <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal">Activity/Justification</label>
                     <div class="h-24 flex-col justify-start items-start gap-1 flex">
                         <input type="justification" name="justification" id="justification" class="w-[530px] h-9 px-3 py-2 bg-white rounded-md shadow border text-sm border-zinc-200 focus:ring-blue-500 focus:border-blue-500" placeholder="Description" />
                     </div>
                 </form>
             </div>
-            <!--Card 4-->
-            <div class="w-[583px] h-[143px] px-8 py-6 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 m-7">
-                <form class="space-y-4" action="#">
+            <!--Method of Accomplishing Objectives-->
+            <div class="w-[583px] h-[110px] px-6 py-6 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 mx-7 mt-5">
+                <form class="mt-[-20px] space-y-4" action="#">
                     <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal required">Method of Accomplishing Objectives</label>
                     <div class="h-24 flex-col justify-start items-start gap-1 flex">
                         <input type="method" name="method" id="method" class="w-[530px] h-9 px-3 py-2 bg-white rounded-md shadow border text-sm border-zinc-200 focus:ring-blue-500 focus:border-blue-500" placeholder="Description" required />
@@ -38,7 +38,7 @@
     </div>
 
     <div class="flex">
-        <!--Card 2-->
+        <!--Item of Expenditures-->
         <div class="w-[583px] px-8 py-6 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 my-3">
 
             <div class="flex items-center justify-between mb-4">
@@ -108,8 +108,8 @@
             </div>
         </div>
 
+        <!--Cost per Student-->
         <div class="flex flex-col">
-            <!--Card 5-->
             <div class="w-[583px] h-min px-8 py-6 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 my-3 mx-10">
                 <div class="flex items-center justify-between mb-2">
                     <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal">Cost per Student</label>
