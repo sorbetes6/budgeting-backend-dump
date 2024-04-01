@@ -42,8 +42,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Justification</strong></td>
                     </tr>
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle"> 
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Traveling Expenses - Local</td>
@@ -51,8 +54,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Traveling Expenses - Foreign</td>
@@ -60,8 +66,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>    
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Traveling Expenses</td>
@@ -69,8 +78,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>     
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Office Supplies Expenses</td>
@@ -78,8 +90,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>              
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Accountable Forms Expenses</td>
@@ -87,8 +102,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>            
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Drugs & Medicines Expenses</td>
@@ -96,8 +114,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>          
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Medical, Dental, & Lab Supplies Expenses</td>
@@ -105,8 +126,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>         
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Fuel, Oil, & Lubricants Expenses</td>
@@ -114,8 +138,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>       
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Other Supplies Materials Expenses</td>
@@ -123,8 +150,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>     
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Water Expenses</td>
@@ -132,8 +162,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>    
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Electricity Expenses</td>
@@ -141,8 +174,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>     
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Postage & Courier Services</td>
@@ -150,8 +186,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Telephone Expenses</td>
@@ -159,8 +198,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Internet Subscription Expenses</td>
@@ -168,8 +210,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Extraordinary & Miscellaneous Expenses </td>
@@ -177,8 +222,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Consultancy Services</td>
@@ -186,8 +234,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Other Professional Services </td>
@@ -195,8 +246,11 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px]   border border-gray-300 px-4 py-2 text-center align-middle">
-                            <div class="flex justify-center items-center w-5 h-5 bg-white border border-gray-500 rounded-md cursor-pointer hover:bg-gray-100 mx-auto"></div>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">"5-01-01-010"</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Rep. Maint. - Buildings & Other Structures</td>
