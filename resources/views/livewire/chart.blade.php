@@ -139,76 +139,91 @@
     </div>
 
     <!-- Calendar -->
-    <!-- FIX KASI BULOK PA -->
-    <div class="relative flex flex-col items-center w-[290px] h-[340px] rounded-lg shadow border border-gray border-opacity-20 ml-[1395px] mt-[15px]">
+    <div x-data="calendarData()" x-init="init()" class="relative flex flex-col items-center w-[290px] h-[340px] rounded-lg shadow border border-gray border-opacity-20 ml-[1395px] mt-[15px]">
         <div class="flex items-center">
-            <button id="prevMonth" class="absolute left-3 top-3 flex items-center justify-center w-5 h-10 rounded-lg shadow border border-gray border-opacity-20 text-black font-bold py-4 px-4">&lt;</button>
-            <h1 id="currentMonth" class="text-[25px] font-bold mb-3 mt-3 mx-5">February</h1>
-            <button id="nextMonth" class="absolute right-3 top-3 flex items-center justify-center w-5 h-10 rounded-lg shadow border border-gray border-opacity-20 text-black font-bold py-4 px-4">&gt;</button>
+            <button @click="prevMonth" class="absolute left-3 top-3 flex items-center justify-center w-5 h-10 rounded-lg shadow border border-gray border-opacity-20 text-black font-bold py-4 px-4">&lt;</button>
+            <h1 x-text="currentMonth" class="text-[25px] font-bold mb-3 mt-3 mx-5">February</h1>
+            <button @click="nextMonth" class="absolute right-3 top-3 flex items-center justify-center w-5 h-10 rounded-lg shadow border border-gray border-opacity-20 text-black font-bold py-4 px-4">&gt;</button>
         </div>
         <div class="flex w-full overflow-x-auto">
             <table class="calendar-table mt-4">
                 <thead>
                     <tr>
-                        <th>Sun</th>
-                        <th>Mon</th>
-                        <th>Tue</th>
-                        <th>Wed</th>
-                        <th>Thu</th>
-                        <th>Fri</th>
-                        <th>Sat</th>
+                        <template x-for="day in daysOfWeek" :key="day">
+                            <th x-text="day" class="px-2 py-1"></th>
+                        </template>
                     </tr>
                 </thead>
-                    <tbody id="calendarBody" class="w-full overflow-hidden">
-                        <!-- Calendar days will be dynamically added here -->
-                    </tbody>
+                <tbody>
+                    <template x-for="(week, index) in weeks" :key="index">
+                        <tr>
+                            <template x-for="(day, dayIndex) in week" :key="dayIndex">
+                                <td x-text="day" class="px-2 py-1"></td>
+                            </template>
+                        </tr>
+                    </template>
+                </tbody>
             </table>
         </div>
     </div>
 
     <script>
-        const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        function calendarData() {
+            const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+            let now = new Date();
+            let year = now.getFullYear();
+            let month = now.getMonth();
 
-        let currentMonthIndex = 0;
+            const updateCalendar = () => {
+                let firstDay = new Date(year, month, 1).getDay();
+                let daysInMonth = new Date(year, month + 1, 0).getDate();
+                let weeks = [[]];
+                let currentWeek = 0;
 
-        const prevMonthBtn = document.getElementById('prevMonth');
-        const nextMonthBtn = document.getElementById('nextMonth');
-        const currentMonthElem = document.getElementById('currentMonth');
-        const calendarBody = document.getElementById('calendarBody');
+                for (let i = 0; i < firstDay; i++) {
+                    weeks[currentWeek].push('');
+                }
 
-        function updateCalendar() {
-            const daysInMonth = new Date(2024, currentMonthIndex + 1, 0).getDate();
+                for (let i = 1; i <= daysInMonth; i++) {
+                    if (weeks[currentWeek].length === 7) {
+                        currentWeek++;
+                        weeks.push([]);
+                    }
+                    weeks[currentWeek].push(i);
+                }
 
-            // Clear previous content
-            calendarBody.innerHTML = '';
+                return {
+                    daysOfWeek,
+                    weeks,
+                    currentMonth: (new Date(year, month)).toLocaleString('default', { month: 'long', year: 'numeric' }),
+                };
+            };
 
-            // Update month title
-            currentMonthElem.textContent = months[currentMonthIndex];
-
-            // Add days to the calendar
-            for (let i = 1; i <= daysInMonth; i++) {
-                const dayCell = document.createElement('td');
-                dayCell.textContent = i;
-
-                // You can add additional styling or functionality here if needed
-
-                calendarBody.appendChild(dayCell);
-            }
+            return {
+                ...updateCalendar(),
+                prevMonth() {
+                    month -= 1;
+                    if (month === -1) {
+                        year -= 1;
+                        month = 11;
+                    }
+                    Object.assign(this.$data, updateCalendar());
+                },
+                nextMonth() {
+                    month += 1;
+                    if (month === 12) {
+                        year += 1;
+                        month = 0;
+                    }
+                    Object.assign(this.$data, updateCalendar());
+                },
+                init() {
+                    setInterval(() => {
+                        Object.assign(this.$data, updateCalendar());
+                    }, 1000);
+                },
+            };
         }
-
-        // Event listeners for prev and next buttons
-        prevMonthBtn.addEventListener('click', () => {
-            currentMonthIndex = (currentMonthIndex - 1 + 12) % 12; // Ensure positive index
-            updateCalendar();
-        });
-
-        nextMonthBtn.addEventListener('click', () => {
-            currentMonthIndex = (currentMonthIndex + 1) % 12;
-            updateCalendar();
-        });
-
-        // Initial calendar render
-        updateCalendar();
     </script>
 
     <script>
