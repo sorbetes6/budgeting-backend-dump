@@ -1,5 +1,5 @@
 <div>
-    <div class="max-w-max max-h-fit bg-white rounded-xl shadow border border-zinc-200">
+    <div class="w-[1200px] max-h-fit bg-white rounded-xl shadow border border-zinc-200">
         <div class="relative overflow-x-auto">
             <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                 <thead class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal gap-y-12">
@@ -414,8 +414,8 @@
         </div>
     </div>
 
-    <div class="flex flex-row-reverse">
-        <button class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center gap-2 inline-flex text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
+    <div class="w-[1200px] flex justify-end">
+        <button class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
     </div>
 
 </div>

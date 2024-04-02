@@ -1,5 +1,16 @@
+<!-- Selection -->
+<div class="w-[280px] p-3 rounded-lg">
+    <select id="college_office" name="college_office" class="block w-full h-[30px] border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" style="text-indent: 10px;">
+        <option disabled selected>Select College/Office</option>
+        <option value="College 1">College 1</option>
+        <option value="College 2">College 2</option>
+        <option value="">...</option>
+    </select>
+</div>
+
+<!-- Table -->
 <div>
-    <div class="max-w-max max-h-fit bg-white rounded-xl shadow border border-zinc-200">
+    <div class="w-[1200px] max-h-fit bg-white rounded-xl shadow border border-zinc-200">
         <div class="relative overflow-x-auto">
             <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                 <thead class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal gap-y-12">
@@ -582,6 +593,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="w-[1200px] flex justify-end">
+        <button class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
     </div>
 
 </div>

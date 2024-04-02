@@ -136,7 +136,7 @@
         </button>
     </div>
 
-    <div class="w-[1200px] flex justify-end">
+    <div class="w-[1200px] flex justify-end mt-4">
         <button class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
     </div>
 </div>
