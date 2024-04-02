@@ -1,8 +1,13 @@
 <div>
 
     <!-- User Image --> <!-- NEED FUNCTIONALITY -->
-    <div class="relative z-10 w-[170px] h-[170px] ml-[350px] mt-[160px] bg-gray-300 rounded-full flex items-center justify-center"> 
+    <div class="relative z-10 w-[170px] h-[170px] ml-[350px] mt-[160px] bg-gray-300 rounded-full flex items-center justify-center">
+        <label for="userImageInput" class="cursor-pointer">
+            <img src="default_image.jpg" alt="User Image" class="w-full h-full rounded-full object-cover">
+            <input type="file" id="userImageInput" accept="image/*" class="hidden">
+        </label>
     </div>
+ 
 
     <!-- Top Cover --> 
     <div class="relative w-fixed h-[100px] border-opacity-20 bg-cover bg-center ml-[240px] mt-[-225px]" style="background-image: url('css/images/background.png'); z-index: 1;">
