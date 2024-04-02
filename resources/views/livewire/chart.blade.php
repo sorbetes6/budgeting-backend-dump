@@ -145,12 +145,13 @@
             <h1 x-text="currentMonth" class="text-[25px] font-bold mb-3 mt-3 mx-5">February</h1>
             <button @click="nextMonth" class="absolute right-3 top-3 flex items-center justify-center w-5 h-10 rounded-lg shadow border border-gray border-opacity-20 text-black font-bold py-4 px-4">&gt;</button>
         </div>
-        <div class="flex w-full overflow-x-auto">
-            <table class="calendar-table mt-4">
+        <!-- Calendar Table -->
+        <div class="flex w-[290px] h-[300px] ml-3">
+            <table class="calendar-table mt-2 pt-1">
                 <thead>
                     <tr>
                         <template x-for="day in daysOfWeek" :key="day">
-                            <th x-text="day" class="px-2 py-1"></th>
+                            <th x-text="day" class="px-1.5 py-1"></th>
                         </template>
                     </tr>
                 </thead>
@@ -158,7 +159,7 @@
                     <template x-for="(week, index) in weeks" :key="index">
                         <tr>
                             <template x-for="(day, dayIndex) in week" :key="dayIndex">
-                                <td x-text="day" class="px-2 py-1"></td>
+                                <td x-text="day" class="px-2 py-1" style="text-align: center;"></td>
                             </template>
                         </tr>
                     </template>
@@ -167,6 +168,9 @@
         </div>
     </div>
 
+<!-- Scripts -->
+
+    <!-- Calendar -->
     <script>
         function calendarData() {
             const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
@@ -226,6 +230,7 @@
         }
     </script>
 
+    <!-- User Menu -->
     <script>
         function toggleDropdown() {
             var dropdown = document.getElementById("dropdown");
