@@ -14,14 +14,15 @@
                 <button class="inline-block w-full max-w-xs p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 truncate" id="schedule-tab" data-tabs-target="#schedule" type="button" role="tab" aria-controls="schedule" aria-selected="false">Personnel Schedule</button>
             </li>
             <li class="me-[30px]" role="presentation">
-                <button class="inline-block w-full max-w-xs p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 truncate" id="mooe-tab" data-tabs-target="#mooe" type="button" role="tab" aria-controls="mooe" aria-selected="false">Maintenance and Other Operating Expenses</button>
-            </li>
-            <li class="me-[30px]" role="presentation">
                 <button class="inline-block w-full max-w-xs p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 truncate" id="capital-outlay-tab" data-tabs-target="#capitaloutlay" type="button" role="tab" aria-controls="capitaloutlay" aria-selected="false">Capital Outlay</button>
             </li>
             <li class="me-[30px]" role="presentation">
                 <button class="inline-block w-full max-w-xs p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 truncate" id="ppmp-tab" data-tabs-target="#ppmp" type="button" role="tab" aria-controls="ppmp" aria-selected="false">Project Procurement Management Plan</button>
             </li>
+            <li class="me-[30px]" role="presentation">
+                <button class="inline-block w-full max-w-ws p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 truncate" id="maintenance-tab" data-tabs-target="#maintenance" type="button" role="tab" aria-controls="maintenance" aria-selected="false">Maintenance and Other Operating Expenses</button>
+            </li>
+
         </ul>
     </div>
 
@@ -44,10 +45,6 @@
             @include('livewire.personnel-schedule-form')
         </div>
 
-        <div id="mooe" role="tabpanel" aria-labelledby="mooe-tab">
-
-        </div>
-
         <div id="capitaloutlay" role="tabpanel" aria-labelledby="capital-outlay-tab">
             @include('livewire.capital-outlay-form')
         </div>
@@ -55,5 +52,10 @@
         <div id="ppmp" role="tabpanel" aria-labelledby="ppmp-tab">
             @include('livewire.ppmp-form')
         </div>
+
+        <div id="maintenance" role="tabpanel" aria-labelledby="maintenance-tab">
+            @include('livewire.maintenance-form')
+        </div>
+
     </div>
 </div>
