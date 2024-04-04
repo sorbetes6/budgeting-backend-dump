@@ -3,7 +3,7 @@
     <button id="YearDropdown" data-dropdown-toggle="yearDropdown" class="w-24 h-10 pl-2 py-1 bg-white rounded-lg border border-zinc-300 justify-start items-center gap-3 inline-flex">
         <div class="w-5 h-6 relative">
             <svg class="w-2.5 h-2.5 m-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                <path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
             </svg>
         </div>
         <span class="text-black text-sm font-normal font-inter leading-tight text-center">Year</span>
@@ -32,7 +32,7 @@
     <button id="SortDropdown" data-dropdown-toggle="sortDropdown" class="w-[150px] h-10 pl-2 py-1 bg-white rounded-lg border border-zinc-300 justify-start items-center gap-2 inline-flex">
         <div class="w-5 h-6 relative">
             <svg class="w-2.5 h-2.5 m-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                <path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
             </svg>
         </div>
         <span class="text-black text-sm font-normal font-inter leading-tight text-center">Sort records by</span>
