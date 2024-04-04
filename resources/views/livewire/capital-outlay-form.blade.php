@@ -30,12 +30,12 @@
                         <!-- type=number? -->
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-schoolbldg-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="text" id="capital-form-schoolbldg-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-schoolbldg-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                                <input type="text" id="capital-form-schoolbldg-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </form>
                         </td>
                     </tr>
@@ -49,12 +49,12 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-ofceeqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="text" id="capital-form-ofceeqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-ofceeqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                                <input type="text" id="capital-form-ofceeqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </form>
                         </td>
                     </tr>
@@ -68,12 +68,12 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-icteqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="text" id="capital-form-icteqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-icteqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                                <input type="text" id="capital-form-icteqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </form>
                         </td>
                     </tr>
@@ -87,12 +87,12 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-commeqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="text" id="capital-form-commeqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-commeqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                                <input type="text" id="capital-form-commeqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </form>
                         </td>
                     </tr>
@@ -106,12 +106,12 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-drre-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="text" id="capital-form-drre-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-drre-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                                <input type="text" id="capital-form-drre-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </form>
                         </td>
                     </tr>
@@ -125,12 +125,12 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-medeqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="text" id="capital-form-medeqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-medeqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                                <input type="text" id="capital-form-medeqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </form>
                         </td>
                     </tr>
@@ -144,12 +144,12 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-sportseqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="text" id="capital-form-sportseqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-sportseqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                                <input type="text" id="capital-form-sportseqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </form>
                         </td>
                     </tr>
@@ -163,12 +163,12 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-techscieqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="text" id="capital-form-techscieqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-techscieqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                                <input type="text" id="capital-form-techscieqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </form>
                         </td>
                     </tr>
@@ -182,12 +182,12 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-othrmchnery-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="text" id="capital-form-othrmchnery-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-othrmchnery-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                                <input type="text" id="capital-form-othrmchnery-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </form>
                         </td>
                     </tr>
@@ -201,12 +201,12 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-transpoeqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="text" id="capital-form-transpoeqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-transpoeqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                                <input type="text" id="capital-form-transpoeqpmnt-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </form>
                         </td>
                     </tr>
@@ -220,12 +220,12 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-furfix-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="text" id="capital-form-furfix-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-furfix-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                                <input type="text" id="capital-form-furfix-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </form>
                         </td>
                     </tr>
@@ -239,12 +239,12 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-books-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="text" id="capital-form-books-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-books-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                                <input type="text" id="capital-form-books-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                             </form>
                         </td>
                     </tr>
