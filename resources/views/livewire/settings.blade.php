@@ -2,11 +2,44 @@
     <!-- User Image -->
     <div x-data="{ userImage: null }" class="relative z-10 w-[170px] h-[170px] ml-[350px] mt-[160px] bg-gray-300 rounded-full overflow-hidden">
         <label for="userImageInput" class="cursor-pointer block w-full h-full">
-            <img :src="userImage" alt="User Image" class="w-full h-full object-cover">
-            <input type="file" id="userImageInput" accept="image/*" class="hidden" @change="userImage = URL.createObjectURL($event.target.files[0])">
-            <img x-show="userImage" :src="URL.createObjectURL(userImage)" style="max-width: 200px; max-height: 200px;">
+            <img :src="getUserImage()" alt="User Image" class="w-full h-full object-cover">
+            <input type="file" id="userImageInput" accept="image/*" class="hidden" @change="saveUserImage($event)">
+            <img x-show="userImage" :src="userImage" style="max-width: 200px; max-height: 200px;">
         </label>
     </div>
+
+    <script>
+        function saveImageToLocalStorage(imageData) {
+            localStorage.setItem('userImage', imageData);
+        }
+
+        function getImageFromLocalStorage() {
+            return localStorage.getItem('userImage');
+        }
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            if (localStorage.getItem('userImage')) {
+                window.userImage = localStorage.getItem('userImage');
+            }
+        });
+
+        function saveUserImage(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+            reader.onload = () => {
+                const imageData = reader.result;
+                this.userImage = imageData;
+                saveImageToLocalStorage(imageData); // Save to localStorage
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function getUserImage() {
+            return this.userImage || getImageFromLocalStorage() || 'placeholder.jpg';
+        }
+    </script>
+
 
 
     <!-- Top Cover -->

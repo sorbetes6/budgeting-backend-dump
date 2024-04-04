@@ -1,6 +1,5 @@
 <div>
-    
-    <!-- Top Bar -->    
+    <!-- Top Bar -->
     <div class="flex w-[1420px] mx-[270px] mt-[110px] mb-[10px]">
     <div class="w-[1420px] mx-[0px] rounded-lg p-4 relative">
         <div class="absolute shadow inset-x-0 bottom-0 h-[1px] bg-gray-200"></div>
@@ -16,10 +15,10 @@
     </div>
     </div>
 
-    <!-- Body --> 
+    <!-- Body -->
     <div class="w-[1420px] h-[620px] mx-[270px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col items-center justify-center overflow-auto">
-        
-        <!-- Select College/Office --> 
+
+        <!-- Select College/Office -->
         <div class="w-[280px] p-4 rounded-lg mt-[-10px] mr-[1130px]">
             <select id="college_office" name="college_office" class="block w-full h-[30px] mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" style="text-indent: 10px;"   >
                 <option disabled selected>Select College/Office</option>
@@ -30,7 +29,7 @@
             </select>
         </div>
 
-        <!-- Table --> 
+        <!-- Table -->
         <div class="overflow-x-auto h-[480px]">
             <table class="w-[1360px]">
                 <tbody>
@@ -42,7 +41,7 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Justification</strong></td>
                     </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -54,7 +53,7 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -64,9 +63,9 @@
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Traveling Expenses - Foreign</td>
                         <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
-                    </tr>    
+                    </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -76,9 +75,9 @@
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Traveling Expenses</td>
                         <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
-                    </tr>     
+                    </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -88,9 +87,9 @@
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Office Supplies Expenses</td>
                         <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
-                    </tr>              
+                    </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -100,9 +99,9 @@
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Accountable Forms Expenses</td>
                         <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
-                    </tr>            
+                    </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -112,9 +111,9 @@
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Drugs & Medicines Expenses</td>
                         <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
-                    </tr>          
+                    </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -124,9 +123,9 @@
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Medical, Dental, & Lab Supplies Expenses</td>
                         <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
-                    </tr>         
+                    </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -136,9 +135,9 @@
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Fuel, Oil, & Lubricants Expenses</td>
                         <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
-                    </tr>       
+                    </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -148,9 +147,9 @@
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Other Supplies Materials Expenses</td>
                         <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
-                    </tr>     
+                    </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -160,9 +159,9 @@
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Water Expenses</td>
                         <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
-                    </tr>    
+                    </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -172,9 +171,9 @@
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Electricity Expenses</td>
                         <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
-                    </tr>     
+                    </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -186,7 +185,7 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -198,7 +197,7 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -210,7 +209,7 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -222,7 +221,7 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -234,7 +233,7 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -246,7 +245,7 @@
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">"Item of Expenditures"</td>
                     </tr>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"> 
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
                                 <div class="checkmark"></div>
@@ -268,7 +267,7 @@
                 <input type="justification" name="justification" id="justification" class="w-full bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
             </div>
         </div>
-        
+
     </div>
-    
+
 </div>
