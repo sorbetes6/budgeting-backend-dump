@@ -25,13 +25,11 @@
 
                 <!-- Dropdown menu -->
                 <div x-data="{ open: false }" class="sm:relative sm:ml-[70px] sm:items-center justify-end sm:focus:ring-4 sm:focus:outline-none sm:focus:ring-gray-500">
-                    <div class="flex items-center"> <!-- Container for SVG icon and label -->
-                        <!-- SVG icon -->
+                    <div class="flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" viewBox="0 0 30 30" fill="none">
                             <path d="M19.8797 9.04991C19.8797 11.7082 17.7247 13.8632 15.0664 13.8632C12.4081 13.8632 10.2531 11.7082 10.2531 9.04991C10.2531 6.39157 12.4081 4.23657 15.0664 4.23657C17.7247 4.23657 19.8797 6.39157 19.8797 9.04991Z" stroke="#434343" stroke-width="2.40667" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M15.0664 17.4732C10.4143 17.4732 6.64307 21.2445 6.64307 25.8966H23.4897C23.4897 21.2445 19.7185 17.4732 15.0664 17.4732Z" stroke="#434343" stroke-width="2.40667" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
-                        <!-- Label -->
                         <div class="mx-1 rounded-lg justify-end items-center gap-1 flex">
                             <button x-on:click="open = !open" class="text-slate-600 text-base font-normal font-['Inter'] leading-9">User</button>
                             <div class="w-3 h-2 relative mx-1">
@@ -49,9 +47,14 @@
                         </div>
                     </div>
                     <!-- Dropdown content -->
-                    <div x-show="open" class="sm:absolute sm:right-0 sm:mt-1 sm:w-44 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700">
-                        <a href="/settings" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-base font-normal font-['Inter'] leading-9">Settings</a>
-                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-base font-normal font-['Inter'] leading-9">Logout</a>
+                    <div x-show="open" class="sm:absolute sm:right-0 sm:mt-1 sm:w-44 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700"
+                    x-transition:enter="duration-300 ease-out"
+                    x-transition:enter-start="opacity-0 -translate-y-5 scale-90"
+                    x-transition:enter-end="opacity-100 translate-y-0 scale-100">
+                        <ul>
+                            <li><a href="/settings" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-base font-normal font-['Inter'] leading-9">Settings</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-base font-normal font-['Inter'] leading-9">Logout</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>

@@ -40,8 +40,6 @@
         }
     </script>
 
-
-
     <!-- Top Cover -->
     <div class="relative w-fixed h-[100px] border-opacity-20 bg-cover bg-center ml-[240px] mt-[-225px]" style="background-image: url('css/images/background.png'); z-index: 1;">
         <div class="absolute inset-0 rounded-lg"></div>
