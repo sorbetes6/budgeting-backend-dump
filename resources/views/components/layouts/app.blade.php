@@ -8,6 +8,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
         @vite(['resources/css/app.css','resources/js/app.js'])
         <title>{{ $title ?? 'Page Title' }}</title>
+        <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/alpine.min.js" defer></script>
     </head>
     <body>
         @include('livewire.nav-bar')
