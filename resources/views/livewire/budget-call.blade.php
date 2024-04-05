@@ -26,11 +26,6 @@
         </ul>
     </div>
 
-
-
-
-
-
     <!--Forms Tabs Content-->
     <div id="default-tab-content">
         <div id="justification" role="tabpanel" aria-labelledby="justification-tab">
