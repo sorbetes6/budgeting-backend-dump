@@ -1,4 +1,4 @@
-<div class="mx-80 my-32">
+<div class="mx-80 mt-[130px] mb-8">
     <!-- Label -->
     <div class="text-black text-2xl font-medium font-['Inter'] leading-9 mt-30 mb-4">Appropriations</div>
 
@@ -637,9 +637,44 @@
                             </form>
                         </td>
                     </tr>
+                    <tr>
+                        <td colspan="7" class="border-t border-gray-200 bg-gray-200"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
+                        </th>
+                        <td class="px-2 py-2 text-justified text-zinc-950 text-sm font-bold font-['Inter'] leading-snug">
+                            Sub-total
+                        </td>
+                        <td class="px-2 py-2">
+                            <form class="flex-grow-0 py-2 flex-shrink-0 flex justify-center items-center">
+                                <input type="text" id="apprpriatns-opb-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                            </form>
+                        </td>
+                        <td class="px-2 py-2">
+                        </td>
+                        <td class="px-2 py-2">
+                            <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
+                                <input type="text" id="apprpriatns-opb-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                            </form>
+                        </td>
+                        <td class="px-2 py-2">
+                        </td>
+                        <td class="px-2 py-2">
+                            <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
+                                <input type="text" id="apprpriatns-opb-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                            </form>
+                        </td>
+                    </tr>
                 </tbody>
-
             </table>
+        </div>
+    </div>
+    
+    <!-- Submit button -->
+    <div class="flex flex-row">
+        <div class="mt-8 ml-[1235px] bg-indigo-800 rounded-md shadow">
+            <button type="button" class="w-30 h-10 px-4 py-2 justify-center items-center gap-2 inline-flex text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
         </div>
     </div>
 
