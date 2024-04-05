@@ -50,7 +50,7 @@
             </div>
             <!-- Body -->
             <div class="flow-root">
-                <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700 ">
+                <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-200 ">
                     <!-- Personal Services -->
                     <li class="py-3 sm:py-4">
                         <div class="flex items-center">
@@ -108,7 +108,7 @@
                 </div>
                 <!-- Body -->
                 <div class="flow-root p-0">
-                    <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+                    <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-200">
                         <!-- Estimated Number of Students -->
                         <li class="sm:py-4">
                             <div class="flex items-center">
