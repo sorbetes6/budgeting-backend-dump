@@ -1,4 +1,5 @@
-<div> 
+<div class="mx-80 my-32">
+    <div class="text-black text-2xl font-medium font-['Inter'] leading-9 my-4">Budget Utilization Request</div>
     <!-- 1st Row -->
     <div class="w-[150px] h-[60px] px-5 py-3.5 bg-white rounded-xl shadow border border-zinc-200 flex-col justify-start items-start gap-2.5 inline-flex mx-2">
         <!-- No. -->

@@ -78,7 +78,7 @@
                     <span class="flex-1 ms-3 whitespace-nowrap text-white text-normal font-normal font-['Nunito Sans'] leading-7">Home</span>
                     </a>
                 </li>
-            
+
                 <!-- Budget Call -->
                 <li>
                     <div class="self-stretch flex-col justify-start items-start flex">
@@ -166,7 +166,7 @@
                         </button>
                         <ul id="payment-request-dropdown" class="hidden py-2 space-y-1">
                             <li>
-                                <a href="/purchase-order" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/BUR" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-11 w-full">BUR</span>
                                 </a>
                             </li>
