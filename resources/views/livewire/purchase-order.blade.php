@@ -65,28 +65,28 @@
     <div class="flex flex-row gap-5">
         <div class="flex flex-col gap-y-4">
             <!-- Address -->
-            <div class="w-full sm:w-[655px] h-24 bg-white rounded-xl shadow border border-zinc-200">
+            <div class="w-full sm:w-[655px] h-28 bg-white rounded-xl shadow border border-zinc-200">
                 <form class="space-y-2 p-4 gap-y-3" action="#">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Address</label>
-                    <input type="text" id="purchase-order-number" class="w-full h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
+                    <input type="text" id="purchase-order-number" class="w-full h-10 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
                 </form>
             </div>
 
             <!-- Mode of Procurement -->
-            <div class="w-full sm:w-[655px] h-24 bg-white rounded-xl shadow border border-zinc-200">
+            <div class="w-full sm:w-[655px] h-28 bg-white rounded-xl shadow border border-zinc-200">
                 <form class="space-y-2 p-4 gap-y-3" action="#">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Mode of Procurement</label>
-                    <input type="text" id="purchase-order-number" class="w-full h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
+                    <input type="text" id="purchase-order-number" class="w-full h-10 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
                 </form>
             </div>
         </div>
 
         <div class="flex">
-            <div class="w-[454px] h-min px-8 py-6 bg-white rounded-xl shadow border border-zinc-200 content-center justify-start">
-                <div class="flow-root p-0">
+            <div class="w-[430px] h-60 px-8 py-3 bg-white rounded-xl shadow border border-zinc-200 content-center justify-start">
+                <div class="flow-root">
                     <ul role="list">
-                        <li class="sm:py-4">
-                            <div class="flex items-center gap-x-4">
+                        <li class="py-3 sm:py-3">
+                            <div class="flex items-center">
                                 <div class="flex-1 min-w-0">
                                     <label class="text-zinc-950 text-sm font-medium font-['Inter']">Price Validity:</label>
                                 </div>
@@ -95,8 +95,8 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="py-2 sm:py-4">
-                            <div class="flex items-center  gap-x-4">
+                        <li class="py-3 sm:py-3">
+                            <div class="flex items-center">
                                 <div class="flex-1 min-w-0">
                                     <label class="text-zinc-950 text-sm font-medium font-['Inter']">Payment Term:</label>
                                 </div>
@@ -105,8 +105,8 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="py-2 sm:py-4">
-                            <div class="flex items-center  gap-x-4">
+                        <li class="py-3 sm:py-3">
+                            <div class="flex items-center">
                                 <div class="flex-1 min-w-0">
                                     <label class="text-zinc-950 text-sm font-medium font-['Inter']">Place of Delivery:</label>
                                 </div>
@@ -115,7 +115,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="py-2 sm:py-4">
+                        <li class="py-3 sm:py-3">
                             <div class="flex items-center">
                                 <div class="flex-1 min-w-0">
                                     <label class="text-zinc-950 text-sm font-medium font-['Inter']">Date of Delivery:</label>
@@ -130,4 +130,95 @@
             </div>
         </div>
     </div>
+    <div class="w-[1110px] h-52 px-5 py-3 bg-white rounded-xl shadow border border-zinc-200 content-center justify-start space-y-4 my-5">
+        <div class="flex flex-row gap-x-6">
+            <form class="space-y-2" action="#">
+                <div class="flex flex-col gap-y-3">
+                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Item No.:</label>
+                    <input type="text" id="purchase-supplier" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                </div>
+            </form>
+            <form class="space-y-2" action="#">
+                <div class="flex flex-col gap-y-3">
+                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Quantity:</label>
+                    <input type="text" id="purchase-supplier" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                </div>
+            </form>
+            <form class="space-y-2" action="#">
+                <div class="flex flex-col gap-y-3">
+                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Unit:</label>
+                    <input type="text" id="purchase-supplier" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                </div>
+            </form>
+            <form class="space-y-2" action="#">
+                <div class="flex flex-col gap-y-3">
+                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Description:</label>
+                    <input type="text" id="purchase-supplier" class="w-96 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                </div>
+            </form>
+            <form class="space-y-2" action="#">
+                <div class="flex flex-col gap-y-3">
+                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Unit Cost:</label>
+                    <input type="text" id="purchase-supplier" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                </div>
+            </form>
+            <form class="space-y-2" action="#">
+                <div class="flex flex-col gap-y-3">
+                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Ammount:</label>
+                    <input type="text" id="purchase-supplier" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                </div>
+            </form>
+        </div>
+        <div class="flex flex-row gap-x-6">
+            <form class="space-y-2" action="#">
+                <div class="flex flex-col gap-y-3">
+                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Item No.:</label>
+                    <input type="text" id="purchase-supplier" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                </div>
+            </form>
+            <form class="space-y-2" action="#">
+                <div class="flex flex-col gap-y-3">
+                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Quantity:</label>
+                    <input type="text" id="purchase-supplier" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                </div>
+            </form>
+            <form class="space-y-2" action="#">
+                <div class="flex flex-col gap-y-3">
+                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Unit:</label>
+                    <input type="text" id="purchase-supplier" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                </div>
+            </form>
+            <form class="space-y-2" action="#">
+                <div class="flex flex-col gap-y-3">
+                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Description:</label>
+                    <input type="text" id="purchase-supplier" class="w-96 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                </div>
+            </form>
+            <form class="space-y-2" action="#">
+                <div class="flex flex-col gap-y-3">
+                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Unit Cost:</label>
+                    <input type="text" id="purchase-supplier" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                </div>
+            </form>
+            <form class="space-y-2" action="#">
+                <div class="flex flex-col gap-y-3">
+                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Ammount:</label>
+                    <input type="text" id="purchase-supplier" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <button class="w-44 h-9 px-4 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-2 inline-flex my-6">
+        <div class="w-4 h-4 relative">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M3.33301 8.00065H12.6663M7.99967 3.33398V12.6673" stroke="#18181B" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <span class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">Add another data</span>
+    </button>
+
+    <button class="w-[1200px] flex justify-end mt-4">
+        <span class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center text-white text-base font-medium font-['Inter'] leading-tight">Submit</span>
+    </button>
 </div>
