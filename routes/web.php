@@ -12,6 +12,9 @@ use App\Livewire\PPMP;
 use App\Livewire\BudgetCall;
 use App\Livewire\BUR;
 use App\Livewire\PurchaseOrder;
+use App\Livewire\PaymentRequest;
+use App\Livewire\Appropriations;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -48,4 +51,4 @@ Route::get('/budgetcall', BudgetCall::class);
 
 Route::get('BUR', BUR::class);
 
-Route::get('/purchase-order', PurchaseOrder::class);
+Route::get('/payment-request', PaymentRequest::class);
