@@ -4,7 +4,7 @@
         <!-- No. -->
         <form class="space-y-2" action="#">
             <div class="flex justify-center items-center flex-row">
-                <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">No.</label>
+                <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal mr-2">No.</label>
                 <form class="flex">
                     <input type="cost-student" name="cost-student" id="cost-student" class="w-[80px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="0" />
                 </form>
