@@ -11,6 +11,7 @@ use App\Livewire\CapitalOutlay;
 use App\Livewire\PPMP;
 use App\Livewire\BudgetCall;
 use App\Livewire\BUR;
+use App\Livewire\PaymentRequest;
 
 
 /*
@@ -47,3 +48,5 @@ Route::get('/PPMP', PPMP::class);
 Route::get('/budgetcall', BudgetCall::class);
 
 Route::get('BUR', BUR::class);
+
+Route::get('/payment-request', PaymentRequest::class);

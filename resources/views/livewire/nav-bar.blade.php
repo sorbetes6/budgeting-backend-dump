@@ -1,6 +1,6 @@
 <div>
     <!--Top Navigation-->
-    <nav class="fixed flex top-0 z-50 w-full bg-white border-b-2 border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+    <nav class="fixed flex top-0 z-50 w-full bg-white border-b-2 border-gray-200 dark:bg-white-200 dark:border-white-200">
 
         <div class="px-3 py-3 lg:px-5 lg:pl-3">
             <div class="flex items-center justify-between w-16 h-16-">
@@ -63,8 +63,8 @@
     </nav>
 
     <!-- Side Navigation-->
-    <aside id="logo-sidebar" class="fixed top-6 left-0 z-40 w-75 h-screen pt-20 transition-transform -translate-x-full border-r sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700" aria-label="Sidebar">
-        <div class="h-full px-4 pb-4 overflow-y-auto bg-indigo-800 dark:bg-gray-800 ">
+    <aside id="logo-sidebar" class="fixed top-6 left-0 z-40 w-75 h-screen pt-20 transition-transform -translate-x-full border-r sm:translate-x-0 dark:bg-indigo-800 dark:border-indigo-700" aria-label="Sidebar">
+        <div class="h-full px-4 pb-4 overflow-y-auto bg-indigo-800 dark:bg-indigo-800 ">
             <div class="text-white text-2xl font-extrabold font-['Inter'] leading-10 my-10">Budgeting</div>
             <ul class="space-y-1 font-medium w-78 h-10 flex-col top-5 justify-start items-start gap-1 inline-flex">
 
@@ -162,12 +162,12 @@
                         </button>
                         <ul id="payment-request-dropdown" class="hidden py-2 space-y-1">
                             <li>
-                                <a href="/BUR" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/payment-request" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-11 w-full">BUR</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                <a href="/payment-request" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
                                     <span class="px-11 w-full">Purchase Order</span>
                                 </a>
                             </li>
