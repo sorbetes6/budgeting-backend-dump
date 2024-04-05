@@ -146,8 +146,8 @@
             <button @click="nextMonth" class="absolute right-3 top-3 flex items-center justify-center w-5 h-10 rounded-lg shadow border border-gray border-opacity-20 text-black font-bold py-4 px-4">&gt;</button>
         </div>
         <!-- Calendar Table -->
-        <div class="flex w-[290px] h-[300px] ml-3">
-            <table class="calendar-table mt-2 pt-1">
+        <div class="flex w-[290px] h-[240px] ml-3 mt-7">
+            <table class="calendar-table pt-1">
                 <thead>
                     <tr>
                         <template x-for="day in daysOfWeek" :key="day">
@@ -159,7 +159,7 @@
                     <template x-for="(week, index) in weeks" :key="index">
                         <tr>
                             <template x-for="(day, dayIndex) in week" :key="dayIndex">
-                                <td x-text="day" class="px-2 py-1" style="text-align: center;"></td>
+                                <td :class="{ 'bg-gray-300 rounded-full': day.highlighted }" class="px-2 py-0.5" style="text-align: center;" x-text="day.day"></td>
                             </template>
                         </tr>
                     </template>
@@ -169,7 +169,6 @@
     </div>
 
 <!-- Scripts -->
-
     <!-- Calendar -->
     <script>
         function calendarData() {
@@ -177,6 +176,9 @@
             let now = new Date();
             let year = now.getFullYear();
             let month = now.getMonth();
+            let day = now.getDate(); // Get the current day
+            let currentYear = now.getFullYear();
+            let currentMonth = now.getMonth() + 1; // Adding 1 because getMonth() returns zero-based month index
 
             const updateCalendar = () => {
                 let firstDay = new Date(year, month, 1).getDay();
@@ -193,13 +195,15 @@
                         currentWeek++;
                         weeks.push([]);
                     }
-                    weeks[currentWeek].push(i);
+                    let highlighted = (i === day && month === currentMonth - 1 && year === currentYear);
+                    weeks[currentWeek].push({ day: i, highlighted: highlighted });
                 }
 
                 return {
                     daysOfWeek,
                     weeks,
                     currentMonth: (new Date(year, month)).toLocaleString('default', { month: 'long', year: 'numeric' }),
+                    currentDay: day, // Add current day to data
                 };
             };
 
