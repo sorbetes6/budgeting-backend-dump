@@ -175,6 +175,11 @@
                                     <span class="px-11 w-full">Purchase Order</span>
                                 </a>
                             </li>
+                            <li>
+                                <a href="/amendment" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
+                                    <span class="px-11 w-full">Amendment</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </li>
