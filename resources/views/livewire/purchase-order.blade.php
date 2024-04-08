@@ -86,51 +86,51 @@
                 <div class="flow-root">
                     <ul role="list">
                         <li class="py-3 sm:py-3">
-                            <div class="flex items-center">
+                            <form class="flex items-center">
                                 <div class="flex-1 min-w-0">
                                     <label class="text-zinc-950 text-sm font-medium font-['Inter']">Price Validity:</label>
                                 </div>
                                 <div class="flex-grow-0 flex-shrink-0">
                                     <input type="text" id="purchase-price-validity" class="w-full h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
                                 </div>
-                            </div>
+                            </form>
                         </li>
                         <li class="py-3 sm:py-3">
-                            <div class="flex items-center">
+                            <form class="flex items-center">
                                 <div class="flex-1 min-w-0">
                                     <label class="text-zinc-950 text-sm font-medium font-['Inter']">Payment Term:</label>
                                 </div>
                                 <div class="flex-grow-0 flex-shrink-0">
                                     <input type="text" id="purchase-payment-term" class="w-full h-8 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
                                 </div>
-                            </div>
+                            </form>
                         </li>
                         <li class="py-3 sm:py-3">
-                            <div class="flex items-center">
+                            <form class="flex items-center">
                                 <div class="flex-1 min-w-0">
                                     <label class="text-zinc-950 text-sm font-medium font-['Inter']">Place of Delivery:</label>
                                 </div>
                                 <div class="flex-grow-0 flex-shrink-0">
                                     <input type="text" id="purchase-place-delivery" class="w-full h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
                                 </div>
-                            </div>
+                            </form>
                         </li>
                         <li class="py-3 sm:py-3">
-                            <div class="flex items-center">
+                            <form class="flex items-center">
                                 <div class="flex-1 min-w-0">
                                     <label class="text-zinc-950 text-sm font-medium font-['Inter']">Date of Delivery:</label>
                                 </div>
                                 <div class="flex-grow-0 flex-shrink-0">
                                     <input type="date" id="purchase-date-delivery" class="h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 text-left focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight"/>
                                 </div>
-                            </div>
+                            </form>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    <div class="w-[1110px] h-52 px-5 py-3 bg-white rounded-xl shadow border border-zinc-200 content-center justify-start space-y-4 my-5">
+    <div class="w-[1110px] h-64 px-5 py-3 bg-white rounded-xl shadow border border-zinc-200 content-center justify-start space-y-4 my-5">
         <div class="flex flex-row gap-x-6">
             <form class="space-y-2" action="#">
                 <div class="flex flex-col gap-y-3">
@@ -207,9 +207,7 @@
                 </div>
             </form>
         </div>
-    </div>
-
-    <button class="w-44 h-9 px-4 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-2 inline-flex my-6">
+        <button class="w-44 h-9 px-4 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-2 inline-flex my-6">
         <div class="w-4 h-4 relative">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                 <path d="M3.33301 8.00065H12.6663M7.99967 3.33398V12.6673" stroke="#18181B" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
@@ -217,6 +215,9 @@
         </div>
         <span class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">Add another data</span>
     </button>
+    </div>
+
+
 
     <button class="w-[1200px] flex justify-end mt-4">
         <span class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center text-white text-base font-medium font-['Inter'] leading-tight">Submit</span>
