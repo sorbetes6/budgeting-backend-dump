@@ -1,4 +1,4 @@
-<div>
+<div class="overflow-y-auto overflow-x-hidden">
 
     <!-- Top Bar -->
     <div class="flex w-[1420px] mx-[270px] mt-[110px] mb-[10px]">
@@ -42,7 +42,7 @@
 
 
         <!-- Table -->
-        <div class="overflow-x-auto h-[480px] overflow-y-scroll">
+        <div class="overflow-auto h-[480px]">
             <table class="w-[1360px]">
                 <tbody>
                     <tr>
@@ -77,37 +77,12 @@
                                     <!-- Menu -->
                                     <div id="dropdownDots1" class="absolute right-0 mt-2 bg-white divide-y divide-gray-800 rounded-lg shadow w-32 dark:bg-gray-700 dark:divide-gray-600 hidden items-center">
                                         <ul class="py-2 text-sm text-gray-900 dark:text-gray-200 z-auto" aria-labelledby="dropdownMenuIconButton">
-                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
-                                                            <g clip-path="url(#clip0_4744_10818)">
-                                                                <path d="M10.1823 1.78801C10.3262 1.64407 10.4971 1.52988 10.6852 1.45198C10.8733 1.37408 11.0748 1.33398 11.2784 1.33398C11.482 1.33398 11.6835 1.37408 11.8716 1.45198C12.0597 1.52988 12.2306 1.64407 12.3745 1.78801C12.5185 1.93195 12.6326 2.10284 12.7105 2.29091C12.7884 2.47898 12.8285 2.68056 12.8285 2.88412C12.8285 3.08769 12.7884 3.28927 12.7105 3.47734C12.6326 3.66541 12.5185 3.8363 12.3745 3.98024L4.97574 11.379L1.96143 12.2011L2.78351 9.18678L10.1823 1.78801Z" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_4744_10818">
-                                                                    <rect width="13.1534" height="13.1534" fill="white" transform="translate(0.865234 0.144531)"/>
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Edit</a>
-                                                    </div>
-                                                </div>
+                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black relative">
+                                                @include('livewire.edit-modal')
                                             </li>
-
+    
                                             <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                            <path d="M2.50928 4.27426H12.3743M11.2782 4.27426V11.9471C11.2782 12.4951 10.7301 13.0432 10.1821 13.0432H4.70151C4.15345 13.0432 3.60539 12.4951 3.60539 11.9471V4.27426M5.24956 4.27426V3.17815C5.24956 2.63009 5.79762 2.08203 6.34568 2.08203H8.53791C9.08597 2.08203 9.63402 2.63009 9.63402 3.17815V4.27426" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Delete</a>
-                                                    </div>
-                                                </div>
+                                                @include('livewire.delete-modal')
                                             </li>
                                         </ul>
                                     </div>

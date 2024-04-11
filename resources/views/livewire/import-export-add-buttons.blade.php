@@ -178,7 +178,7 @@
 
     <div class="justify-start items-start inline-flex">
         <a href="/budgetcall" class="w-28 h-10 px-4 bg-indigo-800 rounded-lg shadow justify-center items-center gap-2 flex">
-            <span class="text-white text-base font-extrabold font-['Inter'] leading-tight">Add Form</span>
+            <span class="text-white text-base font-bold font-['Inter'] leading-tight">Add Form</span>
         </a>
     </div>
 </div>
