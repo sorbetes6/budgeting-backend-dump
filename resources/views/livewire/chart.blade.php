@@ -16,12 +16,14 @@
 
     <!-- Status of Appropriations -->
     <div class="flex flex-col w-[540px] h-[340px] rounded-lg shadow border border-gray border-opacity-20 ml-[275px] mt-[15px]">
+        <!-- Title -->
         <div class="flex items-center ml-5 mt-5">
             <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Status of Appropriations</h1>
         </div>
         <h2 class="text-[15px] font-extrabold ml-[55px] text-cyan-800">Budget Call Documents</h2>
         <!-- Donut Chart -->
+        <livewire:donut-chart/>
     </div>
 
     <!-- Project Procuremente Management Plan -->
