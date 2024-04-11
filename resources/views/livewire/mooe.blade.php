@@ -1190,7 +1190,7 @@
 
         <!-- Total -->
         <div class="w-[700px] flex justify-start items-center mt-[20px] ml-[180px]">
-            <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal text-center">Total Personal Services:</label>
+            <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal text-center">Total Maintenance and Other Operating Expenses:</label>
             <div class="flex-shrink-0 px-3 py-2 ml-2 items-center gap-2 inline-flex">
                 <input type="text" id="mooe-records-total" class="w-44 h-8 rounded-md shadow border-transparent bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
             </div>
