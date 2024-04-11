@@ -48,7 +48,7 @@
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"></td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Account Code</strong></td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Item of Expenditures</strong></td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Proposed Budget "Year"</strong></td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Proposed Budget 2024</strong></td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Justification</strong></td>
                     </tr>
                     <tr>
@@ -60,7 +60,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">1-07-04-020</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">School Buildings</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-start align-middle">
                             <div class="flex items-center">
                                 <div class="text-center flex-grow">
@@ -123,7 +123,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">1-07-05-020</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Office Equipment</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-start align-middle">
                             <div class="flex items-center">
                                 <div class="text-center flex-grow">
@@ -186,7 +186,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">1-07-05-030</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Information  & Communication Technology Equipment</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-start align-middle">
                             <div class="flex items-center">
                                 <div class="text-center flex-grow">
@@ -249,7 +249,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">1-07-05-070</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Communication Equipment</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-start align-middle">
                             <div class="flex items-center">
                                 <div class="text-center flex-grow">
@@ -312,7 +312,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">1-07-05-090</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Disaster Response & Rescue Equipment</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-start align-middle">
                             <div class="flex items-center">
                                 <div class="text-center flex-grow">
@@ -375,7 +375,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">1-07-05-110</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Medical Equipment</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-start align-middle">
                             <div class="flex items-center">
                                 <div class="text-center flex-grow">
@@ -438,7 +438,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">1-07-05-130</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Sports Equipment</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-start align-middle">
                             <div class="flex items-center">
                                 <div class="text-center flex-grow">
@@ -501,7 +501,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">1-07-05-140</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Technical & Scientific Equipment</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-start align-middle">
                             <div class="flex items-center">
                                 <div class="text-center flex-grow">
@@ -564,7 +564,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">1-07-05-990</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Other Machinery & Equipment</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-start align-middle">
                             <div class="flex items-center">
                                 <div class="text-center flex-grow">
@@ -627,7 +627,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">1-07-06-010</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Transportation Equipment</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-start align-middle">
                             <div class="flex items-center">
                                 <div class="text-center flex-grow">
@@ -690,7 +690,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">1-07-07-010</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Furniture & Fixtures</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-start align-middle">
                             <div class="flex items-center">
                                 <div class="text-center flex-grow">
@@ -753,7 +753,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">1-07-07-020</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Books</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-start align-middle">
                             <div class="flex items-center">
                                 <div class="text-center flex-grow">

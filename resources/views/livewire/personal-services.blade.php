@@ -49,7 +49,7 @@
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"></td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Account Code</strong></td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Item of Expenditures</strong></td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Proposed Budget "Year"</strong></td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Proposed Budget 2024</strong></td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Justification</strong></td>
                     </tr>
                     <tr>
@@ -61,7 +61,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-01-010</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Salaries & Wages - Regular</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -108,7 +108,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-01-020</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Salaries & Wages - Casual</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -172,7 +172,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-02-010</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Personnel Economic Relief Allow (PERA - ₱2,000.00/mo/pos)</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -236,7 +236,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-02-020</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Representation Allowance (RA)</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -300,7 +300,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-02-030</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Transportation Allowance (TA)</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -364,7 +364,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-02-040</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Clothing/Uniform Allowance (₱6,000.00/position/annum)</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -428,7 +428,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-02-050</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Subsistence Allowance</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -492,7 +492,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-02-060</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Laundry Allowance</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -557,7 +557,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-02-100</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Honoria (including overload teaching, panel members, etc)</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -621,7 +621,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-02-110</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Hazard Pay</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -685,7 +685,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-02-120</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Longevity Pay</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -749,7 +749,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-02-130</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Overtime & Night Pay</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -812,7 +812,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-02-140</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Year End Bous (total of salaries & wages-regular & casual/12)</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -875,7 +875,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-02-150</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Cash Gift (₱5,000/position)</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -938,7 +938,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-03-010</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Retirement & Life Insurance Contributions (12% of salaries & wages - regular and casual)</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -1001,7 +1001,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-03-020</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Pag-IBIG Contributions (₱1,200.00/position/annum)</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -1064,7 +1064,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-03-030</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">PHILHEALTH Contributions (2.5% of salaries & wages - regular and casual)</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -1127,7 +1127,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-03-040</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">ECC Contributions (₱1,200.00/position and annum)</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -1190,7 +1190,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-04-030</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Terminal Leave Benefits (accum. leave credits of retired emp.)</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">
@@ -1253,7 +1253,7 @@
                         </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle">5-01-04-990</td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle">Other Personnel Benefits</td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">"1,000,000.00"</td>
+                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <div class="flex items-center">
                                 <div class="flex-grow">

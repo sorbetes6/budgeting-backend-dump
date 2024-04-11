@@ -20,8 +20,8 @@
             <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Status of Appropriations</h1>
         </div>
-        <!-- NEED FUNCTIONALITY -->
-        <h2 class="text-[15px] font-extrabold ml-[55px] text-cyan-800">Personal Services</h2>
+        <h2 class="text-[15px] font-extrabold ml-[55px] text-cyan-800">Budget Call Documents</h2>
+        <!-- Donut Chart -->
     </div>
 
     <!-- Project Procuremente Management Plan -->
@@ -30,7 +30,7 @@
             <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Project Procurement Management Plan</h1>
         </div>
-        <!-- NEED FUNCTIONALITY -->
+        <!-- NEED FUNCTIONALITY Column Chart -->
         <h2 class="text-[15px] font-extrabold ml-[55px] text-cyan-800">Overall Budget</h2>
     </div>
 
@@ -40,14 +40,15 @@
             <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Payment Request Form</h1>
         </div>
-        <!-- NEED FUNCTIONALITY -->
         <div class="flex">
             <div class="flex items-center justify-center ml-5 mt-2 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="/BUR" class="text-[11px] text-white btn text-center">Budget Utilization Request</a>
             </div>
-            <!-- NEED FUNCTIONALITY -->
             <div class="flex items-center justify-center ml-3 mt-2 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="#" class="text-[11px] text-white btn text-center">Amendment Form</a>
+                <a href="/purchase-order" class="text-[11px] text-white btn text-center">Purchase Order</a>
+            </div>
+            <div class="flex items-center justify-center ml-3 mt-2 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
+                <a href="/amendment" class="text-[11px] text-white btn text-center">Amendment Form</a>
             </div>
         </div>
     </div>
@@ -58,7 +59,6 @@
             <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Budget Call Forms</h1>
         </div>
-        <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center ml-5 mt-2">
             <!-- Activity Justification Document -->
             <div class="flex items-center justify-center mt-1 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
@@ -98,41 +98,41 @@
     <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center h-[75px] border-b-2">
             <div class="ml-[15px]"> 
-                <h1 class="flex items-top justify-left text-[15px] font-extrabold ">"User Name"</h1>
-                <h2 class="flex items-top justify-left text-[11px] font-bold">Edited "Form"</h2>
+                <h1 class="flex items-top justify-left text-[15px] font-extrabold ">Maribeth Solquio</h1>
+                <h2 class="flex items-top justify-left text-[11px] font-bold">Edited Status of Appropriations</h2>
                 <div class="flex items-top">
-                    <h3 class="flex items-top justify-left text-[11px]">"Time" ago</h3>
-                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[150px] btn">View form</a>
+                    <h3 class="flex items-top justify-left text-[11px]">15 minutes ago</h3>
+                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[120px] btn">View form</a>
                 </div>
             </div>
         </div>
         <div class="flex items-center h-[75px] border-b-2">
             <div class="ml-[15px]"> 
-                <h1 class="flex items-top justify-left text-[15px] font-extrabold ">"User Name"</h1>
-                <h2 class="flex items-top justify-left text-[11px] font-bold">Edited "Form"</h2>
+                <h1 class="flex items-top justify-left text-[15px] font-extrabold ">Maribeth Solquio</h1>
+                <h2 class="flex items-top justify-left text-[11px] font-bold">Edited Capital Outlay</h2>
                 <div class="flex items-top">
-                    <h3 class="flex items-top justify-left text-[11px]">"Time" ago</h3>
-                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[150px] btn">View form</a>
+                    <h3 class="flex items-top justify-left text-[11px]">15 minutes ago</h3>
+                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[120px] btn">View form</a>
                 </div>
             </div>
         </div>
         <div class="flex items-center h-[75px] border-b-2">
             <div class="ml-[15px]"> 
-                <h1 class="flex items-top justify-left text-[15px] font-extrabold ">"User Name"</h1>
-                <h2 class="flex items-top justify-left text-[11px] font-bold">Edited "Form"</h2>
+                <h1 class="flex items-top justify-left text-[15px] font-extrabold ">Maribeth Solquio</h1>
+                <h2 class="flex items-top justify-left text-[11px] font-bold">Edited User Info</h2>
                 <div class="flex items-top">
-                    <h3 class="flex items-top justify-left text-[11px]">"Time" ago</h3>
-                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[150px] btn">View form</a>
+                    <h3 class="flex items-top justify-left text-[11px]">15 minutes ago</h3>
+                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[120px] btn">View form</a>
                 </div>
             </div>
         </div>
         <div class="flex items-center h-[75px]">
             <div class="ml-[15px]"> 
-                <h1 class="flex items-top justify-left text-[15px] font-extrabold ">"User Name"</h1>
-                <h2 class="flex items-top justify-left text-[11px] font-bold">Edited "Form"</h2>
+                <h1 class="flex items-top justify-left text-[15px] font-extrabold ">Maribeth Solquio</h1>
+                <h2 class="flex items-top justify-left text-[11px] font-bold">Created New PPMP Form </h2>
                 <div class="flex items-top">
-                    <h3 class="flex items-top justify-left text-[11px]">"Time" ago</h3>
-                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[150px] btn">View form</a>
+                    <h3 class="flex items-top justify-left text-[11px]">15 minutes ago</h3>
+                    <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[120px] btn">View form</a>
                 </div>
             </div>
         </div>
@@ -159,7 +159,7 @@
                     <template x-for="(week, index) in weeks" :key="index">
                         <tr>
                             <template x-for="(day, dayIndex) in week" :key="dayIndex">
-                                <td :class="{ 'bg-gray-300 rounded-full': day.highlighted }" class="px-2 py-0.5" style="text-align: center;" x-text="day.day"></td>
+                                <td :class="{ 'bg-blue-700 rounded-full': day.highlighted }" class="px-2 py-0.5" style="text-align: center;" x-text="day.day"></td>
                             </template>
                         </tr>
                     </template>
