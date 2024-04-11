@@ -22,7 +22,7 @@
                 <tbody>
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
-                            5-07-04-020
+                            1-07-04-020
                         </th>
                         <td class="pr-10 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             School Buildings
