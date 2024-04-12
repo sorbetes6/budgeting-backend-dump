@@ -19,7 +19,7 @@
                         </th>
                         <!-- Approved Budget CY 2023 -->
                         <th scope="col" class="w-[175px] py-2 text-center">
-                            Approved Budget <br> CY 2023
+                            Proposed Budget <br> CY 2023
                         </th>
                         <!-- Approved Board Res. -->
                         <th scope="col" class="w-[175px] py-2 text-center">
