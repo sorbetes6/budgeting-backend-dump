@@ -1,7 +1,10 @@
 <div>
     <div class="w-[1200px] max-h-fit bg-white rounded-xl shadow border border-zinc-200">
         <div class="relative overflow-x-auto">
+            <!-- Table -->
             <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+
+                <!-- Header -->
                 <thead class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal gap-y-12">
                     <tr>
                         <th scope="col" class="px-6 py-3">
@@ -19,7 +22,10 @@
                     </tr>
                 </thead>
 
+                <!-- Body -->
                 <tbody>
+
+                    <!-- 1st Row -->
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-04-020
@@ -40,6 +46,7 @@
                         </td>
                     </tr>
 
+                    <!-- 2nd Row -->
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                         1-07-05-020
@@ -59,6 +66,7 @@
                         </td>
                     </tr>
 
+                    <!-- 3rd Row -->
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-030
@@ -78,6 +86,7 @@
                         </td>
                     </tr>
 
+                    <!-- 4th Row -->
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-070
@@ -97,6 +106,7 @@
                         </td>
                     </tr>
 
+                    <!-- 5th Row -->
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-090
@@ -116,6 +126,7 @@
                         </td>
                     </tr>
 
+                    <!-- 6th Row -->
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-110
@@ -135,6 +146,7 @@
                         </td>
                     </tr>
 
+                    <!-- 7th Row -->
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-130
@@ -154,6 +166,7 @@
                         </td>
                     </tr>
 
+                    <!-- 8th Row -->
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-140
@@ -173,6 +186,7 @@
                         </td>
                     </tr>
 
+                    <!-- 9th Row -->
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-05-990
@@ -192,6 +206,7 @@
                         </td>
                     </tr>
 
+                    <!-- 10th Row -->
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-06-010
@@ -211,6 +226,7 @@
                         </td>
                     </tr>
 
+                    <!-- 11th Row -->
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-07-010
@@ -230,6 +246,7 @@
                         </td>
                     </tr>
 
+                    <!-- 12th Row -->
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             1-07-07-020
@@ -253,6 +270,7 @@
         </div>
     </div>
 
+    <!-- Submit -->
     <div class="w-[1200px] flex justify-end mt-4">
         <button class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
     </div>

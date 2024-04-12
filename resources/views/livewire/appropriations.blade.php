@@ -1,38 +1,46 @@
 <div class="mx-80 mt-[130px] mb-8">
-    <!-- Label -->
+
+    <!-- Header -->
     <div class="text-black text-2xl font-medium font-['Inter'] leading-9 mt-30 mb-4">Appropriations</div>
 
     <!-- Container -->
     <div class="w-[1320px] max-h-fit bg-white rounded-xl shadow border border-zinc-200">
         <div class="relative overflow-x-auto">
             <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                <!-- Header -->
+
+                <!-- Table Header -->
                 <thead class="text-zinc-950 text-sm font-semibold font-['Inter'] leading-normal gap-y-2">
                     <tr>
                         <!-- Account Code -->
                         <th scope="col" class="w-[110px] py-2 text-center">
                             Account <br> Code
                         </th>
+
                         <!-- Item of Expenditures -->
                         <th scope="col" class="w-[170px] py-2 text-center">
                             Item of Expenditures
                         </th>
+
                         <!-- Approved Budget CY 2023 -->
                         <th scope="col" class="w-[175px] py-2 text-center">
                             Proposed Budget <br> CY 2023
                         </th>
+
                         <!-- Approved Board Res. -->
                         <th scope="col" class="w-[175px] py-2 text-center">
                             Approved Board <br> Res.
                         </th>
+
                         <!-- Total -->
                         <th scope="col" class="w-[175px] py-2 text-center">
                             Total
                         </th>
+
                         <!-- Obligations -->
                         <th scope="col" class="w-[175px] py-2 text-center">
                             Obligations
                         </th>
+
                         <!-- Unobligated Balance -->
                         <th scope="col" class="w-[175px] py-2 text-center">
                             Unobligated <br> Balance
@@ -40,8 +48,9 @@
                     </tr>
                 </thead>
 
-                <!-- Body -->
+                <!-- Table Body -->
                 <tbody>
+                    <!-- 1st Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-01-020
@@ -75,6 +84,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 2st Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-01-020
@@ -108,6 +119,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 3rd Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-02-010
@@ -141,6 +154,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 4th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-02-020
@@ -174,6 +189,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 5th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-02-030
@@ -208,6 +225,7 @@
                         </td>
                     </tr>
 
+                    <!-- 6th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-02-040
@@ -241,6 +259,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 7th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-02-100
@@ -274,6 +294,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 8th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-02-110
@@ -307,6 +329,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 9th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-02-120
@@ -340,6 +364,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 10th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-02-130
@@ -373,6 +399,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 11th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-02-140
@@ -406,6 +434,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 12th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-02-150
@@ -439,6 +469,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 13th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-03-010
@@ -472,6 +504,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 14th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-03-020
@@ -505,6 +539,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 15th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-03-030
@@ -538,6 +574,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 16th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-03-040
@@ -571,6 +609,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 17th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-04-030
@@ -604,6 +644,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- 18th Row -->
                     <tr>
                         <th scope="row" class="px-2 py-2 text-center text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
                             5-01-04-990
@@ -637,6 +679,8 @@
                             </form>
                         </td>
                     </tr>
+
+                    <!-- Sub-total -->
                     <tr>
                         <td colspan="7" class="border-t border-gray-200 bg-gray-200"></td>
                     </tr>

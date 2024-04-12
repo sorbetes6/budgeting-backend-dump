@@ -43,14 +43,22 @@
         <!-- Table -->
         <div class="overflow-x-auto h-[480px]">
             <table class="w-[1360px]">
-                <tbody>
+
+                <!-- Header -->
+                <thead>
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"></td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Account Code</strong></td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Item of Expenditures</strong></td>
                         <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Proposed Budget 2024</strong></td>
                         <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Justification</strong></td>
-                    </tr>
+                    </tr>     
+                </thead>
+
+                <!-- Body -->
+                <tbody>
+
+                    <!-- 1st Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -114,6 +122,8 @@
                             </div>
                         </td>
                     </tr>
+
+                    <!-- 2nd Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -177,6 +187,8 @@
                             </div>
                         </td>
                     </tr>
+
+                    <!-- 3rd Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -240,6 +252,8 @@
                             </div>
                         </td>
                     </tr>
+
+                    <!-- 4th Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -303,6 +317,8 @@
                             </div>
                         </td>
                     </tr>
+
+                    <!-- 5th Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -366,6 +382,8 @@
                             </div>
                         </td>
                     </tr>
+
+                    <!-- 6th Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -429,6 +447,8 @@
                             </div>
                         </td>
                     </tr>
+
+                    <!-- 7th Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -492,6 +512,8 @@
                             </div>
                         </td>
                     </tr>
+
+                    <!-- 8th Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -555,6 +577,8 @@
                             </div>
                         </td>
                     </tr>
+
+                    <!-- 9th Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -618,6 +642,8 @@
                             </div>
                         </td>
                     </tr>
+
+                    <!-- 10th Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -681,6 +707,8 @@
                             </div>
                         </td>
                     </tr>
+
+                    <!-- 11th Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -744,6 +772,8 @@
                             </div>
                         </td>
                     </tr>
+
+                    <!-- 12th Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>

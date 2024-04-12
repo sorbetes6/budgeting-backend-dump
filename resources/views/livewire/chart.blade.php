@@ -57,33 +57,43 @@
 
     <!-- Budget Call Forms -->
     <div class="w-[540px] h-[200px] rounded-lg shadow border border-gray border-opacity-20 ml-[835px] mt-[-340px]">
+        
+        <!-- Header -->
         <div class="flex items-center ml-5 mt-1">
             <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
             <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Budget Call Forms</h1>
         </div>
+        
+        <!-- 1st Row -->
         <div class="flex items-center ml-5 mt-2">
             <!-- Activity Justification Document -->
             <div class="flex items-center justify-center mt-1 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="/activity-justification" class="text-[11px] text-white btn text-center">Activity Justification Document</a>
             </div>
+
             <!-- Personnel Schedule -->
             <div class="flex items-center justify-center mt-1 ml-3 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="/personnel-schedule" class="text-[11px] text-white btn text-center">Personnel Schedule</a>
             </div>
+
             <!-- Project Procurement Management Plan -->
             <div class="flex items-center justify-center mt-1 ml-3 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="/PPMP" class="text-[11px] text-white btn text-center">Project Procurement Management Plan</a>
             </div>
         </div>
+
+        <!-- 2nd Row -->
         <div class="flex items-center ml-5 mt-2.5">
             <!-- Personal Services -->
             <div class="flex items-center justify-center mt-1 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="/personal-services" class="text-[11px] text-white btn text-center">Personal Services</a>
             </div>
+
             <!-- Maintenance and Other Operating Expenses -->
             <div class="flex items-center justify-center mt-1 ml-3 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="/MOOE" class="text-[11px] text-white btn text-center">Maintenance and Other Operating Expenses</a>
             </div>
+            
             <!-- Capital Outlay -->
             <div class="flex items-center justify-center mt-1 ml-3 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
                 <a href="/capital-outlay" class="text-[11px] text-white btn text-center">Capital Outlay</a>

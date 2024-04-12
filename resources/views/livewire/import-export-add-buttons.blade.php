@@ -1,4 +1,5 @@
 <div class="flex flex-row grow justify-end gap-x-2 my-[1px]">
+
     <!-- Year -->
     <button id="YearDropdown" data-dropdown-toggle="yearDropdown" class="w-24 h-10 pl-2 py-1 bg-white rounded-lg border border-zinc-300 justify-start items-center gap-3 inline-flex">
         <div class="w-5 h-6 relative">
@@ -31,9 +32,11 @@
 
     <!-- Import Modal toggle -->
     <button data-modal-target="import-modal" data-modal-toggle="import-modal" class="w-20 h-10 px-4 bg-indigo-50 rounded-lg shadow border border-indigo-50 justify-center items-center gap-2 inline-flex text-indigo-800 text-sm font-semibold font-['Inter'] leading-tight" type="button">Import</button>
+    
     <!-- Import modal -->
     <div id="import-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
         <div class="relative p-4 w-full max-w-2xl max-h-full">
+
             <!-- Modal content -->
             <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
                 <!-- Modal header -->
@@ -48,6 +51,7 @@
                         <span class="sr-only">Close modal</span>
                     </button>
                 </div>
+
                 <!-- Modal body -->
                 <div class="p-4 md:p-5 space-y-4">
                     <div class="flex items-center justify-center w-full">
@@ -62,6 +66,7 @@
                         </label>
                     </div>
                 </div>
+
                 <!-- Modal footer -->
                 <div class="flex items-center justify-between p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
                     <a href="#" class="text-indigo-800 text-base font-normal font-inter underline leading-normal">Download sample CSV</a>
@@ -83,9 +88,11 @@
 
     <!-- Export Modal toggle -->
     <button data-modal-target="export-modal" data-modal-toggle="export-modal" class="w-20 h-10 px-4 bg-indigo-50 rounded-lg shadow border border-indigo-50 justify-center items-center gap-2 inline-flex text-indigo-800 text-sm font-semibold font-inter leading-tight" type="button">Export</button>
+   
     <!-- Export modal -->
     <div id="export-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
         <div class="relative p-4 w-full max-w-2xl max-h-full">
+            
             <!-- Modal content -->
             <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
                 <!-- Modal header -->
@@ -100,12 +107,14 @@
                         <span class="sr-only">Close modal</span>
                     </button>
                 </div>
+                
                 <!-- Modal body -->
                 <div class="p-4 md:p-5 space-y-4">
                     <div class="flex justify-center">
                         <input type="text" id="filename-input" class="w-full h-11 rounded-lg border border-zinc-200 text-black text-base font-light font-['Inter'] leading-normal" placeholder="Enter filename (without extension)">
                     </div>
                 </div>
+                
                 <!-- Modal footer -->
                 <div class="flex gap-x-2 justify-end p-4">
                     <button data-modal-hide="export-modal" type="button" class="w-24 h-11 px-5 py-2.5 bg-white rounded-lg shadow border border-zinc-200 justify-center items-center inline-flex">
@@ -154,9 +163,11 @@
         }
     </script>
 
+    <!-- Add Form -->
     <div class="justify-start items-start inline-flex">
         <a href="/budgetcall" class="w-28 h-10 px-4 bg-indigo-800 rounded-lg shadow justify-center items-center gap-2 flex">
             <span class="text-white text-base font-bold font-['Inter'] leading-tight">Add Form</span>
         </a>
     </div>
+    
 </div>

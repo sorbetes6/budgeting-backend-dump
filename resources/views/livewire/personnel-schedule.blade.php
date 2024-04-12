@@ -43,17 +43,22 @@
         <!-- Table -->
         <div class="overflow-x-auto h-[480px] p-4 rounded-lg mt-[-10px] mr-4">
             <table class="w-[1360px]">
-                <tbody>
-                    <!-- First Header -->
+                
+                <!-- First Header -->
+                <thead>
                     <tr>
                         <td class="border border-gray-300 px-4 py-2 text-center align-middle"></td>
                         <td class="border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Item No.</strong></td>
                         <td class="border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Grade Step</strong></td>
                         <td class="border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Position</strong></td>
                         <td class="border border-gray-300 px-4 py-2 text-center align-middle" colspan="2"><strong style="font-weight: 900;">Name of Incumbent</strong></td>
-                    </tr>
+                    </tr>                    
+                </thead>
 
-                    <!-- First Content -->
+                <!-- First Body -->
+                <tbody>
+
+                    <!-- 1st Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -119,6 +124,7 @@
                     </tr>
                     <tr>
 
+                    <!-- 2nd Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -184,6 +190,7 @@
                     </tr>
                     <tr>
 
+                    <!-- 3rd Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>

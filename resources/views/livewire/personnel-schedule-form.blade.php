@@ -1,6 +1,7 @@
 <div> 
 
     <div class="w-[200px] h-[60px] px-5 py-3.5 bg-white rounded-xl shadow border border-zinc-200 flex-col justify-start items-start gap-2.5 inline-flex mx-2">
+        
         <!-- Item No. -->
         <form class="space-y-2" action="#">
             <div class="flex justify-center items-center flex-row">
@@ -13,6 +14,7 @@
     </div>
 
     <div class="space-y-[20px]">
+       
         <!-- Grade Step -->
         <div class="w-[250px] h-24 px-5 py-3.5 bg-white rounded-xl shadow border border-zinc-200 flex-col justify-start items-start gap-2.5 inline-flex mx-2">
             <form class="space-y-2" action="#">
@@ -73,6 +75,7 @@
     </div>
 
     <div class="space-y-[20px]">
+
         <!-- Increase -->
         <div class="w-[250px] h-24 px-5 py-3.5 bg-white rounded-xl shadow border border-zinc-200 flex-col justify-start items-start gap-2.5 inline-flex mx-2">
             <form class="space-y-2" action="#">
@@ -85,6 +88,7 @@
 
         <!-- Totals -->
         <div class="flex-row w-[520px] h-24 px-5 py-3.5 bg-white rounded-xl shadow border border-zinc-200 justify-start items-start gap-2.5 inline-flex mx-2">
+            
             <!-- Sub-total -->
             <form class="space-y-2" action="#">
                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Sub-total</label>
@@ -92,6 +96,7 @@
                     <input type="text" id="persched-form-subttl" class="w-[200px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                 </form>
             </form>
+            
             <!-- Total -->
             <form class="space-y-2 ml-[20px]" action="#">
                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Total</label>

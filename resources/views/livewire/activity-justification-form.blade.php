@@ -42,6 +42,7 @@
 
     <div class="flex">
         
+        <!-- Item of Expenditures -->
         <div class="w-[583px] px-8 py-6 bg-white rounded-xl shadow border border-zinc-200 my-3">
             <!-- Header -->
             <div class="flex items-center justify-between mb-4">

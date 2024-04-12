@@ -23,7 +23,7 @@
                     </div>
                 </div>
 
-                <!-- Dropdown menu -->
+                <!-- User Info -->
                 <div x-data="{ open: false }" class="sm:relative sm:ml-[70px] sm:items-center justify-end sm:focus:ring-4 sm:focus:outline-none sm:focus:ring-gray-500">
                     <div class="flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" viewBox="0 0 30 30" fill="none">
@@ -65,10 +65,13 @@
     <!-- Side Navigation-->
     <aside id="logo-sidebar" class="fixed top-6 left-0 z-40 w-75 h-screen pt-20 transition-transform -translate-x-full border-r sm:translate-x-0 dark:bg-indigo-800 dark:border-indigo-700" aria-label="Sidebar">
         <div class="h-full px-4 pb-4 overflow-y-auto bg-indigo-800 dark:bg-indigo-800 ">
+            
             <!-- Label -->
             <div class="text-white text-2xl font-extrabold font-['Inter'] leading-10 my-10">Budgeting</div>
 
+            <!-- Selections -->
             <ul class="space-y-1 font-medium w-78 h-10 flex-col top-5 justify-start items-start gap-1 inline-flex">
+                
                 <!-- Home -->
                 <li>
                     <a href="/chart" class="w-56 px-4 py-2 flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]">
@@ -104,6 +107,8 @@
                                 </svg>
                             </div>
                         </button>
+
+                        <!-- Budget Call Dropdown -->
                         <ul id="budget-call-dropdown" class="hidden ml-4 py-2 space-y-1">
                             <li>
                                 <a href="/activity-justification" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">
@@ -164,6 +169,8 @@
                                 </svg>
                             </div>
                         </button>
+
+                        <!-- Payment Request Dropdown -->
                         <ul id="payment-request-dropdown" class="hidden py-2 space-y-1">
                             <li>
                                 <a href="/BUR" class="flex items-center p-2 text-white text-[13px] font-normal font-['Nunito Sans'] leading-relaxed transition duration-75 rounded-lg hover:bg-[#2C56A6] active:bg-[#4F74BB]">

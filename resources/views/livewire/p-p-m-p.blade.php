@@ -43,8 +43,9 @@
         <!-- Table -->
         <div class="h-[480px] p-4 rounded-lg mt-[-10px] mr-4">
             <table class="w-[1360px]">
-                <tbody>
-                    <!-- First Header -->
+
+                <!-- 1st Header -->
+                <thead>
                     <tr>
                         <td class="border border-gray-300 px-4 py-2 text-center align-middle"></td>
                         <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[160px]"><strong style="font-weight: 900;">Type of  <br> Contract</strong></td>
@@ -55,8 +56,12 @@
                         <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[160px]"><strong style="font-weight: 900;">Quantity</strong></td>
                         <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[160px]"><strong style="font-weight: 900;">Unit of  <br> Issue</strong></td>
                     </tr>
+                </thead>
 
-                    <!-- First Content -->
+                <!-- 1st Body -->
+                <tbody>
+
+                    <!-- 1st Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -125,6 +130,7 @@
                     </tr>
                     <tr>
 
+                    <!-- 2nd Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -193,6 +199,7 @@
                     </tr>
                     <tr>
 
+                    <!-- 3rd Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -271,8 +278,8 @@
 
                     </tr>
 
-                     <!-- Second Content -->
-                     <tr>
+                    <!-- 1st Row -->
+                    <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
                                 <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
@@ -336,6 +343,7 @@
                         </td>
                     </tr>
 
+                    <!-- 2nd Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
@@ -400,6 +408,7 @@
                         </td>
                     </tr>
 
+                    <!-- 3rd Row -->
                     <tr>
                         <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
                             <label>
