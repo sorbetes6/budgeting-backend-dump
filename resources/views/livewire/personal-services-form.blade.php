@@ -1,9 +1,9 @@
 <div>
     <div class="w-[1200px] max-h-fit bg-white rounded-xl shadow border border-zinc-200">
-        <div class="relative overflow-x-auto">
+        <div class="relative">
 
             <!-- Table -->
-            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 overflow-auto">
 
                 <!-- Header -->
                 <thead class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal gap-y-12">
