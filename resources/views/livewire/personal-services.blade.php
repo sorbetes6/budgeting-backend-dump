@@ -45,10 +45,15 @@
         <div class="overflow-auto h-[480px]">
             <table class="w-[1360px]">
 
-                <!-- Header -->                
+                <!-- Header -->
                 <thead>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"></td>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
+                        </td>
                         <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Account Code</strong></td>
                         <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Item of Expenditures</strong></td>
                         <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Proposed Budget "Year"</strong></td>
@@ -57,7 +62,7 @@
                 </thead>
 
                 <!-- Body -->
-                <tbody>
+                <tbody x-data="{ masterChecked: false }">
 
                     <!-- 1st Row -->
                     <tr>
@@ -1359,5 +1364,4 @@
             dropdownMenu.classList.toggle('hidden');
         });
     </script>
-
 </div>

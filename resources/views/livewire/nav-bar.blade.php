@@ -1,17 +1,23 @@
 <div>
     <!--Top Navigation-->
-    <nav class="fixed flex top-0 z-50 w-full bg-white border-b-2 border-gray-200 dark:bg-white-200 dark:border-white-200">
+    <nav class="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
 
         <div class="px-3 py-3 lg:px-5 lg:pl-3">
-            <div class="flex items-center justify-between w-16 h-16-">
-
+            <div class="flex items-center justify-between w-16 h-18">
                 <!-- Logo -->
                 <div class="flex items-center justify-start rtl:justify-end">
+                    <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+                        <span class="sr-only">Open sidebar</span>
+                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+                        </svg>
+                    </button>
                     <a href="/chart" class="flex ms-2 md:me-24">
-                    <img src="{{ asset('css/images/image 5.png') }}" class="w-20 h-20" alt="PLM Logo" />
-                    <span class="flex items-center w-80 text-indigo-800 text-2xl font-extrabold font-['Inter'] ml-3 leading-10">PLM Budget System</span>
-                    </a>
+                        <img src="{{ asset('css/images/image 5.png') }}" class="w-20 h-20" alt="PLM Logo" />
+                        <span class="flex items-center w-80 text-indigo-800 text-2xl font-extrabold font-['Inter'] ml-3 leading-10">PLM Budget System</span>
+                        </a>
                 </div>
+
 
                 <!--Search Bar--> <!-- NEED FUNCTIONALITY -->
                 <div class="flex items-left ml-[-20px]">
@@ -65,13 +71,13 @@
     <!-- Side Navigation-->
     <aside id="logo-sidebar" class="fixed top-6 left-0 z-40 w-75 h-screen pt-20 transition-transform -translate-x-full border-r sm:translate-x-0 dark:bg-indigo-800 dark:border-indigo-700" aria-label="Sidebar">
         <div class="h-full px-4 pb-4 overflow-y-auto bg-indigo-800 dark:bg-indigo-800 ">
-            
+
             <!-- Label -->
             <div class="text-white text-2xl font-extrabold font-['Inter'] leading-10 my-10">Budgeting</div>
 
             <!-- Selections -->
             <ul class="space-y-1 font-medium w-78 h-10 flex-col top-5 justify-start items-start gap-1 inline-flex">
-                
+
                 <!-- Home -->
                 <li>
                     <a href="/chart" class="w-56 px-4 py-2 flex items-center rounded-md hover:bg-[#2C56A6] active:bg-[#4F74BB]">
@@ -214,4 +220,34 @@
             </ul>
         </div>
     </aside>
+
+    <div class="p-4 sm:ml-64">
+   <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-14">
+
+
+
+</div>
+
+
+
+
+
+
+
+
+    <!-- Livewire Scripts -->
+<script src="/livewire/livewire.js?id=44144c23" data-csrf="AdWxnve44gJXSzb6G4qAWw3UJ179Gn9bStPZLGwm" data-update-uri="/livewire/update" data-navigate-once="true"></script>
+
+<script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/datepicker.min.js"></script>
+<script src="../path/to/flowbite/dist/datepicker.js"></script>
+<!-- space for the logout code -->
+
+
+
+    <input type="hidden" name="_token" value="AdWxnve44gJXSzb6G4qAWw3UJ179Gn9bStPZLGwm" autocomplete="off">
+
+
+ </div></div>
 </div>

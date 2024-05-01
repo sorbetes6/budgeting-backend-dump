@@ -1,8 +1,8 @@
-<div>
+<div class="flex flex-row grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-4 px-6 py-32">
     <!-- WELCOME! -->
-    <div class="relative w-[540px] h-[340px] rounded-lg shadow border border-gray border-opacity-50 bg-cover bg-center ml-[275px] mt-[120px]">
+    <div class="relative max-w-xl max-h-xl rounded-lg shadow border border-gray border-opacity-50 bg-cover bg-center">
         <div class="absolute inset-0 rounded-lg"></div>
-        <img class="w-[540px] h-[340px] opacity-40 mx-auto mt-auto" src="css/images/background.png">
+        <img class="w-[540px] h-[350px] opacity-40 mx-auto mt-auto" src="css/images/background.png">
         <div class= "absolute inset-0 flex flex-col items-start ml-6 justify-top text-left left-2 mt-8">
             <div class="flex items-center">
                 <img class="w-[50px] h-[50px]" src="css/images/image 5.png">
@@ -13,103 +13,75 @@
             <p class= "text-2xl font-bold ml-2 text-cyan-800 z-10 relative">Maribeth Solquio.</p>
         </div>
     </div>
-
-    <!-- Status of Appropriations -->
-    <div class="flex flex-col w-[540px] h-[340px] rounded-lg shadow border border-gray border-opacity-20 ml-[275px] mt-[15px]">
-        <!-- Title -->
-        <div class="flex items-center ml-5 mt-5">
-            <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
-            <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Status of Appropriations</h1>
-        </div>
-        <h2 class="text-[15px] font-extrabold ml-[55px] text-cyan-800">Budget Call Documents</h2>
-        <!-- Donut Chart -->
-        <livewire:donut-chart/>
-    </div>
-
-    <!-- Project Procuremente Management Plan -->
-    <div class="w-[540px] h-[340px] rounded-lg shadow border border-gray border-opacity-20 ml-[835px] mt-[-340px]">
-        <div class="flex items-center ml-5 mt-5">
-            <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
-            <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Project Procurement Management Plan</h1>
-        </div>
-        <!-- NEED FUNCTIONALITY Column Chart -->
-        <h2 class="text-[15px] font-extrabold ml-[55px] text-cyan-800">Overall Budget</h2>
-    </div>
-
-    <!-- Payment Request Form -->
-    <div class="w-[540px] h-[125px] rounded-lg shadow border border-gray border-opacity-20 ml-[835px] mt-[-480px]">
-        <div class="flex items-center ml-5 mt-3">
-            <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
-            <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Payment Request Form</h1>
-        </div>
-        <div class="flex">
-            <div class="flex items-center justify-center ml-5 mt-2 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/BUR" class="text-[11px] text-white btn text-center">Budget Utilization Request</a>
+    <div class="flex flex-col space-y-4">
+        <!-- Budget Call Forms -->
+        <div class="max-w-xl h-48 rounded-lg shadow border border-gray border-opacity-20">
+            <!-- Header -->
+            <div class="flex items-center px-4 py-1">
+                <img class="w-[30px] h-[30px] mr-2" src="css/images/icon1.png">
+                <h1 class="text-xl font-extrabold text-blue-800">Budget Call Forms</h1>
             </div>
-            <div class="flex items-center justify-center ml-3 mt-2 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/purchase-order" class="text-[11px] text-white btn text-center">Purchase Order</a>
-            </div>
-            <div class="flex items-center justify-center ml-3 mt-2 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/amendment" class="text-[11px] text-white btn text-center">Amendment Form</a>
-            </div>
-        </div>
-    </div>
+            <!-- 1st Row -->
+            <div class="flex flex-col justify-items-center grid grid-col-3 md:grid-col-3 sm:grid-col-1 gap-x-3 gap-y-2 items-center content-center p-2">
+                <div class="flex grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-x-2 gap-y-2">
+                    <!-- Activity Justification Document -->
+                    <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
+                        <a href="/activity-justification" class="text-xs text-white btn text-center">Activity Justification Document</a>
+                    </div>
+                    <!-- Personnel Schedule -->
+                    <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
+                        <a href="/personnel-schedule" class="text-sm text-white btn text-center">Personnel Schedule</a>
+                    </div>
+                    <!-- Project Procurement Management Plan -->
+                    <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
+                        <a href="/PPMP" class="text-xs text-white btn text-center">Project Procurement Management Plan</a>
+                    </div>
+                </div>
 
-    <!-- Budget Call Forms -->
-    <div class="w-[540px] h-[200px] rounded-lg shadow border border-gray border-opacity-20 ml-[835px] mt-[-340px]">
-        
-        <!-- Header -->
-        <div class="flex items-center ml-5 mt-1">
-            <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
-            <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Budget Call Forms</h1>
-        </div>
-        
-        <!-- 1st Row -->
-        <div class="flex items-center ml-5 mt-2">
-            <!-- Activity Justification Document -->
-            <div class="flex items-center justify-center mt-1 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/activity-justification" class="text-[11px] text-white btn text-center">Activity Justification Document</a>
-            </div>
-
-            <!-- Personnel Schedule -->
-            <div class="flex items-center justify-center mt-1 ml-3 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/personnel-schedule" class="text-[11px] text-white btn text-center">Personnel Schedule</a>
-            </div>
-
-            <!-- Project Procurement Management Plan -->
-            <div class="flex items-center justify-center mt-1 ml-3 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/PPMP" class="text-[11px] text-white btn text-center">Project Procurement Management Plan</a>
+                <div class="flex grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-x-2 gap-y-2">
+                    <!--Personal Services-->
+                    <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
+                        <a href="/personal-services" class="text-sm text-white btn text-center">Personal Services</a>
+                    </div>
+                    <!-- Maintenance and Other Operating Expenses -->
+                    <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
+                        <a href="/MOOE" class="text-xs text-white btn text-center">Maintenance and Other Operating Expenses</a>
+                    </div>
+                    <!-- Capital Outlay -->
+                    <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md">
+                        <a href="/capital-outlay" class="text-sm text-white btn text-center">Capital Outlay</a>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <!-- 2nd Row -->
-        <div class="flex items-center ml-5 mt-2.5">
-            <!-- Personal Services -->
-            <div class="flex items-center justify-center mt-1 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/personal-services" class="text-[11px] text-white btn text-center">Personal Services</a>
+        <!-- Payment Request-->
+        <div class="max-w-xl h-36 rounded-lg shadow border border-gray border-opacity-20 justify-items-center">
+            <div class="flex items-center px-4 py-3">
+                <img class="w-[30px] h-[30px] mr-2" src="css/images/icon1.png">
+                <h1 class="text-xl font-extrabold text-blue-800">Payment Request Forms</h1>
             </div>
-
-            <!-- Maintenance and Other Operating Expenses -->
-            <div class="flex items-center justify-center mt-1 ml-3 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/MOOE" class="text-[11px] text-white btn text-center">Maintenance and Other Operating Expenses</a>
-            </div>
-            
-            <!-- Capital Outlay -->
-            <div class="flex items-center justify-center mt-1 ml-3 w-[160px] h-[60px] bg-blue-800 text-[13px] text-white rounded-md p-4">
-                <a href="/capital-outlay" class="text-[11px] text-white btn text-center">Capital Outlay</a>
+            <div class="flex grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-items-center p-2 ">
+                <div class="flex items-center justify-center w-40 h-14 bg-blue-800 text-[13px] text-white rounded-md">
+                    <a href="/BUR" class="text-sm text-white btn text-center">Budget Utilization Request</a>
+                </div>
+                <div class="flex items-center justify-center  w-40 h-14 bg-blue-800 text-[13px] text-white rounded-md ">
+                    <a href="/purchase-order" class="text-sm text-white btn text-center">Purchase Order</a>
+                </div>
+                <div class="flex items-center justify-center w-40 h-14 bg-blue-800 text-[13px] text-white rounded-md">
+                    <a href="/amendment" class="text-sm text-white btn text-center">Amendment Form</a>
+                </div>
             </div>
         </div>
     </div>
-
     <!-- Recent Activities -->
-    <div class="w-[290px] h-[340px] rounded-lg shadow border border-gray border-opacity-20 ml-[1395px] mt-[-200px]">
+    <div class="w-[290px] h-[340px] rounded-lg shadow border border-gray border-opacity-20">
         <div class="flex items-center border-b-2">
             <img class="w-[18px] h-[18px] ml-3" src="css/images/icon2.png">
             <h1 class="flex items-top justify-left text-[15px] font-bold ml-1 mt-2 mb-2">Recent Activities</h1>
         </div>
-    <!-- NEED FUNCTIONALITY -->
+        <!-- NEED FUNCTIONALITY -->
         <div class="flex items-center h-[75px] border-b-2">
-            <div class="ml-[15px]"> 
+            <div class="ml-[15px]">
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ">Maribeth Solquio</h1>
                 <h2 class="flex items-top justify-left text-[11px] font-bold">Edited Status of Appropriations</h2>
                 <div class="flex items-top">
@@ -119,7 +91,7 @@
             </div>
         </div>
         <div class="flex items-center h-[75px] border-b-2">
-            <div class="ml-[15px]"> 
+            <div class="ml-[15px]">
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ">Maribeth Solquio</h1>
                 <h2 class="flex items-top justify-left text-[11px] font-bold">Edited Capital Outlay</h2>
                 <div class="flex items-top">
@@ -129,7 +101,7 @@
             </div>
         </div>
         <div class="flex items-center h-[75px] border-b-2">
-            <div class="ml-[15px]"> 
+            <div class="ml-[15px]">
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ">Maribeth Solquio</h1>
                 <h2 class="flex items-top justify-left text-[11px] font-bold">Edited User Info</h2>
                 <div class="flex items-top">
@@ -139,7 +111,7 @@
             </div>
         </div>
         <div class="flex items-center h-[75px]">
-            <div class="ml-[15px]"> 
+            <div class="ml-[15px]">
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ">Maribeth Solquio</h1>
                 <h2 class="flex items-top justify-left text-[11px] font-bold">Created New PPMP Form </h2>
                 <div class="flex items-top">
@@ -150,8 +122,28 @@
         </div>
     </div>
 
+    <!-- Status of Appropriations -->
+    <div class="flex flex-col max-w-xl max-h-xl rounded-lg shadow border border-gray border-opacity-20">
+        <!-- Title -->
+        <div class="flex items-center ml-5 mt-5">
+            <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
+            <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Status of Appropriations</h1>
+        </div>
+        <h2 class="text-[15px] font-extrabold ml-[55px] text-cyan-800">Budget Call Documents</h2>
+        <!-- Donut Chart -->
+            <livewire:donut-chart/>
+    </div>
+    <!-- Project Procurement Management Plan -->
+    <div class="max-w-xl max-h-xl rounded-lg shadow border border-gray border-opacity-20">
+        <div class="flex items-center ml-5 mt-5">
+            <img class="w-[30px] h-[30px] mr-1" src="css/images/icon1.png">
+            <h1 class="text-[20px] font-extrabold text-blue-800 mb-1">Project Procurement Management Plan</h1>
+        </div>
+        <!-- NEED FUNCTIONALITY Column Chart -->
+        <h2 class="text-[15px] font-extrabold ml-[55px] text-cyan-800">Overall Budget</h2>
+    </div>
     <!-- Calendar -->
-    <div x-data="calendarData()" x-init="init()" class="relative flex flex-col items-center w-[290px] h-[340px] rounded-lg shadow border border-gray border-opacity-20 ml-[1395px] mt-[15px]">
+    <div x-data="calendarData()" x-init="init()" class="relative flex flex-col items-center w-[290px] h-[340px] rounded-lg shadow border border-gray border-opacity-20">
         <div class="flex items-center">
             <button @click="prevMonth" class="absolute left-3 top-3 flex items-center justify-center w-5 h-10 rounded-lg shadow border border-gray border-opacity-20 text-black font-bold py-4 px-4">&lt;</button>
             <h1 x-text="currentMonth" class="text-[25px] font-bold mb-3 mt-3 mx-5">February</h1>
