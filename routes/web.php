@@ -13,6 +13,9 @@ use App\Livewire\BudgetCall;
 use App\Livewire\BUR;
 use App\Livewire\PurchaseOrder;
 use App\Livewire\Amendment;
+use App\Livewire\BurForm;
+use App\Livewire\PurchaseForm;
+use App\Livewire\AmendmentForm;
 use App\Livewire\Appropriations;
 
 
@@ -56,3 +59,9 @@ Route::get('/purchase-order', PurchaseOrder::class);
 Route::get('/appropriations', Appropriations::class);
 
 Route::get('/amendment', Amendment::class);
+
+Route::get('/BUR-form', BurForm::class);
+
+Route::get('/purchase-order-form', PurchaseForm::class);
+
+Route::get('/amendment-form', AmendmentForm::class);
