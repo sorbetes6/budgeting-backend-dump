@@ -1,9 +1,9 @@
-<div>
+<div class="flex flex-col grid grid-cols-1 md:grid-cols-1 sm:grid-cols-1 px-7 py-32">
     <!-- Top Bar -->
-    <div class="flex w-[1420px] mx-[270px] mt-[110px] mb-[10px]">
-        <div class="w-[1420px] mx-[0px] rounded-lg p-4 relative">
+    <div class="flex w-[1420px]">
+        <div class="w-[1420px] rounded-lg p-4 relative">
             <div class="absolute shadow inset-x-0 bottom-0 h-[1px] bg-gray-200"></div>
-            <div class="flex flex-col gap-y-[5px] text-indigo-800 text-[25px] font-extrabold font-['Inter'] leading-5">Maintenance and Other Operating Expenses
+            <div class="flex flex-col gap-y-1.5 text-indigo-800 text-[25px] font-extrabold font-['Inter'] leading-5">Maintenance and Other Operating Expenses
                 <div class="flex flex-row items-center">
                     <label class="text-yellow-700 text-sm font-normal font-['Inter'] leading-loose mr-1">Budget Call Forms ></label>
                     <label class="text-black text-sm font-normal font-['Inter'] leading-loose">Maintenance and Other Operating Expenses Form No.</label>
@@ -16,13 +16,13 @@
     </div>
 
     <!-- Body -->
-    <div class="w-[1420px] h-[620px] mx-[270px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col items-center justify-center overflow-auto">
+    <div class="w-[1420px] h-[620px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col items-center justify-center overflow-auto">
 
-        <!-- Select College/Office --> 
+        <!-- Select College/Office -->
         <div class="w-[280px] p-4 rounded-lg mt-[-10px] mr-[1130px]">
             <!-- Dropdown for different colleges and offices -->
             <button id="dropdownDelayButton" data-dropdown-toggle="dropdownDelay" data-dropdown-delay="500" data-dropdown-trigger="hover" class="text-black bg-gray-800 hover:bg-gray-200 border border-gray-400 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-gray-700" type="button">
-                Select College/Office 
+                Select College/Office
                 <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                 </svg>
@@ -42,7 +42,7 @@
         <!-- Table -->
         <div class="overflow-x-auto h-[480px]">
             <table class="w-[1360px]">
-                
+
                 <!-- Header -->
                 <thead>
                     <tr>

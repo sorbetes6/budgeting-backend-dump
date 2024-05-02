@@ -1,7 +1,7 @@
 <div>
     <div class="flex flex-col sm:flex-row">
         <!-- Statement of Objectives -->
-        <div class="w-[583px] h-[242px] px-6 py-6 bg-white rounded-xl shadow border border-zinc-200">
+        <div class="w-[583px] h-[242px] px-6 py-8 bg-white rounded-xl shadow border border-zinc-200">
             <div class="mt-[-20px] space-y-4" action="#">
                 <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal">Statement of Objectives</label>
                 <!-- Major -->
@@ -17,9 +17,9 @@
             </div>
         </div>
 
-        <div class="flex flex-col">
+        <div class="flex flex-col justify-items-center">
             <!-- Activity/Justification -->
-            <div class="w-[583px] h-[110px] px-6 py-6 bg-white rounded-xl shadow border border-zinc-200 mx-7">
+            <div class="w-[583px] h-[110px] px-6 py-8 bg-white rounded-xl shadow border border-zinc-200 mx-7">
                 <div class="mt-[-20px] space-y-4" action="#">
                     <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal">Activity/Justification</label>
                     <form class="h-24 flex-col justify-start items-start gap-1 flex">
@@ -28,7 +28,7 @@
                 </div>
             </div>
             <!-- Method of Accomplishing Objectives -->
-            <div class="w-[583px] h-[110px] px-6 py-6 bg-white rounded-xl shadow border border-zinc-200 mx-7 mt-5">
+            <div class="w-[583px] h-[110px] px-6 py-8 bg-white rounded-xl shadow border border-zinc-200 mx-7 mt-5">
                 <div class="mt-[-20px] space-y-4" action="#">
                     <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal required">Method of Accomplishing Objectives</label>
                     <form class="h-24 flex-col justify-start items-start gap-1 flex">
@@ -37,11 +37,11 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 
     <div class="flex">
-        
+
         <!-- Item of Expenditures -->
         <div class="w-[583px] px-8 py-6 bg-white rounded-xl shadow border border-zinc-200 my-3">
             <!-- Header -->
