@@ -71,7 +71,7 @@
         </div>
     </div>
     <!-- Recent Activities -->
-    <div class="w-[290px] max-h-xl rounded-lg shadow border border-gray border-opacity-20 md:max-w-xl sm:max-w-2xl">
+    <div class="max-w-full md:w-[290px] md:max-w-xl sm:max-w-2xl rounded-lg shadow border border-gray border-opacity-20">
         <div class="flex items-center border-b-2">
             <img class="w-[18px] h-[18px] ml-3" src="css/images/icon2.png">
             <h1 class="flex items-top justify-left text-[15px] font-bold ml-1 mt-2 mb-2">Recent Activities</h1>
@@ -90,7 +90,7 @@
         <div class="flex items-center h-[75px] border-b-2">
             <div class="ml-[15px]">
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ">Maribeth Solquio</h1>
-                <h2 class="flex items-top justify-left text-[11px] font-bold">Edited Capital Outlay</h2>
+                <h2 class="flex items-top justify-left text-[11px] font-bold">Edited Status of Appropriations</h2>
                 <div class="flex items-top">
                     <h3 class="flex items-top justify-left text-[11px]">15 minutes ago</h3>
                     <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[120px] btn">View form</a>
@@ -100,7 +100,7 @@
         <div class="flex items-center h-[75px] border-b-2">
             <div class="ml-[15px]">
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ">Maribeth Solquio</h1>
-                <h2 class="flex items-top justify-left text-[11px] font-bold">Edited User Info</h2>
+                <h2 class="flex items-top justify-left text-[11px] font-bold">Edited Status of Appropriations</h2>
                 <div class="flex items-top">
                     <h3 class="flex items-top justify-left text-[11px]">15 minutes ago</h3>
                     <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[120px] btn">View form</a>
@@ -110,7 +110,7 @@
         <div class="flex items-center h-[75px]">
             <div class="ml-[15px]">
                 <h1 class="flex items-top justify-left text-[15px] font-extrabold ">Maribeth Solquio</h1>
-                <h2 class="flex items-top justify-left text-[11px] font-bold">Created New PPMP Form </h2>
+                <h2 class="flex items-top justify-left text-[11px] font-bold">Edited Status of Appropriations</h2>
                 <div class="flex items-top">
                     <h3 class="flex items-top justify-left text-[11px]">15 minutes ago</h3>
                     <a href="#" class="flex items-top justify-left text-[11px] text-blue-800 underline ml-[120px] btn">View form</a>
@@ -118,6 +118,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- Status of Appropriations -->
     <div class="flex flex-col max-w-xl max-h-xl rounded-lg shadow border border-gray border-opacity-20">
@@ -140,14 +141,14 @@
         <h2 class="text-[15px] font-extrabold ml-[55px] text-cyan-800">Overall Budget</h2>
     </div>
     <!-- Calendar -->
-    <div x-data="calendarData()" x-init="init()" class="relative flex flex-col items-center w-[290px] h-[340px] rounded-lg shadow border border-gray border-opacity-20 md:max-w-xl sm:max-w-xl">
+    <div x-data="calendarData()" x-init="init()" class="relative flex flex-col items-center max-w-full md:w-[290px] md:max-w-xl rounded-lg shadow border border-gray border-opacity-20 ">
         <div class="flex items-center">
             <button @click="prevMonth" class="absolute left-3 top-3 flex items-center justify-center w-5 h-10 rounded-lg shadow border border-gray border-opacity-20 text-black font-bold py-4 px-4">&lt;</button>
             <h1 x-text="currentMonth" class="text-[25px] font-bold mb-3 mt-3 mx-5">February</h1>
             <button @click="nextMonth" class="absolute right-3 top-3 flex items-center justify-center w-5 h-10 rounded-lg shadow border border-gray border-opacity-20 text-black font-bold py-4 px-4">&gt;</button>
         </div>
         <!-- Calendar Table -->
-        <div class="flex w-[290px] h-[240px] ml-3 mt-7">
+        <div class="flex w-[290px] h-[240px] ml-3 mt-5">
             <table class="calendar-table pt-1">
                 <thead>
                     <tr>
