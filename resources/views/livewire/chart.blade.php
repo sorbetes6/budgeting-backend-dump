@@ -15,15 +15,15 @@
     </div>
     <div class="flex flex-col space-y-4">
         <!-- Budget Call Forms -->
-        <div class="max-w-xl h-48 rounded-lg shadow border border-gray border-opacity-20">
+        <div class="max-w-xl h-48 md:h-48 sm:h-64 rounded-lg shadow border border-gray border-opacity-20 ">
             <!-- Header -->
             <div class="flex items-center px-4 py-1">
                 <img class="w-[30px] h-[30px] mr-2" src="css/images/icon1.png">
                 <h1 class="text-xl font-extrabold text-blue-800">Budget Call Forms</h1>
             </div>
             <!-- 1st Row -->
-            <div class="flex flex-col justify-items-center grid grid-col-3 md:grid-col-3 sm:grid-col-1 gap-x-3 gap-y-2 items-center content-center p-2">
-                <div class="flex grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-x-2 gap-y-2">
+            <div class="flex flex-col justify-items-center grid grid-col-3 md:grid-col-3 sm:grid-col-2 gap-x-3 gap-y-2 items-center content-center p-2">
+                <div class="flex grid grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-x-2 gap-y-2 md:gap-x-2 sm:gap-x-2">
                     <!-- Activity Justification Document -->
                     <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
                         <a href="/activity-justification" class="text-xs text-white btn text-center">Activity Justification Document</a>
@@ -36,9 +36,6 @@
                     <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
                         <a href="/PPMP" class="text-xs text-white btn text-center">Project Procurement Management Plan</a>
                     </div>
-                </div>
-
-                <div class="flex grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-x-2 gap-y-2">
                     <!--Personal Services-->
                     <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
                         <a href="/personal-services" class="text-sm text-white btn text-center">Personal Services</a>
@@ -55,12 +52,12 @@
             </div>
         </div>
         <!-- Payment Request-->
-        <div class="max-w-xl h-36 rounded-lg shadow border border-gray border-opacity-20 justify-items-center">
+        <div class="max-w-xl h-36 md:h-36 sm:h-52 rounded-lg shadow border border-gray border-opacity-20 justify-items-center">
             <div class="flex items-center px-4 py-3">
                 <img class="w-[30px] h-[30px] mr-2" src="css/images/icon1.png">
                 <h1 class="text-xl font-extrabold text-blue-800">Payment Request Forms</h1>
             </div>
-            <div class="flex grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-items-center p-2">
+            <div class="flex grid grid-cols-3 md:grid-cols-3 sm:grid-cols-2 justify-items-center p-2 sm:py-2 md:gap-y-2 sm:gap-y-2 sm:gap-x-2">
                 <div class="flex items-center justify-center w-40 h-14 bg-blue-800 text-sm text-white rounded-md">
                     <a href="/BUR" class="text-sm text-white btn text-center">Budget Utilization Request</a>
                 </div>
@@ -74,7 +71,7 @@
         </div>
     </div>
     <!-- Recent Activities -->
-    <div class="w-[290px] max-h-xl rounded-lg shadow border border-gray border-opacity-20">
+    <div class="w-[290px] max-h-xl rounded-lg shadow border border-gray border-opacity-20 md:max-w-xl sm:max-w-2xl">
         <div class="flex items-center border-b-2">
             <img class="w-[18px] h-[18px] ml-3" src="css/images/icon2.png">
             <h1 class="flex items-top justify-left text-[15px] font-bold ml-1 mt-2 mb-2">Recent Activities</h1>
@@ -143,7 +140,7 @@
         <h2 class="text-[15px] font-extrabold ml-[55px] text-cyan-800">Overall Budget</h2>
     </div>
     <!-- Calendar -->
-    <div x-data="calendarData()" x-init="init()" class="relative flex flex-col items-center w-[290px] h-[340px] rounded-lg shadow border border-gray border-opacity-20">
+    <div x-data="calendarData()" x-init="init()" class="relative flex flex-col items-center w-[290px] h-[340px] rounded-lg shadow border border-gray border-opacity-20 md:max-w-xl sm:max-w-xl">
         <div class="flex items-center">
             <button @click="prevMonth" class="absolute left-3 top-3 flex items-center justify-center w-5 h-10 rounded-lg shadow border border-gray border-opacity-20 text-black font-bold py-4 px-4">&lt;</button>
             <h1 x-text="currentMonth" class="text-[25px] font-bold mb-3 mt-3 mx-5">February</h1>

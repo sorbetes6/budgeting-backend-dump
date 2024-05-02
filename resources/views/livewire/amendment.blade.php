@@ -1,6 +1,6 @@
 <div class="flex flex-col grid grid-cols-1 md:grid-cols-1 sm:grid-cols-1 px-7 py-32">
     <!-- Top Bar -->
-   <div class="flex w-[1420px]">
+    <div class="flex w-[1420px]">
         <div class="w-[1420px] rounded-lg p-4 relative">
             <div class="absolute shadow inset-x-0 bottom-0 h-[1px] bg-gray-200"></div>
             <div class="flex flex-col gap-y-1.5 text-indigo-800 text-[25px] font-extrabold font-['Inter'] leading-5">Amendment
