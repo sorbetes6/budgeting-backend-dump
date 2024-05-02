@@ -1,4 +1,4 @@
-<div class="mx-80 mt-[130px] mb-8">
+<div class="py-28 px-6">
 
     <!-- Header -->
     <div class="text-black text-2xl font-medium font-['Inter'] leading-9 mt-30 mb-4">Appropriations</div>
@@ -714,7 +714,7 @@
             </table>
         </div>
     </div>
-    
+
     <!-- Submit button -->
     <div class="flex flex-row">
         <div class="mt-8 ml-[1235px] bg-indigo-800 rounded-md shadow">

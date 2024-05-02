@@ -9,8 +9,8 @@
                 <img class="h-[40px] ml-2" src="css/images/image 4.png">
             </div>
             <h1 class="text-2xl font-extrabold ml-2 mt-3 mb-3 text-blue-800 z-10 relative">PLM Budget System</h1>
-            <h2 class="text-[55px] font-extrabold ml-2 mb-1 text-blue-800 z-10 relative">Welcome,</h1>
-            <p class= "text-2xl font-bold ml-2 text-cyan-800 z-10 relative">Maribeth Solquio.</p>
+            <h3 class="text-[55px] font-extrabold ml-2 mb-1 text-blue-800 z-10 relative">Welcome,</h3>
+            <h2 class= "text-2xl font-bold ml-2 text-cyan-800 z-10 relative">Maribeth Solquio.</h2>
         </div>
     </div>
     <div class="flex flex-col space-y-4">
@@ -60,21 +60,21 @@
                 <img class="w-[30px] h-[30px] mr-2" src="css/images/icon1.png">
                 <h1 class="text-xl font-extrabold text-blue-800">Payment Request Forms</h1>
             </div>
-            <div class="flex grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-items-center p-2 ">
-                <div class="flex items-center justify-center w-40 h-14 bg-blue-800 text-[13px] text-white rounded-md">
+            <div class="flex grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-items-center p-2">
+                <div class="flex items-center justify-center w-40 h-14 bg-blue-800 text-sm text-white rounded-md">
                     <a href="/BUR" class="text-sm text-white btn text-center">Budget Utilization Request</a>
                 </div>
-                <div class="flex items-center justify-center  w-40 h-14 bg-blue-800 text-[13px] text-white rounded-md ">
+                <div class="flex items-center justify-center  w-40 h-14 bg-blue-800 text-sm text-white rounded-md ">
                     <a href="/purchase-order" class="text-sm text-white btn text-center">Purchase Order</a>
                 </div>
-                <div class="flex items-center justify-center w-40 h-14 bg-blue-800 text-[13px] text-white rounded-md">
+                <div class="flex items-center justify-center w-40 h-14 bg-blue-800 text-sm text-white rounded-md">
                     <a href="/amendment" class="text-sm text-white btn text-center">Amendment Form</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Recent Activities -->
-    <div class="w-[290px] h-[340px] rounded-lg shadow border border-gray border-opacity-20">
+    <div class="w-[290px] max-h-xl rounded-lg shadow border border-gray border-opacity-20">
         <div class="flex items-center border-b-2">
             <img class="w-[18px] h-[18px] ml-3" src="css/images/icon2.png">
             <h1 class="flex items-top justify-left text-[15px] font-bold ml-1 mt-2 mb-2">Recent Activities</h1>
