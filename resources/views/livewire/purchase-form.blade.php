@@ -1,4 +1,4 @@
-<div class="mx-80 my-32">
+<div class="px-6 py-32">
 
     <!-- Title Header -->
     <div class="text-black text-2xl font-medium font-['Inter'] leading-9 mt-30 ">Purchase Order</div>

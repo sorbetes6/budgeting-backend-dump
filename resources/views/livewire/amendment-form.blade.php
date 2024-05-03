@@ -1,6 +1,6 @@
-<div class="mx-80 my-32 space-y-5">
+<div class="px-6 py-32">
     <!-- Header -->
-    <div class="text-black text-2xl font-medium font-['Inter'] leading-9 my-30">Amendment</div>
+    <div class="text-black text-2xl font-medium font-['Inter'] leading-9">Amendment</div>
 
     <!-- 1st COntainer -->
     <div class="flex flex-col sm:flex-row sm:gap-x-6 sm:my-10">
