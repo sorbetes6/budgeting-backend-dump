@@ -16,28 +16,24 @@
     </div>
 
     <!-- Body -->
-    <div class="w-[1420px] h-[620px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col items-center justify-center overflow-auto">
+    <div class="w-[1420px] h-[620px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col justify-center overflow-auto">
+        <!-- SY & College -->
+        <div class="py-1 px-3 rounded-lg space-y-2">
+            <select id="school-year" name="schoolYear" class="text-black text-sm font-normal font-inter leading-tight w-32 h-10 pl-2 py-1 bg-white rounded-lg border border-zinc-300 justify-start items-center gap-3 inline-flex">
+                <option disabled selected>School Year</option>
+                <option value="progress-approved">Approved</option>
+                <option value="progress-pending">Pending</option>
+                <option value="progress-rejected">Rejected</option>
+            </select>
 
-        <!-- Select College/Office -->
-        <div class="w-[280px] p-4 rounded-lg mt-[-50px] mr-[1130px]">
-            <!-- Dropdown for different colleges and offices -->
-            <button id="dropdownDelayButton" data-dropdown-toggle="dropdownDelay" data-dropdown-delay="500" data-dropdown-trigger="hover" class="text-black bg-gray-800 hover:bg-gray-200 border border-gray-400 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-gray-700" type="button">
-                Select College/Office
-                <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                </svg>
-            </button>
-            <div id="dropdownDelay" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                <ul class="py-2 text-sm text-black dark:text-gray-200" aria-labelledby="dropdownDelayButton">
-                    <li>
-                        <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">College/Office 1</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">College/Office 2</a>
-                    </li>
-                </ul>
-            </div>
+            <select id="college_office" name="college_office" class="block w-56 h-10 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" style="text-indent: 10px;">
+                <option disabled selected>Select College/Office</option>
+                <option value="College 1">College 1</option>
+                <option value="College 2">College 2</option>
+                <option value="">...</option>
+            </select>
         </div>
+
 
         <!-- Table -->
         <div class="overflow-x-auto h-[480px] p-4 rounded-lg mt-[-10px] mr-4">
