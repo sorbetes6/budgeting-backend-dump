@@ -10,14 +10,14 @@
                     <label class="text-black text-sm font-normal font-['Inter'] leading-loose">Personal Services Form No.</label>
                 </div>
                 <div class="flex ml-[835px] mt-[-50px] items-start">
-                    @include('livewire.import-export-add-buttons')
+                    @include('components\layouts.import-export-add-buttons')
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Body -->
-    <div class="w-[1420px] h-[620px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col justify-center overflow-auto">
+    <div class="w-[1420px] h-[620px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col justify-center overflow-auto z-30">
 
         <!-- SY & College -->
         <div class="py-4 px-3 rounded-lg space-y-2 justify-items-start">
@@ -38,7 +38,7 @@
 
 
         <!-- Table -->
-        <div class="overflow-x-auto max-h-xl place-self-center items-center py-3">
+        <div class="overflow-x-auto max-h-xl place-self-center items-center py-3 z-30">
             <table class="w-[1360px]">
 
                 <!-- Header -->
@@ -88,14 +88,14 @@
                                         <ul class="py-2 text-sm text-gray-900 dark:text-gray-200" aria-labelledby="dropdownMenuIconButton">
                                             <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
                                                 <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    @include('livewire.edit-modal')
+                                                    @include('components\layouts.edit-modal')
                                                 </div>
                                             </li>
 
                                             <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
                                                 <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
                                                     <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                    @include('livewire.delete-modal')
+                                                    @include('components\layouts.delete-modal')
                                                     </div>
                                                 </div>
                                             </li>

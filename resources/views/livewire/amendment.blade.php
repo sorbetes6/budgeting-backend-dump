@@ -9,7 +9,7 @@
                     <label class="text-black text-sm font-normal font-['Inter'] leading-loose">Amendment Form No.</label>
                 </div>
                 <div class="flex ml-[835px] mt-[-50px] items-start">
-                    @include('livewire.amendment-import-export-add')
+                    @include('components\layouts.amendment-import-export-add')
                 </div>
             </div>
         </div>
