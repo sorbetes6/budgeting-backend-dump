@@ -8,9 +8,4 @@
     color: red;
 }
 
-@media (max-width: 640px) {
-    .hidden.sm\:block {
-        display: none;
-    }
-}
 

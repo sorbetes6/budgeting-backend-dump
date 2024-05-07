@@ -1,4 +1,4 @@
-<div class="flex flex-col grid grid-cols-1 md:grid-cols-1 sm:grid-cols-1 px-7 py-32">
+<div class="flex-col grid grid-cols-1 md:grid-cols-1 sm:grid-cols-1 px-7 py-32">
 
     <!-- Top Bar -->
     <div class="flex w-[1420px]">
@@ -38,7 +38,7 @@
 
 
         <!-- Table -->
-        <div class="overflow-x-auto max-h-xl place-self-center items-center py-3 z-30">
+        <div class="overflow-x-auto max-h-xl place-self-center items-center py-3 z-50">
             <table class="w-[1360px]">
 
                 <!-- Header -->
@@ -77,25 +77,24 @@
                                     Item of Expenditures
                                 </div>
                                 <!-- Dropdown -->
-                                <div>
-                                    <button id="dropdownMenuIconButton" data-dropdown-toggle="dropdownDots1" class="inline-flex items-center text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus:ring-gray-200" type="button">
+                                <div class="relative" x-data="{ open: false }">
+                                    <button @click="open = true" id="dropdownMenuIconButton" class="inline-flex items-center text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus:ring-gray-200" type="button">
                                         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 4 15">
                                             <path d="M3.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6.041a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 5.959a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
                                         </svg>
                                     </button>
                                     <!-- Menu -->
-                                    <div id="dropdownDots1" class="relative right-0 mt-2 bg-white divide-y divide-gray-800 rounded-lg shadow w-32 dark:bg-gray-700 dark:divide-gray-600 hidden items-center">
+                                    <div class="absolute right-0 mt-2 bg-white divide-y divide-gray-800 rounded-lg shadow w-32 dark:bg-gray-700 dark:divide-gray-600 z-10" x-show="open" @click.away="open = false">
                                         <ul class="py-2 text-sm text-gray-900 dark:text-gray-200" aria-labelledby="dropdownMenuIconButton">
                                             <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
+                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex z-50">
                                                     @include('components\layouts.edit-modal')
                                                 </div>
                                             </li>
-
                                             <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
                                                 <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
                                                     <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                    @include('components\layouts.delete-modal')
+                                                        @include('components\layouts.delete-modal')
                                                     </div>
                                                 </div>
                                             </li>

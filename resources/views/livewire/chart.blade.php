@@ -1,4 +1,4 @@
-<div class="flex-col grid grid-cols-2 md:grid-cols-3 sm:grid-cols-1 gap-4 px-6 py-32">
+<div class="flex-col grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-4 px-6 py-32">
     <!-- WELCOME! -->
     <div class="relative max-w-xl max-h-xl rounded-lg shadow border border-gray border-opacity-50 bg-cover bg-center">
         <div class="absolute inset-0 rounded-lg"></div>
