@@ -35,7 +35,12 @@
             <form class="space-y-2" action="#">
                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Office</label>
                 <form class="flex-grow-0 flex-shrink-0">
-                    <input type="text" id="bur-office" class="w-[200px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
+                    <select id="bur-office" name="burOffice" class="w-[200px] h-8 px-3 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight">
+                        <option disabled selected>Office</option>
+                        <option value="progress-approved">2023</option>
+                        <option value="progress-pending">2022</option>
+                        <option value="progress-rejected">2021</option>
+                    </select>
                 </form>
             </form>
         </div>
