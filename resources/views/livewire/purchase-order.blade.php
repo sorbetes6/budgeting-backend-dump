@@ -1,4 +1,4 @@
-<div class="flex flex-col grid grid-cols-1 md:grid-cols-1 sm:grid-cols-1 px-7 py-32">
+<div class="flex-col grid-cols-1 md:grid-cols-1 sm:grid-cols-1 px-7 py-32">
     <!-- Top Bar -->
     <div class="flex w-[1420px]">
         <div class="w-[1420px] rounded-lg p-4 relative">

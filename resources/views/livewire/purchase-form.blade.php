@@ -212,7 +212,7 @@
             <!-- Amount: -->
             <form class="space-y-2" action="#">
                 <div class="flex flex-col gap-y-3">
-                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Ammount:</label>
+                    <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Amount:</label>
                     <input type="text" id="purchase-ammount-1-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-ammount-1" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
                 </div>
             </form>
