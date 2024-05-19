@@ -25,27 +25,27 @@
             <div class="flex-col justify-items-center grid grid-col-3 md:grid-col-2 sm:grid-col-2 gap-x-3 gap-y-2 items-center content-center p-2">
                 <div class="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-x-2 gap-y-2 md:gap-x-2 sm:gap-x-2">
                     <!-- Activity Justification Document -->
-                    <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
+                    <div class="flex items-center justify-center w-30 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
                         <a href="/activity-justification" class="text-xs text-white btn text-center">Activity Justification Document</a>
                     </div>
                     <!-- Personnel Schedule -->
-                    <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
+                    <div class="flex items-center justify-center w-30 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
                         <a href="/personnel-schedule" class="text-sm text-white btn text-center">Personnel Schedule</a>
                     </div>
                     <!-- Project Procurement Management Plan -->
-                    <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
+                    <div class="flex items-center justify-center w-30 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
                         <a href="/PPMP" class="text-xs text-white btn text-center">Project Procurement Management Plan</a>
                     </div>
                     <!--Personal Services-->
-                    <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
+                    <div class="flex items-center justify-center w-30 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
                         <a href="/personal-services" class="text-sm text-white btn text-center">Personal Services</a>
                     </div>
                     <!-- Maintenance and Other Operating Expenses -->
-                    <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
+                    <div class="flex items-center justify-center w-30 h-[60px] bg-blue-800 text-[13px] text-white rounded-md ">
                         <a href="/MOOE" class="text-xs text-white btn text-center">Maintenance and Other Operating Expenses</a>
                     </div>
                     <!-- Capital Outlay -->
-                    <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md">
+                    <div class="flex items-center justify-center w-30 h-[60px] bg-blue-800 text-[13px] text-white rounded-md">
                         <a href="/capital-outlay" class="text-sm text-white btn text-center">Capital Outlay</a>
                     </div>
                 </div>
@@ -58,13 +58,13 @@
                 <h1 class="text-xl font-extrabold text-blue-800">Payment Request Forms</h1>
             </div>
             <div class="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-items-center p-2 sm:py-2 md:gap-y-2 sm:gap-y-2 sm:gap-x-2">
-                <div class="flex items-center justify-center w-40 h-14 bg-blue-800 text-sm text-white rounded-md">
+                <div class="flex items-center justify-center w-30 h-14 bg-blue-800 text-sm text-white rounded-md">
                     <a href="/BUR" class="text-sm text-white btn text-center">Budget Utilization Request</a>
                 </div>
-                <div class="flex items-center justify-center  w-40 h-14 bg-blue-800 text-sm text-white rounded-md ">
+                <div class="flex items-center justify-center  w-[140px] h-14 bg-blue-800 text-sm text-white rounded-md ">
                     <a href="/purchase-order" class="text-sm text-white btn text-center">Purchase Order</a>
                 </div>
-                <div class="flex items-center justify-center w-40 h-14 bg-blue-800 text-sm text-white rounded-md">
+                <div class="flex items-center justify-center w-[140px] h-14 bg-blue-800 text-sm text-white rounded-md">
                     <a href="/amendment" class="text-sm text-white btn text-center">Amendment Form</a>
                 </div>
             </div>
