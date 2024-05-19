@@ -20,12 +20,9 @@
 
         <!-- SY & College -->
         <div class="py-4 px-3 rounded-lg space-y-2 justify-items-start">
-            <select id="school-year" name="schoolYear" class="text-black text-sm font-normal font-inter leading-tight w-32 h-10 pl-2 py-1 bg-white rounded-lg border border-zinc-300 justify-start items-center gap-3 inline-flex">
-                <option disabled selected>School Year</option>
-                <option value="progress-approved">Approved</option>
-                <option value="progress-pending">Pending</option>
-                <option value="progress-rejected">Rejected</option>
-            </select>
+            <div class="justify-start items-center gap-0.5 flex">
+                <div class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">School Year 2023</div>
+            </div>
 
             <select id="college_office" name="college_office" class="block w-56 h-10 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" style="text-indent: 10px;">
                 <option disabled selected>Select College/Office</option>
@@ -42,11 +39,16 @@
                 <!-- Header -->
                 <thead>
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"></td>
-                        <td class="w-[195px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Account Code</strong></td>
-                        <td class="w-[400px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Item of Expenditures</strong></td>
-                        <td class="w-[250px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Proposed Budget 2024</strong></td>
-                        <td class="w-[620px] border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Justification</strong></td>
+                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
+                            <label>
+                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
+                                <div class="checkmark"></div>
+                            </label>
+                        </td>
+                        <td class="w-[195px] text-black text-center text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Account Code</strong></td>
+                        <td class="w-[400px] text-black text-center text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Item of Expenditures</strong></td>
+                        <td class="w-[250px] text-black text-center text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Proposed Budget "Year"</strong></td>
+                        <td class="w-[620px] text-black text-center text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Justification</strong></td>
                     </tr>
                 </thead>
 
@@ -833,19 +835,15 @@
                         </td>
                     </tr>
                 </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="px-6 py-4 whitespace-nowrap text-right font-semibold text-black items-center">Total Capital Outlay</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-black text-center">Total Value</td>
+                        <td></td>
+                    </tr>
+                </tfoot>
             </table>
-
-            <!-- Total -->
-            <div class="w-[700px] flex justify-start items-center mt-[20px] ml-[180px]">
-                <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal text-center">Total Capital Outlay:</label>
-                <div class="flex-shrink-0 px-3 py-2 ml-2 items-center gap-2 inline-flex">
-                    <input type="text" id="capital-records-total" class="w-44 h-8 rounded-md shadow border-transparent bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
-                </div>
-            </div>
         </div>
-
-
-
     </div>
 
 </div>

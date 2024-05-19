@@ -1,11 +1,11 @@
 <div class="flex flex-row grow justify-end gap-x-2 my-[1px]">
 
     <!-- Progress -->
-    <select id="records-progress" name="progress-type" class="text-black text-sm font-normal font-inter leading-tight w-32 h-10 pl-2 py-1 bg-white rounded-lg border border-zinc-300 justify-start items-center gap-3 inline-flex">
-        <option disabled selected>Progress</option>
-        <option value="progress-approved">Approved</option>
-        <option value="progress-pending">Pending</option>
-        <option value="progress-rejected">Rejected</option>
+    <select id="school-year" name="schoolYear" class="text-black text-sm font-normal font-inter leading-tight w-20 h-10 pl-2 py-1 bg-white rounded-lg border border-zinc-300 justify-start items-center gap-3 inline-flex">
+        <option disabled selected>Year</option>
+        <option value="progress-approved">2023</option>
+        <option value="progress-pending">2022</option>
+        <option value="progress-rejected">2021</option>
     </select>
 
     <!-- Import Modal toggle -->

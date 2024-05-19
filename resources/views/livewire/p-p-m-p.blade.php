@@ -16,472 +16,131 @@
     </div>
 
     <!-- Body -->
-    <div class="w-[1420px] h-[620px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col items-center justify-center overflow-auto">
+    <div class="w-[1420px] h-[620px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col justify-center overflow-auto">
 
-        <!-- Select College/Office -->
-        <div class="w-[280px] p-4 rounded-lg mt-[-50px] mr-[1130px]">
-            <!-- Dropdown for different colleges and offices -->
-            <button id="dropdownDelayButton" data-dropdown-toggle="dropdownDelay" data-dropdown-delay="500" data-dropdown-trigger="hover" class="text-black bg-gray-800 hover:bg-gray-200 border border-gray-400 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-gray-700" type="button">
-                Select College/Office
-                <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                </svg>
-            </button>
-            <div id="dropdownDelay" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                <ul class="py-2 text-sm text-black dark:text-gray-200" aria-labelledby="dropdownDelayButton">
-                    <li>
-                        <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">College/Office 1</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">College/Office 2</a>
-                    </li>
-                </ul>
+        <!-- SY & College -->
+        <div class="py-4 px-3 rounded-lg space-y-2 justify-items-start">
+            <div class="justify-start items-center gap-0.5 flex">
+                <div class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">School Year 2023</div>
             </div>
+
+            <select id="college_office" name="college_office" class="block w-56 h-10 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" style="text-indent: 10px;">
+                <option disabled selected>Select College/Office</option>
+                <option value="College 1">College 1</option>
+                <option value="College 2">College 2</option>
+                <option value="">...</option>
+            </select>
         </div>
 
         <!-- Table -->
         <div class="h-[480px] p-4 rounded-lg mt-[-10px] mr-4">
-            <table class="w-[1360px]">
-
-                <!-- 1st Header -->
+            <table class="min-w-full divide-y divide-gray-200 border border-slate-300">
                 <thead>
-                    <tr>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle"></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[160px]"><strong style="font-weight: 900;">Type of  <br> Contract</strong></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[160px]"><strong style="font-weight: 900;">Account <br> Title</strong></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[160px]"><strong style="font-weight: 900;">Account  <br> Code</strong></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[160px]"><strong style="font-weight: 900;">Item/Name</strong></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[180px]"><strong style="font-weight: 900;">Description</strong></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[160px]"><strong style="font-weight: 900;">Quantity</strong></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[160px]"><strong style="font-weight: 900;">Unit of  <br> Issue</strong></td>
-                    </tr>
+                <tr>
+                    <th scope="col" class="px-6 text-left text-xs font-medium text-black tracking-wider border-x border-slate-300"></th>
+                    <th scope="col" class="px-6 text-left text-xs font-medium text-black tracking-wider border-x border-slate-300">Type of Contract</th>
+                    <th scope="col" class="px-6 text-left text-xs font-medium text-black tracking-wider border-x border-slate-300">Account Title</th>
+                    <th scope="col" class="px-6 text-left text-xs font-medium text-black tracking-wider border-x border-slate-300">Account Code</th>
+                    <th scope="col" class="px-6 text-left text-xs font-medium text-black tracking-wider border-x border-slate-300">Item/Name</th>
+                    <th scope="col" class="px-6 text-left text-xs font-medium text-black tracking-wider border-x border-slate-300">Description/Specification Scope of Work</th>
+                    <th scope="col" class="px-6 text-left text-xs font-medium text-black tracking-wider border-x border-slate-300">Qty</th>
+                    <th scope="col" class="px-6 text-left text-xs font-medium text-black tracking-wider border-x border-slate-300">Unit of Issue</th>
+                    <th scope="col" class="px-6 text-left text-xs font-medium text-black tracking-wider border-x border-slate-300">Estimated Budget</th>
+                    <th scope="col" class="px-6 text-left text-xs font-medium text-black tracking-wider border-x border-slate-300">Procurement Method</th>
+                    <th scope="col" class="py-3 text-xs font-medium text-black tracking-wider text-center">Delivery/Implementation Schedule
+                        <table>
+                            <tr>
+                                <td class="col-xs-1 px-6 text-left text-xs font-medium text-black uppercase tracking-wider border-x border-t border-slate-300">J</td>
+                                <td class="col-xs-1 px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider border-x border-t border-slate-300">F</td>
+                                <td class="col-xs-1 px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider border-x border-t border-slate-300">M</td>
+                                <td class="col-xs-1 px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider border-x border-t border-slate-300">A</td>
+                                <td class="col-xs-1 px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider border-x border-t border-slate-300">M</td>
+                                <td class="col-xs-1 px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider border-x border-t border-slate-300">J</td>
+                                <td class="col-xs-1 px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider border-x border-t border-slate-300">J</td>
+                                <td class="col-xs-1 px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider border-x border-t border-slate-300">A</td>
+                                <td class="col-xs-1 px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider border-x border-t border-slate-300">S</td>
+                                <td class="col-xs-1 px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider border-x border-t border-slate-300">O</td>
+                                <td class="col-xs-1 px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider border-x border-t border-slate-300">N</td>
+                                <td class="col-xs-1 px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider border-x border-t border-slate-300">D</td>
+                            </tr>
+                        </table>
+                    </th>
+                    <th scope="col" class="relative px-6 py-3">
+                    <span class="sr-only">Edit</span>
+                    </th>
+                </tr>
                 </thead>
-
-                <!-- 1st Body -->
-                <tbody>
-
-                    <!-- 1st Row -->
+                <tbody class="bg-white divide-y divide-gray-200">
                     <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
-                            <label>
-                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
-                                <div class="checkmark"></div>
-                            </label>
+                        <td class="px-6 py-4 whitespace-nowrap">
+                        <input type="checkbox" class="form-checkbox h-4 w-4 text-indigo-600 transition duration-150 ease-in-out">
                         </td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">Description</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">Description</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">000</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">Description</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">Description</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">000</td>
-                        <td class="border border-gray-300 px-4 py-2 text-start align-middle">
-                            <div class="flex items-center">
-                                <div class="text-center flex-grow">
-                                    Description
-                                </div>
-                                <!-- Dropdown -->
-                                <div>
-                                    <button id="dropdownMenuIconButton" data-dropdown-toggle="dropdownDots1" class="inline-flex items-center text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus:ring-gray-200" type="button">
-                                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 4 15">
-                                            <path d="M3.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6.041a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 5.959a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
-                                        </svg>
-                                    </button>
-                                    <!-- Menu -->
-                                    <div id="dropdownDots1" class="absolute right-0 mt-2 bg-white divide-y divide-gray-800 rounded-lg shadow w-32 dark:bg-gray-700 dark:divide-gray-600 hidden items-center">
-                                        <ul class="py-2 text-sm text-gray-900 dark:text-gray-200 z-auto" aria-labelledby="dropdownMenuIconButton">
-                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
-                                                            <g clip-path="url(#clip0_4744_10818)">
-                                                                <path d="M10.1823 1.78801C10.3262 1.64407 10.4971 1.52988 10.6852 1.45198C10.8733 1.37408 11.0748 1.33398 11.2784 1.33398C11.482 1.33398 11.6835 1.37408 11.8716 1.45198C12.0597 1.52988 12.2306 1.64407 12.3745 1.78801C12.5185 1.93195 12.6326 2.10284 12.7105 2.29091C12.7884 2.47898 12.8285 2.68056 12.8285 2.88412C12.8285 3.08769 12.7884 3.28927 12.7105 3.47734C12.6326 3.66541 12.5185 3.8363 12.3745 3.98024L4.97574 11.379L1.96143 12.2011L2.78351 9.18678L10.1823 1.78801Z" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_4744_10818">
-                                                                    <rect width="13.1534" height="13.1534" fill="white" transform="translate(0.865234 0.144531)"/>
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Edit</a>
-                                                    </div>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300">
+                            <table>
+                                <tr>
+                                    <td class="px-6 text-sm text-black border border-slate-300"></td>
+                                    <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                                    <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                                    <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                                    <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                                    <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                                    <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                                    <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                                    <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                                    <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                                    <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                                    <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                                </tr>
+                            </table>
+                        </td>
+                        
+                        <td class="px-6 py-4 text-right text-sm font-medium">
+                            <!-- Dropdown -->
+                            <div class="relative" x-data="{ open: false }">
+                                <button @click="open = true" id="dropdownMenuIconButton" class="inline-flex items-center text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus:ring-gray-200" type="button">
+                                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 4 15">
+                                        <path d="M3.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6.041a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 5.959a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
+                                    </svg>
+                                </button>
+                                <!-- Menu -->
+                                <div class="absolute right-0 mt-2 bg-white divide-y divide-gray-800 rounded-lg shadow w-32 dark:bg-gray-700 dark:divide-gray-600 z-10" x-show="open" @click.away="open = false">
+                                    <ul class="py-2 text-sm text-gray-900 dark:text-gray-200" aria-labelledby="dropdownMenuIconButton">
+                                        <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
+                                            <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex z-50">
+                                                @include('components\layouts.edit-modal')
+                                            </div>
+                                        </li>
+                                        <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
+                                            <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
+                                                <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
+                                                    @include('components\layouts.delete-modal')
                                                 </div>
-                                            </li>
-
-                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                            <path d="M2.50928 4.27426H12.3743M11.2782 4.27426V11.9471C11.2782 12.4951 10.7301 13.0432 10.1821 13.0432H4.70151C4.15345 13.0432 3.60539 12.4951 3.60539 11.9471V4.27426M5.24956 4.27426V3.17815C5.24956 2.63009 5.79762 2.08203 6.34568 2.08203H8.53791C9.08597 2.08203 9.63402 2.63009 9.63402 3.17815V4.27426" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Delete</a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </td>
                     </tr>
-                    <tr>
-
-                    <!-- 2nd Row -->
-                    <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
-                            <label>
-                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
-                                <div class="checkmark"></div>
-                            </label>
-                        </td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">Description</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">Description</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">000</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">Description</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">Description</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">000</td>
-                        <td class="border border-gray-300 px-4 py-2 text-start align-middle">
-                            <div class="flex items-center">
-                                <div class="text-center flex-grow">
-                                    Description
-                                </div>
-                                <!-- Dropdown -->
-                                <div>
-                                    <button id="dropdownMenuIconButton" data-dropdown-toggle="dropdownDots2" class="inline-flex items-center text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus:ring-gray-200" type="button">
-                                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 4 15">
-                                            <path d="M3.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6.041a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 5.959a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
-                                        </svg>
-                                    </button>
-                                    <!-- Menu -->
-                                    <div id="dropdownDots2" class="absolute right-0 mt-2 bg-white divide-y divide-gray-800 rounded-lg shadow w-32 dark:bg-gray-700 dark:divide-gray-600 hidden items-center">
-                                        <ul class="py-2 text-sm text-gray-900 dark:text-gray-200 z-auto" aria-labelledby="dropdownMenuIconButton">
-                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
-                                                            <g clip-path="url(#clip0_4744_10818)">
-                                                                <path d="M10.1823 1.78801C10.3262 1.64407 10.4971 1.52988 10.6852 1.45198C10.8733 1.37408 11.0748 1.33398 11.2784 1.33398C11.482 1.33398 11.6835 1.37408 11.8716 1.45198C12.0597 1.52988 12.2306 1.64407 12.3745 1.78801C12.5185 1.93195 12.6326 2.10284 12.7105 2.29091C12.7884 2.47898 12.8285 2.68056 12.8285 2.88412C12.8285 3.08769 12.7884 3.28927 12.7105 3.47734C12.6326 3.66541 12.5185 3.8363 12.3745 3.98024L4.97574 11.379L1.96143 12.2011L2.78351 9.18678L10.1823 1.78801Z" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_4744_10818">
-                                                                    <rect width="13.1534" height="13.1534" fill="white" transform="translate(0.865234 0.144531)"/>
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Edit</a>
-                                                    </div>
-                                                </div>
-                                            </li>
-
-                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                            <path d="M2.50928 4.27426H12.3743M11.2782 4.27426V11.9471C11.2782 12.4951 10.7301 13.0432 10.1821 13.0432H4.70151C4.15345 13.0432 3.60539 12.4951 3.60539 11.9471V4.27426M5.24956 4.27426V3.17815C5.24956 2.63009 5.79762 2.08203 6.34568 2.08203H8.53791C9.08597 2.08203 9.63402 2.63009 9.63402 3.17815V4.27426" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Delete</a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-
-                    <!-- 3rd Row -->
-                    <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
-                            <label>
-                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
-                                <div class="checkmark"></div>
-                            </label>
-                        </td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">Description</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">Description</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">000</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">Description</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">Description</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">000</td>
-                        <td class="border border-gray-300 px-4 py-2 text-start align-middle">
-                            <div class="flex items-center">
-                                <div class="text-center flex-grow">
-                                    Description
-                                </div>
-                                <!-- Dropdown -->
-                                <div>
-                                    <button id="dropdownMenuIconButton" data-dropdown-toggle="dropdownDots3" class="inline-flex items-center text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus:ring-gray-200" type="button">
-                                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 4 15">
-                                            <path d="M3.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6.041a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 5.959a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
-                                        </svg>
-                                    </button>
-                                    <!-- Menu -->
-                                    <div id="dropdownDots3" class="absolute right-0 mt-2 bg-white divide-y divide-gray-800 rounded-lg shadow w-32 dark:bg-gray-700 dark:divide-gray-600 hidden items-center">
-                                        <ul class="py-2 text-sm text-gray-900 dark:text-gray-200 z-auto" aria-labelledby="dropdownMenuIconButton">
-                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
-                                                            <g clip-path="url(#clip0_4744_10818)">
-                                                                <path d="M10.1823 1.78801C10.3262 1.64407 10.4971 1.52988 10.6852 1.45198C10.8733 1.37408 11.0748 1.33398 11.2784 1.33398C11.482 1.33398 11.6835 1.37408 11.8716 1.45198C12.0597 1.52988 12.2306 1.64407 12.3745 1.78801C12.5185 1.93195 12.6326 2.10284 12.7105 2.29091C12.7884 2.47898 12.8285 2.68056 12.8285 2.88412C12.8285 3.08769 12.7884 3.28927 12.7105 3.47734C12.6326 3.66541 12.5185 3.8363 12.3745 3.98024L4.97574 11.379L1.96143 12.2011L2.78351 9.18678L10.1823 1.78801Z" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_4744_10818">
-                                                                    <rect width="13.1534" height="13.1534" fill="white" transform="translate(0.865234 0.144531)"/>
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Edit</a>
-                                                    </div>
-                                                </div>
-                                            </li>
-
-                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                            <path d="M2.50928 4.27426H12.3743M11.2782 4.27426V11.9471C11.2782 12.4951 10.7301 13.0432 10.1821 13.0432H4.70151C4.15345 13.0432 3.60539 12.4951 3.60539 11.9471V4.27426M5.24956 4.27426V3.17815C5.24956 2.63009 5.79762 2.08203 6.34568 2.08203H8.53791C9.08597 2.08203 9.63402 2.63009 9.63402 3.17815V4.27426" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Delete</a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-
-                    <!-- Second Header -->
-                    <tr>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle"></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[160px]"><strong style="font-weight: 900;">Unit Price</strong></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[160px]"><strong style="font-weight: 900;">Estimated Budget</strong></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[160px]" colspan="4"><strong style="font-weight: 900;">Delivery/Implementation Schedule</strong></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle w-[160px]"><strong style="font-weight: 900;">Procurement Method</strong></td>
-
-                    </tr>
-
-                    <!-- 1st Row -->
-                    <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
-                            <label>
-                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
-                                <div class="checkmark"></div>
-                            </label>
-                        </td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">1,000.00</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle" colspan="4">January (1)</td>
-                        <td class="border border-gray-300 px-4 py-2 text-start align-middle">
-                            <div class="flex items-center">
-                                <div class="text-center flex-grow">
-                                    1,000,000
-                                </div>
-                                <!-- Dropdown -->
-                                <div>
-                                    <button id="dropdownMenuIconButton" data-dropdown-toggle="dropdownDots4" class="inline-flex items-center text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus:ring-gray-200" type="button">
-                                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 4 15">
-                                            <path d="M3.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6.041a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 5.959a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
-                                        </svg>
-                                    </button>
-                                    <!-- Menu -->
-                                    <div id="dropdownDots4" class="absolute right-0 mt-2 bg-white divide-y divide-gray-800 rounded-lg shadow w-32 dark:bg-gray-700 dark:divide-gray-600 hidden items-center">
-                                        <ul class="py-2 text-sm text-gray-900 dark:text-gray-200 z-auto" aria-labelledby="dropdownMenuIconButton">
-                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
-                                                            <g clip-path="url(#clip0_4744_10818)">
-                                                                <path d="M10.1823 1.78801C10.3262 1.64407 10.4971 1.52988 10.6852 1.45198C10.8733 1.37408 11.0748 1.33398 11.2784 1.33398C11.482 1.33398 11.6835 1.37408 11.8716 1.45198C12.0597 1.52988 12.2306 1.64407 12.3745 1.78801C12.5185 1.93195 12.6326 2.10284 12.7105 2.29091C12.7884 2.47898 12.8285 2.68056 12.8285 2.88412C12.8285 3.08769 12.7884 3.28927 12.7105 3.47734C12.6326 3.66541 12.5185 3.8363 12.3745 3.98024L4.97574 11.379L1.96143 12.2011L2.78351 9.18678L10.1823 1.78801Z" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_4744_10818">
-                                                                    <rect width="13.1534" height="13.1534" fill="white" transform="translate(0.865234 0.144531)"/>
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Edit</a>
-                                                    </div>
-                                                </div>
-                                            </li>
-
-                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                            <path d="M2.50928 4.27426H12.3743M11.2782 4.27426V11.9471C11.2782 12.4951 10.7301 13.0432 10.1821 13.0432H4.70151C4.15345 13.0432 3.60539 12.4951 3.60539 11.9471V4.27426M5.24956 4.27426V3.17815C5.24956 2.63009 5.79762 2.08203 6.34568 2.08203H8.53791C9.08597 2.08203 9.63402 2.63009 9.63402 3.17815V4.27426" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Delete</a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-
-                    <!-- 2nd Row -->
-                    <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
-                            <label>
-                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
-                                <div class="checkmark"></div>
-                            </label>
-                        </td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">1,000.00</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle" colspan="4">July (7)</td>
-                        <td class="border border-gray-300 px-4 py-2 text-start align-middle">
-                            <div class="flex items-center">
-                                <div class="text-center flex-grow">
-                                    1,000,000
-                                </div>
-                                <!-- Dropdown -->
-                                <div>
-                                    <button id="dropdownMenuIconButton" data-dropdown-toggle="dropdownDots5" class="inline-flex items-center text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus:ring-gray-200" type="button">
-                                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 4 15">
-                                            <path d="M3.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6.041a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 5.959a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
-                                        </svg>
-                                    </button>
-                                    <!-- Menu -->
-                                    <div id="dropdownDots5" class="absolute right-0 mt-2 bg-white divide-y divide-gray-800 rounded-lg shadow w-32 dark:bg-gray-700 dark:divide-gray-600 hidden items-center">
-                                        <ul class="py-2 text-sm text-gray-900 dark:text-gray-200 z-auto" aria-labelledby="dropdownMenuIconButton">
-                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
-                                                            <g clip-path="url(#clip0_4744_10818)">
-                                                                <path d="M10.1823 1.78801C10.3262 1.64407 10.4971 1.52988 10.6852 1.45198C10.8733 1.37408 11.0748 1.33398 11.2784 1.33398C11.482 1.33398 11.6835 1.37408 11.8716 1.45198C12.0597 1.52988 12.2306 1.64407 12.3745 1.78801C12.5185 1.93195 12.6326 2.10284 12.7105 2.29091C12.7884 2.47898 12.8285 2.68056 12.8285 2.88412C12.8285 3.08769 12.7884 3.28927 12.7105 3.47734C12.6326 3.66541 12.5185 3.8363 12.3745 3.98024L4.97574 11.379L1.96143 12.2011L2.78351 9.18678L10.1823 1.78801Z" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_4744_10818">
-                                                                    <rect width="13.1534" height="13.1534" fill="white" transform="translate(0.865234 0.144531)"/>
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Edit</a>
-                                                    </div>
-                                                </div>
-                                            </li>
-
-                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                            <path d="M2.50928 4.27426H12.3743M11.2782 4.27426V11.9471C11.2782 12.4951 10.7301 13.0432 10.1821 13.0432H4.70151C4.15345 13.0432 3.60539 12.4951 3.60539 11.9471V4.27426M5.24956 4.27426V3.17815C5.24956 2.63009 5.79762 2.08203 6.34568 2.08203H8.53791C9.08597 2.08203 9.63402 2.63009 9.63402 3.17815V4.27426" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Delete</a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-
-                    <!-- 3rd Row -->
-                    <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle">
-                            <label>
-                                <input type="checkbox" class="visually-hidden" style="width: 21px; height: 21px;">
-                                <div class="checkmark"></div>
-                            </label>
-                        </td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle" colspan="4">December (9)</td>
-                        <td class="border border-gray-300 px-4 py-2 text-start align-middle" >
-                            <div class="flex items-center">
-                                <div class="text-center flex-grow">
-                                    1,000,000
-                                </div>
-                                <!-- Dropdown -->
-                                <div>
-                                    <button id="dropdownMenuIconButton" data-dropdown-toggle="dropdownDots6" class="inline-flex items-center text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus:ring-gray-200" type="button">
-                                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 4 15">
-                                            <path d="M3.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6.041a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 5.959a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
-                                        </svg>
-                                    </button>
-                                    <!-- Menu -->
-                                    <div id="dropdownDots6" class="absolute right-0 mt-2 bg-white divide-y divide-gray-800 rounded-lg shadow w-32 dark:bg-gray-700 dark:divide-gray-600 hidden items-center">
-                                        <ul class="py-2 text-sm text-gray-900 dark:text-gray-200 z-auto" aria-labelledby="dropdownMenuIconButton">
-                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
-                                                            <g clip-path="url(#clip0_4744_10818)">
-                                                                <path d="M10.1823 1.78801C10.3262 1.64407 10.4971 1.52988 10.6852 1.45198C10.8733 1.37408 11.0748 1.33398 11.2784 1.33398C11.482 1.33398 11.6835 1.37408 11.8716 1.45198C12.0597 1.52988 12.2306 1.64407 12.3745 1.78801C12.5185 1.93195 12.6326 2.10284 12.7105 2.29091C12.7884 2.47898 12.8285 2.68056 12.8285 2.88412C12.8285 3.08769 12.7884 3.28927 12.7105 3.47734C12.6326 3.66541 12.5185 3.8363 12.3745 3.98024L4.97574 11.379L1.96143 12.2011L2.78351 9.18678L10.1823 1.78801Z" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_4744_10818">
-                                                                    <rect width="13.1534" height="13.1534" fill="white" transform="translate(0.865234 0.144531)"/>
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Edit</a>
-                                                    </div>
-                                                </div>
-                                            </li>
-
-                                            <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
-                                                <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
-                                                    <div class="w-3.5 h-3.5 relative">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                                            <path d="M2.50928 4.27426H12.3743M11.2782 4.27426V11.9471C11.2782 12.4951 10.7301 13.0432 10.1821 13.0432H4.70151C4.15345 13.0432 3.60539 12.4951 3.60539 11.9471V4.27426M5.24956 4.27426V3.17815C5.24956 2.63009 5.79762 2.08203 6.34568 2.08203H8.53791C9.08597 2.08203 9.63402 2.63009 9.63402 3.17815V4.27426" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
-                                                        <a href="#" class="block px-4 py-2">Delete</a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-
-                    <!-- Total -->
-                    <tr>
-                        <td class="w-[5px] border border-gray-300 px-4 py-2 text-center align-middle"></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle"><strong style="font-weight: 900;">Total</strong></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle">1,000,000.00</td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle" colspan="4"></td>
-                        <td class="border border-gray-300 px-4 py-2 text-center align-middle"></td>
-                    </tr>
-
                 </tbody>
+                <tfoot class="bg-gray-50">
+                <tr>
+                    <td colspan="7" class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium text-gray-500">Total</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200">Total Value 1</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200">Total Value 2</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200">Total Value 3</td>
+                    <td></td>
+                </tr>
+                </tfoot>
             </table>
         </div>
     </div>
