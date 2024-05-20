@@ -2,50 +2,29 @@
     <div class="w-[1200px] max-h-fit bg-white rounded-xl shadow border border-zinc-200">
         <div class="relative overflow-x-auto">
             <!-- Table -->
-            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-
+            <table id="capital-outlay-table" class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                 <!-- Header -->
                 <thead class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal gap-y-12">
                     <tr>
-                        <th scope="col" class="px-6 py-3">
-                            Account Code
-                        </th>
-                        <th scope="col" class="pr-10 py-3">
-                            Item of Expenditures
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                            Proposed Budget
-                        </th>
-                        <th scope="col" class="px-6 py-3 text-center">
-                            Justification
-                        </th>
+                        <th scope="col" class="px-6 py-3">Account Code</th>
+                        <th scope="col" class="pr-10 py-3">Item of Expenditures</th>
+                        <th scope="col" class="px-6 py-3">Proposed Budget</th>
+                        <th scope="col" class="px-6 py-3 text-center">Justification</th>
                     </tr>
                 </thead>
-
                 <!-- Body -->
-                <tbody>
-
-                    <!-- 1st Row -->
+                <tbody id="capital-outlay-tbody">
+                    <!-- Existing rows (placeholders) -->
                     <tr class="gap-6">
-                        <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
-                            1-07-04-020
-                        </th>
-                        <td class="pr-10 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
-                            School Buildings
-                        </td>
-                        <!-- type=number? -->
+                        <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">1-07-04-020</th>
+                        <td class="pr-10 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">School Buildings</td>
                         <td class="px-6 py-2">
-                            <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-form-schoolbldg-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
-                            </form>
+                            <input type="text" id="capital-form-schoolbldg-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                         </td>
                         <td class="px-6 py-2">
-                            <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="capital-form-schoolbldg-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
-                            </form>
+                            <input type="text" id="capital-form-schoolbldg-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                         </td>
                     </tr>
-
                     <!-- 2nd Row -->
                     <tr class="gap-6">
                         <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
@@ -265,14 +244,77 @@
                             </form>
                         </td>
                     </tr>
+
                 </tbody>
             </table>
         </div>
     </div>
 
+    <!-- Add Row Button -->
+    <div class="w-[1200px] flex justify-end mt-4">
+        <button id="add-row-btn" class="w-30 h-10 px-4 py-2 bg-green-500 rounded-md shadow justify-center items-center text-white text-base font-medium font-['Inter'] leading-tight">Add Row</button>
+    </div>
+
     <!-- Submit -->
     <div class="w-[1200px] flex justify-end mt-4">
-        <button class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
+        <button id="submit-btn" class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
     </div>
+
+    <script>
+        document.getElementById('add-row-btn').addEventListener('click', function() {
+            const newRow = document.createElement('tr');
+            newRow.className = 'gap-6';
+
+            newRow.innerHTML = `
+                <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
+                    <input type="text" class="w-full h-8 px-3 py-2 rounded-md shadow border border-zinc-200 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug" placeholder="Account Code">
+                </th>
+                <td class="pr-10 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">
+                    <input type="text" class="w-full h-8 px-3 py-2 rounded-md shadow border border-zinc-200 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug" placeholder="Item of Expenditures">
+                </td>
+                <td class="px-6 py-2">
+                    <input type="text" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                </td>
+                <td class="px-6 py-2">
+                    <input type="text" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                </td>
+            `;
+
+            document.getElementById('capital-outlay-tbody').appendChild(newRow);
+        });
+
+        document.getElementById('submit-btn').addEventListener('click', function() {
+            const table = document.getElementById('capital-outlay-table');
+            const rows = table.querySelectorAll('tbody tr');
+            const data = [];
+
+            rows.forEach(row => {
+                const rowData = {
+                    accountCode: row.cells[0].querySelector('input') ? row.cells[0].querySelector('input').value : row.cells[0].innerText,
+                    itemExpenditures: row.cells[1].querySelector('input') ? row.cells[1].querySelector('input').value : row.cells[1].innerText,
+                    proposedBudget: row.cells[2].querySelector('input').value,
+                    justification: row.cells[3].querySelector('input').value
+                };
+                data.push(rowData);
+            });
+
+            fetch('/save-budget-data', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(result => {
+                console.log(result);
+                alert('Data submitted successfully!');
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('There was an error submitting the data.');
+            });
+        });
+    </script>
 
 </div>
