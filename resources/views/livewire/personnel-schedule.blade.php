@@ -37,6 +37,9 @@
             <table class="min-w-full divide-y divide-gray-200 border border-slate-300">
                 <thead>
                     <tr>
+                        <th class="px-6 py-4 whitespace-nowrap">
+                        <input type="checkbox" class="form-checkbox h-4 w-4 text-indigo-600 transition duration-150 ease-in-out">
+                        </th>
                         <th scope="col" class="px-6 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Item No.</th>
                         <th scope="col" class="px-6 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Grade Step</th>
                         <th scope="col" class="px-6 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Position Chief (By Designation)</th>
@@ -54,6 +57,7 @@
                         <td class="px-6 py-4 whitespace-nowrap">
                         <input type="checkbox" class="form-checkbox h-4 w-4 text-indigo-600 transition duration-150 ease-in-out">
                         </td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-black border border-slate-300">Item No.</td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-black border border-slate-300">Grade Step Value</td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-black border border-slate-300">Position Chief Value</td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-black border border-slate-300">Name of Incumbent Value</td>
@@ -62,7 +66,7 @@
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-black border border-slate-300">Increase Value</td>
                         <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                             <!-- Dropdown -->
-                            <div class="relative" x-data="{ open: false }">
+                            <div class="relative z-50" x-data="{ open: false }">
                                 <button @click="open = true" id="dropdownMenuIconButton" class="inline-flex items-center text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus:ring-gray-200" type="button">
                                     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 4 15">
                                         <path d="M3.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6.041a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 5.959a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
@@ -91,17 +95,17 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="4" class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium text-gray-500 border-t border-gray-200">Subtotal</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200">Subtotal Value 1</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200">Subtotal Value 2</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200">Subtotal Value 3</td>
+                        <td colspan="5" class="px-6 py-4 whitespace-nowrap text-right font-semibold text-black items-center">Subtotal</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200"></td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200"></td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200"></td>
                         <td class="border-t border-gray-200"></td>
                     </tr>
                     <tr>
-                        <td colspan="4" class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium text-gray-500">Total</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200">Total Value 1</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200">Total Value 2</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200">Total Value 3</td>
+                        <td colspan="5" class="px-6 py-4 whitespace-nowrap text-right font-semibold text-black items-center">Total</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200"></td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200"></td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200"></td>
                         <td></td>
                     </tr>
                 </tfoot>
