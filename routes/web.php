@@ -23,6 +23,7 @@ use App\Livewire\BurForm;
 use App\Livewire\PurchaseForm;
 use App\Livewire\AmendmentForm;
 use App\Livewire\Appropriations;
+use App\Http\Controllers\CapitalOutlayController;
 
 
 /*
@@ -83,3 +84,5 @@ Route::get('/BUR-form', BurForm::class);
 Route::get('/purchase-order-form', PurchaseForm::class);
 
 Route::get('/amendment-form', AmendmentForm::class);
+
+Route::post('/capital-outlay/store', [CapitalOutlayController::class, 'store'])->name('capital-outlay.store');
