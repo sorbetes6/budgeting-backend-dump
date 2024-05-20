@@ -9,7 +9,7 @@
                     <label class="text-black text-sm font-normal font-['Inter'] leading-loose">Personnel Schedule Form No.</label>
                 </div>
                 <div class="flex ml-[835px] mt-[-50px] items-start">
-                    @include('components\layouts.import-export-add-buttons')
+                    @include('components\layouts.schedule-buttons')
                 </div>
             </div>
         </div>
