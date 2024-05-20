@@ -32,6 +32,14 @@
                     <th scope="col" class="px-2 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Mode of Procurement</th>
                     <th scope="col" class="px-2 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Price Validity</th>
                     <th scope="col" class="px-2 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Payment Term</th>
+                    <th scope="col" class="px-2 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Place of Delivery</th>
+                    <th scope="col" class="px-2 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Date of Delivery</th>
+                    <th scope="col" class="px-2 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Item No.</th>
+                    <th scope="col" class="px-2 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Qty</th>
+                    <th scope="col" class="px-2 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Unit</th>
+                    <th scope="col" class="px-2 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Description</th>
+                    <th scope="col" class="px-2 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Unit Cost</th>
+                    <th scope="col" class="px-2 py-3 text-black text-sm font-bold font-['Inter'] leading-tight border border-slate-300">Ammount</th>
                     <th scope="col" class="relative px-2 py-3">
                         <span class="sr-only">Edit</span>
                     </th>
@@ -51,7 +59,15 @@
                     <td class="px-2 py-4 text-sm text-black border border-slate-300"></td>
                     <td class="px-2 py-4 text-sm text-black border border-slate-300"></td>
                     <td class="px-2 py-4 text-sm text-black border border-slate-300"></td>    
-                    <td class="px-2 py-4 text-sm text-black border border-slate-300"></td>   
+                    <td class="px-2 py-4 text-sm text-black border border-slate-300"></td>
+                    <td class="px-2 py-4 text-sm text-black border border-slate-300"></td>
+                    <td class="px-2 py-4 text-sm text-black border border-slate-300"></td>
+                    <td class="px-2 py-4 text-sm text-black border border-slate-300"></td>
+                    <td class="px-2 py-4 text-sm text-black border border-slate-300"></td>
+                    <td class="px-2 py-4 text-sm text-black border border-slate-300"></td>
+                    <td class="px-2 py-4 text-sm text-black border border-slate-300"></td>
+                    <td class="px-2 py-4 text-sm text-black border border-slate-300"></td>    
+                    <td class="px-2 py-4 text-sm text-black border border-slate-300"></td> 
                     <td class="px-2 py-4 text-right text-sm font-medium">
                         <!-- Dropdown -->
                         <div class="relative" x-data="{ open: false }">
