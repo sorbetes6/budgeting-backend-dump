@@ -16,7 +16,7 @@
     </div>
 
     <!-- Body -->
-    <div class="w-[1420px] h-[620px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col overflow-auto z-30">
+    <div class="w-[1420px] h-[620px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col overflow-auto">
 
         <!-- SY & College -->
         <div class="py-4 px-3 rounded-lg space-y-2 justify-items-start">
@@ -97,7 +97,7 @@
                         <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
                         <td class="px-6 py-4 text-sm text-black border border-slate-300">
                             <!-- Dropdown -->
-                            <div class="relative" x-data="{ open: false }">
+                            <div class="relative z-50" x-data="{ open: false }">
                                 <button @click="open = true" id="dropdownMenuIconButton" class="inline-flex items-center text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus:ring-gray-200" type="button">
                                     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 4 15">
                                         <path d="M3.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6.041a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 5.959a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
@@ -106,6 +106,59 @@
                                 <!-- Menu -->
                                 <div class="absolute right-0 mt-2 bg-white divide-y divide-gray-800 rounded-lg shadow w-32 dark:bg-gray-700 dark:divide-gray-600 z-10" x-show="open" @click.away="open = false">
                                     <ul class="py-2 text-sm text-gray-900 dark:text-gray-200" aria-labelledby="dropdownMenuIconButton">
+                                        <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
+                                            <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex z-50">
+                                                @include('components\layouts.edit-modal')
+                                            </div>
+                                        </li>
+                                        <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
+                                            <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
+                                                <div class="grow shrink basis-0 h-4 justify-start items-center gap-1.5 flex">
+                                                    @include('components\layouts.delete-modal')
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="px-2 py-4 whitespace-nowrap border border-slate-300">
+                            <input type="checkbox" class="form-checkbox h-4 w-4 text-indigo-600 transition duration-150 ease-in-out">
+                        </td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300">
+                            <!-- Dropdown -->
+                            <div class="relative z-50" x-data="{ open: false }">
+                                <button @click="open = true" id="dropdownMenuIconButton2" class="inline-flex items-center text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus:ring-gray-200" type="button">
+                                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 4 15">
+                                        <path d="M3.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6.041a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 5.959a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
+                                    </svg>
+                                </button>
+                                <!-- Menu -->
+                                <div class="absolute right-0 mt-2 bg-white divide-y divide-gray-800 rounded-lg shadow w-32 dark:bg-gray-700 dark:divide-gray-600 z-10" x-show="open" @click.away="open = false">
+                                    <ul class="py-2 text-sm text-gray-900 dark:text-gray-200" aria-labelledby="dropdownMenuIconButton2">
                                         <li class="hover:bg-gray-200 dark:hover:bg-gray-200 dark:hover:text-black">
                                             <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex z-50">
                                                 @include('components\layouts.edit-modal')
@@ -132,7 +185,6 @@
                 </tr>
                 </tfoot>
             </table>
-
         </div>    
     </div>
 </div>
