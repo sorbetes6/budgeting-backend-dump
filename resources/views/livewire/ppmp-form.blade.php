@@ -1,6 +1,18 @@
-<div>
-    <div class="flex w-[1200px]">
+<div class="px-6 py-32">
+    <!-- Header -->
+    <div class="text-black text-2xl font-medium font-['Inter'] leading-9">Project Procurement Management Plan</div>
 
+    <!-- Select College/Office -->
+    <div class="w-[280px] py-6 rounded-lg">
+        <select id="college_office" name="college_office" class="block w-full h-10 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" style="text-indent: 10px;">
+            <option disabled selected>Select College/Office</option>
+            <option value="College 1">College 1</option>
+            <option value="College 2">College 2</option>
+            <option value="">...</option>
+        </select>
+    </div>
+
+    <div class="flex w-[1200px]">
         <!-- 1st Program Title -->
         <div class="w-[585px] h-[90px] px-5 py-6 bg-white border border-gray-200 rounded-lg shadow sm:p-4">
             <form class="space-y-2" action="#">

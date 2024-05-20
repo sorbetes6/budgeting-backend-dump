@@ -1,8 +1,10 @@
-<div>   
+<div class="px-6 py-32">   
+    <!-- Header -->
+    <div class="text-black text-2xl font-medium font-['Inter'] leading-9 ">Maintenance and Other Operating Expenses</div>
     
     <!-- Select College/Office -->
-    <div class="w-[280px] p-3 rounded-lg">
-        <select id="college_office" name="college_office" class="block w-full h-[30px] border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" style="text-indent: 10px;">
+    <div class="w-[280px] py-6 rounded-lg">
+        <select id="college_office" name="college_office" class="block w-full h-10 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" style="text-indent: 10px;">
             <option disabled selected>Select College/Office</option>
             <option value="College 1">College 1</option>
             <option value="College 2">College 2</option>
