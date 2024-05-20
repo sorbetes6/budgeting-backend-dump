@@ -35,9 +35,8 @@
 
 
         <!-- Table -->
-        <div class="overflow-x-auto max-h-xl place-self-center items-center py-3 ">
+        <div class="overflow-x-auto max-h-xl place-self-center items-center" >
             <table class="w-[1360px] z-50">
-
                 <!-- Header -->
                 <thead>
                     <tr>

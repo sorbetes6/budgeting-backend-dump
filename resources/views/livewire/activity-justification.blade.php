@@ -16,7 +16,7 @@
     </div>
 
     <!-- Body -->
-    <div class="w-[1420px] h-[620px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col justify-center overflow-auto">
+    <div class="w-[1420px] h-[620px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col overflow-auto">
 
         <!-- SY & College -->
         <div class="py-4 px-3 rounded-lg space-y-2 justify-items-start">
@@ -33,7 +33,7 @@
         </div>
 
         <!-- Table -->
-        <div class="h-[480px] p-4 rounded-lg mt-[-10px] mr-4">
+        <div class="overflow-x-auto max-h-xl items-center px-3">
             <table class="min-w-full divide-y divide-gray-200 border border-slate-300">
                 <thead>
                     <tr>
@@ -98,7 +98,4 @@
             </table>
         </div>
     </div>
-
-
-
 </div>

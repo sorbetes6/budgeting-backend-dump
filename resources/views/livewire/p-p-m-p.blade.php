@@ -16,7 +16,7 @@
     </div>
 
     <!-- Body -->
-    <div class="w-[1420px] h-[620px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col justify-center overflow-auto">
+    <div class="w-[1420px] h-[620px] font-['Inter'] rounded-lg border border-gray-300 flex flex-col overflow-auto z-30">
 
         <!-- SY & College -->
         <div class="py-4 px-3 rounded-lg space-y-2 justify-items-start">
@@ -33,7 +33,7 @@
         </div>
 
         <!-- Table -->
-        <div class="h-[480px] p-4 rounded-lg mt-[-10px] mr-4">
+        <div class="overflow-x-auto max-h-xl items-center px-3">
             <table class="min-w-full divide-y divide-gray-200 border border-slate-300">
                 <thead>
                     <tr>
@@ -50,7 +50,7 @@
                         <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300" rowspan="2">Estimated Budget</th>
                         <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300" rowspan="2" >Procurement Method</th>
                         <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300" colspan="12">Delivery/Implementation Schedule</th>
-                        <th scope="col" class="relative px-2 py-3 border border-slate-300">
+                        <th scope="col" class="relative px-2 py-3 border-x border-t border-slate-300" rowspan="2">
                             <span class="sr-only">Edit</span>
                         </th>
                     </tr>
@@ -95,7 +95,7 @@
                         <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
                         <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
                         <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border-x border-slate-300">
+                        <td class="px-6 py-4 text-sm text-black border border-slate-300">
                             <!-- Dropdown -->
                             <div class="relative" x-data="{ open: false }">
                                 <button @click="open = true" id="dropdownMenuIconButton" class="inline-flex items-center text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus:ring-gray-200" type="button">
@@ -126,15 +126,13 @@
                 </tbody>
                 <tfoot class="bg-gray-50">
                 <tr>
-                    <td colspan="9" class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium text-gray-500">Total</td>
+                    <td colspan="8" class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium text-gray-500">Total</td>
                     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 border-t border-gray-200">Total Value 1</td>
                     <td></td>
                 </tr>
                 </tfoot>
             </table>
-        </div>
+
+        </div>    
     </div>
-
-
-
 </div>
