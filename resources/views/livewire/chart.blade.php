@@ -52,7 +52,7 @@
             </div>
         </div>
         <!-- Payment Request-->
-        <div class="max-w-xl h-36 md:h-36 sm:h-52 rounded-lg shadow border border-gray border-opacity-20 justify-items-center">
+        <div class="max-w-xl h-36 md:h-36 sm:h-72 rounded-lg shadow border border-gray border-opacity-20 justify-items-center">
             <div class="flex items-center px-4 py-3">
                 <img class="w-[30px] h-[30px] mr-2" src="css/images/icon1.png">
                 <h1 class="text-xl font-extrabold text-blue-800">Payment Request Forms</h1>

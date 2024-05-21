@@ -627,7 +627,7 @@
         <div class="flex justify-end items-center py-10">
         <div>
             <div class="w-full flex justify-start items-center gap-4" style="padding-right: 380px;">
-                <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal text-center">Total Personal Services:</label>
+                <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal text-center">Total Maintenance and Other Operating Expenses:</label>
                 <form class="flex-grow-0 flex-shrink-0">
                     <input type="text" id="services-total" class="flex-shrink-0 w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                 </form>
