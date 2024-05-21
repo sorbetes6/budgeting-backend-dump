@@ -41,9 +41,9 @@
     </script>
 
     <!-- Top Cover -->
-    <div class="relative w-fixed h-[100px] border-opacity-20 bg-cover bg-center mt-[-225px]" style="background-image: url('css/images/background.png'); z-index: 1;">
+    <div class="relative max-w-screen-2xl h-[100px] border-opacity-20 bg-cover bg-center mt-[-225px] ml-[-250px]" style="background-image: url('css/images/background.png'); z-index: 1;">
         <div class="absolute inset-0 rounded-lg"></div>
-        <div class="absolute inset-0 flex flex-col items-start ml-6 justify-top text-left left-2 mt-8">
+        <div class="absolute inset-0 flex flex-col items-start justify-top text-left left-2 mt-8">
         </div>
     </div>
 
