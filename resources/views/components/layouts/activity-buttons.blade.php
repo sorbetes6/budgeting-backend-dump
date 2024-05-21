@@ -111,16 +111,11 @@
             var rows = document.querySelectorAll("#myTable tr");
 
             for (var i = 0; i < rows.length; i++) {
-                var row = [], cols = rows[i].querySelectorAll("td, th");
+                var row = [];
+                var cols = rows[i].querySelectorAll("td, th");
 
                 for (var j = 0; j < cols.length; j++) {
-                    // Trim the text content and replace new lines or multiple spaces
-                    var cellText = cols[j].innerText.replace(/(\r\n|\n|\r)/gm, "").replace(/\s+/g, " ").trim();
-                    // Ensure that cell content with commas is enclosed in quotes
-                    if (cellText.indexOf(",") >= 0) {
-                        cellText = '"' + cellText + '"';
-                    }
-                    row.push(cellText);
+                    row.push(processCell(cols[j]));
                 }
 
                 csv.push(row.join(","));
@@ -128,6 +123,41 @@
 
             // Download CSV file
             downloadCsv(csv.join("\n"), filename);
+        }
+
+        function processCell(cell) {
+            // Check if the cell contains a nested table
+            var nestedTable = cell.querySelector("table");
+            if (nestedTable) {
+                return exportNestedTable(nestedTable);
+            } else {
+                // Trim the text content and replace new lines or multiple spaces
+                var cellText = cell.innerText.replace(/(\r\n|\n|\r)/gm, "").replace(/\s+/g, " ").trim();
+                // Ensure that cell content with commas is enclosed in quotes
+                if (cellText.indexOf(",") >= 0) {
+                    cellText = '"' + cellText + '"';
+                }
+                return cellText;
+            }
+        }
+
+        function exportNestedTable(table) {
+            var nestedCsv = [];
+            var rows = table.querySelectorAll("tr");
+
+            for (var i = 0; i < rows.length; i++) {
+                var row = [];
+                var cols = rows[i].querySelectorAll("td, th");
+
+                for (var j = 0; j < cols.length; j++) {
+                    row.push(processCell(cols[j]));
+                }
+
+                nestedCsv.push(row.join(","));
+            }
+
+            // Return the nested table as a single string
+            return '"' + nestedCsv.join("\n").replace(/"/g, '""') + '"';
         }
 
         function downloadCsv(csv, filename) {

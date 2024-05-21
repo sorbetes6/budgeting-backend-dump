@@ -57,14 +57,14 @@
                 <img class="w-[30px] h-[30px] mr-2" src="css/images/icon1.png">
                 <h1 class="text-xl font-extrabold text-blue-800">Payment Request Forms</h1>
             </div>
-            <div class="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-items-center p-2 sm:py-2 md:gap-y-2 sm:gap-y-2 sm:gap-x-2">
-                <div class="flex items-center justify-center w-30 h-14 bg-blue-800 text-sm text-white rounded-md">
+            <div class="grid grid-cols-3 gap-x-3 md:grid-cols-3 sm:grid-cols-1 justify-items-center px-2 sm:py-2 md:gap-y-2 sm:gap-y-2 sm:gap-x-2">
+                <div class="flex items-center justify-center w-30 h-[60px] bg-blue-800 text-[13px] text-white rounded-md">
                     <a href="/BUR-form" class="text-sm text-white btn text-center">Budget Utilization Request</a>
                 </div>
-                <div class="flex items-center justify-center  w-[140px] h-14 bg-blue-800 text-sm text-white rounded-md ">
+                <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md">
                     <a href="/purchase-order-form" class="text-sm text-white btn text-center">Purchase Order</a>
                 </div>
-                <div class="flex items-center justify-center w-[140px] h-14 bg-blue-800 text-sm text-white rounded-md">
+                <div class="flex items-center justify-center w-40 h-[60px] bg-blue-800 text-[13px] text-white rounded-md">
                     <a href="/amendment-form" class="text-sm text-white btn text-center">Amendment Form</a>
                 </div>
             </div>
