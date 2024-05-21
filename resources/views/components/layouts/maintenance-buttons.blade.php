@@ -61,9 +61,6 @@
         </div>
     </div>
 
-
-
-
     <!-- Export Modal toggle -->
     <button data-modal-target="export-modal" data-modal-toggle="export-modal" class="w-20 h-10 px-4 bg-indigo-50 rounded-lg shadow border border-indigo-50 justify-center items-center gap-2 inline-flex text-indigo-800 text-sm font-semibold font-inter leading-tight" type="button">Export</button>
 
@@ -111,13 +108,20 @@
         function exportToCsv() {
             var filename = document.getElementById("filename-input").value + ".csv";
             var csv = [];
-            var rows = document.querySelectorAll("table tr");
+            var rows = document.querySelectorAll("#myTable tr");
 
             for (var i = 0; i < rows.length; i++) {
                 var row = [], cols = rows[i].querySelectorAll("td, th");
 
-                for (var j = 0; j < cols.length; j++)
-                    row.push(cols[j].innerText);
+                for (var j = 0; j < cols.length; j++) {
+                    // Trim the text content and replace new lines or multiple spaces
+                    var cellText = cols[j].innerText.replace(/(\r\n|\n|\r)/gm, "").replace(/\s+/g, " ").trim();
+                    // Ensure that cell content with commas is enclosed in quotes
+                    if (cellText.indexOf(",") >= 0) {
+                        cellText = '"' + cellText + '"';
+                    }
+                    row.push(cellText);
+                }
 
                 csv.push(row.join(","));
             }
@@ -140,7 +144,7 @@
             downloadLink.click();
         }
     </script>
-
+    
     <!-- Add Form -->
     <div class="justify-start items-start inline-flex">
         <a href="/MOOE-form" class="w-28 h-10 px-4 bg-indigo-800 rounded-lg shadow justify-center items-center gap-2 flex">

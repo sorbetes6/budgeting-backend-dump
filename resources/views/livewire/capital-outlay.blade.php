@@ -34,7 +34,7 @@
 
         <!-- Table -->
         <div class="overflow-x-auto max-h-xl place-self-center items-center">
-            <table class="w-[1360px]">
+            <table id="myTable" class="w-[1360px]">
 
                 <!-- Header -->
                 <thead>

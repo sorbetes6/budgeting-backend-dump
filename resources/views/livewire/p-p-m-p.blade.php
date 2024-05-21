@@ -34,7 +34,7 @@
 
         <!-- Table -->
         <div class="overflow-x-auto max-h-xl items-center px-3">
-            <table class="min-w-full divide-y divide-gray-200 border border-slate-300">
+            <table id="myTable" class="min-w-full divide-y divide-gray-200 border border-slate-300">
                 <thead>
                     <tr>
                         <th class="px-2 py-4 whitespace-nowrap border border-slate-300" rowspan="2">

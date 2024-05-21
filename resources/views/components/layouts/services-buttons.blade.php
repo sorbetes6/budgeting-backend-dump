@@ -108,38 +108,42 @@
 
     <!--Export Script-->
     <script>
-        function exportToCsv() {
-            var filename = document.getElementById("filename-input").value + ".csv";
-            var csv = [];
-            var rows = document.querySelectorAll("table tr");
+    function exportToCsv() {
+        var filename = document.getElementById("filename-input").value + ".csv";
+        var csv = [];
+        var rows = document.querySelectorAll("#myTable tr");
 
-            for (var i = 0; i < rows.length; i++) {
-                var row = [], cols = rows[i].querySelectorAll("td, th");
+        for (var i = 0; i < rows.length; i++) {
+            var row = [], cols = rows[i].querySelectorAll("td, th");
 
-                for (var j = 0; j < cols.length; j++)
-                    row.push(cols[j].innerText);
-
-                csv.push(row.join(","));
+            for (var j = 0; j < cols.length; j++) {
+                var cellText = cols[j].innerText.replace(/(\r\n|\n|\r)/gm, "").replace(/\s+/g, " ").trim();
+                if (cellText.indexOf(",") >= 0) {
+                    cellText = '"' + cellText + '"';
+                }
+                row.push(cellText);
             }
 
-            // Download CSV file
-            downloadCsv(csv.join("\n"), filename);
+            csv.push(row.join(","));
         }
 
-        function downloadCsv(csv, filename) {
-            var csvFile;
-            var downloadLink;
+        downloadCsv(csv.join("\n"), filename);
+    }
 
-            csvFile = new Blob([csv], { type: "text/csv" });
-            downloadLink = document.createElement("a");
-            downloadLink.download = filename;
-            downloadLink.href = window.URL.createObjectURL(csvFile);
-            downloadLink.style.display = "none";
-            document.body.appendChild(downloadLink);
+    function downloadCsv(csv, filename) {
+        var csvFile;
+        var downloadLink;
 
-            downloadLink.click();
-        }
-    </script>
+        csvFile = new Blob([csv], { type: "text/csv" });
+        downloadLink = document.createElement("a");
+        downloadLink.download = filename;
+        downloadLink.href = window.URL.createObjectURL(csvFile);
+        downloadLink.style.display = "none";
+        document.body.appendChild(downloadLink);
+
+        downloadLink.click();
+    }
+</script>
 
     <!-- Add Form -->
     <div class="justify-start items-start inline-flex">
