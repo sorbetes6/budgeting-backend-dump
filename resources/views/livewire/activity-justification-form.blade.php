@@ -159,14 +159,13 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Submit Button -->
-    <div class="flex flex-row-reverse">
+            <div class="flex flex-row-reverse"style="padding-right: 15px; padding-top: 20px">
         <button type="submit">
             <span class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center gap-2 inline-flex text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
         </button>
     </div>
+        </div>
+    </div>
+
 
 </div>

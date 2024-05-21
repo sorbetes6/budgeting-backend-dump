@@ -90,7 +90,7 @@
         </nav>
 
         <!-- Side Navigation-->
-        <aside id="logo-sidebar" class="fixed top-6 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full border-r sm:translate-x-0 dark:bg-indigo-800 dark:border-indigo-700" aria-label="Sidebar">
+        <aside id="logo-sidebar" class="fixed top-6 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full border-r sm: dark:bg-indigo-800 dark:border-indigo-700" aria-label="Sidebar">
             <div class="h-full px-4 pb-4 overflow-y-auto bg-indigo-800 dark:bg-indigo-800 ">
                 <!-- Label -->
                 <div class="text-white text-2xl font-extrabold font-['Inter'] leading-10 my-10">Budgeting</div>

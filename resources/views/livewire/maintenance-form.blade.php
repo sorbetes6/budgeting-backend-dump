@@ -623,21 +623,21 @@
         </div>
 
         <!-- Total MOOE: CALCULATION DAPAT-->
-        <div class="flex justify-center items-center py-10">
-            <div>
-                <div class="w-full flex justify-start items-center gap-4">
-                    <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal text-center">Total Maintenance and Other Operating Expenses:</label>
-                    <div class="flex-shrink-0 w-32 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex">
-                        <input type="justification" id="justification" class="w-full bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
-                    </div>
-                </div>
+
+        <div class="flex justify-end items-center py-10">
+        <div>
+            <div class="w-full flex justify-start items-center gap-4" style="padding-right: 380px;">
+                <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal text-center">Total Personal Services:</label>
+                <form class="flex-grow-0 flex-shrink-0">
+                    <input type="text" id="services-total" class="flex-shrink-0 w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                </form>
             </div>
         </div>
-
-        <!-- Submit Button -->
-        <div class="w-[1200px] flex justify-end">
-            <button class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
-        </div>
+        <!-- Submit -->
+    <div class="w-[480px] flex">
+        <button class="w-30 h-10 px-4 py-2 bg-indigo-800 rounded-md shadow justify-center items-center text-white text-base font-medium font-['Inter'] leading-tight">Submit</button>
+    </div>
+    </div>
 
     </div>
 </div>
