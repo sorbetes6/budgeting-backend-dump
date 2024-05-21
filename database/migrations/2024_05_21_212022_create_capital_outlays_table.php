@@ -6,18 +6,25 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateCapitalOutlaysTable extends Migration
 {
+    /**
+     * Run the migrations.
+     */
     public function up()
     {
         Schema::create('capital_outlays', function (Blueprint $table) {
             $table->id();
+            $table->string('college_office');
             $table->string('account_code');
             $table->string('item');
-            $table->decimal('proposed_budget', 15, 2);
-            $table->text('justification');
+            $table->decimal('budget', 10, 2);
+            $table->string('justification');
             $table->timestamps();
         });
     }
 
+    /**
+     * Reverse the migrations.
+     */
     public function down()
     {
         Schema::dropIfExists('capital_outlays');

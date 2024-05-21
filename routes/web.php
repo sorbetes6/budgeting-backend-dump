@@ -23,7 +23,8 @@ use App\Livewire\BurForm;
 use App\Livewire\PurchaseForm;
 use App\Livewire\AmendmentForm;
 use App\Livewire\Appropriations;
-use App\Http\Controllers\CapitalOutlayController;
+use Illuminate\Support\Facades\DB;
+
 
 
 /*
@@ -85,4 +86,13 @@ Route::get('/purchase-order-form', PurchaseForm::class);
 
 Route::get('/amendment-form', AmendmentForm::class);
 
-Route::post('/capital-outlay/store', [CapitalOutlayController::class, 'store'])->name('capital-outlay.store');
+Route::get('/capital-outlay-form', CapitalOutlayForm::class); 
+
+Route::get('/test-db', function () {
+    try {
+        DB::connection()->getPdo();
+        return 'Database connection is working';
+    } catch (\Exception $e) {
+        return 'Database connection is not working: ' . $e->getMessage();
+    }
+});
