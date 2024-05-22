@@ -20,12 +20,12 @@
                 <!-- Major -->
                 <form class="h-[80px] flex-col justify-start items-start gap-3 flex">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">Major</label>
-                    <input type="text" id="activity-major" class="w-[530px] h-9 px-3 py-2 bg-white rounded-md shadow border text-xs border-zinc-200 focus:ring-blue-500 focus:border-blue-500"" placeholder="Description" />
+                    <input type="text" id="activity-major" class="w-[530px] h-9 px-3 py-2 bg-white rounded-md shadow border text-sm border-zinc-200 focus:ring-blue-500 focus:border-blue-500" placeholder="Description" />
                 </form>
                 <!-- Specific -->
                 <form class="h-[80px] flex-col justify-start items-start gap-3 flex">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">Specific</label>
-                    <input type="text" id="activity-specific" class="w-[530px] h-9 px-3 py-2 bg-white rounded-md shadow border text-xs border-zinc-200 focus:ring-blue-500 focus:border-blue-500"" placeholder="Description" />
+                    <input type="text" id="activity-specific" class="w-[530px] h-9 px-3 py-2 bg-white rounded-md shadow border text-sm border-zinc-200 focus:ring-blue-500 focus:border-blue-500" placeholder="Description" />
                 </form>
             </div>
         </div>
