@@ -12,17 +12,17 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('actjust', function (Blueprint $table) {
-            $table->increments('actjust_id');
-            $table->varchar('college_office');
-            $table->varchar('statement_major');
-            $table->varchar('statement_specific');
-            $table->varchar('activity_justification');
-            $table->varchar('method_accomplishing');
+            $table->integerincrements('actjust_id');
+            $table->string('college_office');
+            $table->string('statement_major');
+            $table->string('statement_specific');
+            $table->string('activity_justification');
+            $table->string('method_accomplishing');
             $table->decimal('services_budget', 10, 2);
             $table->decimal('mooe_budget', 10, 2);
             $table->decimal('capital_outlay_budget', 10, 2);
             $table->decimal('total', 10, 2);
-            $table->int('estimated_no_students');
+            $table->integer('estimated_no_students');
             $table->decimal('total_cost', 10, 2);
             $table->decimal('cost_per_student', 10, 2);
             $table->timestamps();

@@ -12,22 +12,22 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('purchase_order', function (Blueprint $table) {
-            $table->increments('purchase_order_no');
-            $table->int('PR_no');
-            $table->int('TIN');
-            $table->int('tel_no');
-            $table->varchar('supplier');
+            $table->integerincrements('purchase_order_no');
+            $table->integer('PR_no');
+            $table->integer('TIN');
+            $table->integer('tel_no');
+            $table->string('supplier');
             $table->date('date');
-            $table->varchar('address');
-            $table->varchar('mode_procurement');
-            $table->varchar('price_validity');
-            $table->varchar('payment_terms');
-            $table->varchar('place_delivery');
+            $table->string('address');
+            $table->string('mode_procurement');
+            $table->string('price_validity');
+            $table->string('payment_terms');
+            $table->string('place_delivery');
             $table->date('date_delivery');
-            $table->int('item_no');
-            $table->int('quantity');
-            $table->varchar('unit');
-            $table->varchar('description');
+            $table->integer('item_no');
+            $table->integer('quantity');
+            $table->string('unit');
+            $table->string('description');
             $table->decimal('unit_cost', 10, 2);
             $table->decimal('amount', 10, 2);
             $table->timestamps();

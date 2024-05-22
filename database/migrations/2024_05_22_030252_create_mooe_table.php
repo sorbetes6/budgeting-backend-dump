@@ -12,12 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('mooe', function (Blueprint $table) {
-            $table->increments('mooe_no');
-            $table->varchar('college_office');
-            $table->varchar('account_code');
-            $table->varchar('items_expenditure');
+            $table->integerincrements('mooe_no');
+            $table->string('college_office');
+            $table->string('account_code');
+            $table->string('items_expenditure');
             $table->decimal('budget', 10, 2);
-            $table->varchar('justification');
+            $table->string('justification');
             $table->timestamps();
         });
     }
