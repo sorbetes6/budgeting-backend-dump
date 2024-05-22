@@ -1,7 +1,18 @@
 <div class="py-28 px-6">
 
     <!-- Header -->
-    <div class="text-black text-2xl font-medium font-['Inter'] leading-9 mt-30 mb-4">Appropriations</div>
+    <div class="text-black text-2xl font-medium font-['Inter'] leading-9 mt-8">Appropriations</div>
+
+    <div class="py-5">
+        <select id="college_office" name="college_office" class="block w-56 h-10 pborder-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" style="text-indent: 10px;">
+            <option disabled selected>Select College/Office</option>
+            <option value="College 1">College 1</option>
+            <option value="College 2">College 2</option>
+            <option value="">...</option>
+        </select>
+    </div>
+
+    
 
     <!-- Container -->
     <div class="w-[1320px] max-h-fit bg-white rounded-xl shadow border border-zinc-200">
