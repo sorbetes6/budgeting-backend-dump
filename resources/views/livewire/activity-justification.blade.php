@@ -33,7 +33,7 @@
         </div>
 
         <!-- Table -->
-        <div class="overflow-x-auto max-h-xl items-center px-3">
+        <div class="overflow-x-auto max-h-xl items-center px-3 space-y-6">
             <table id="myTable" class="min-w-full divide-y divide-gray-200 border border-slate-300">
                 <thead>
                     <tr>
@@ -95,6 +95,32 @@
                         </td>
                     </tr>
                 </tbody>
+            </table>
+            <table  id="myTable" class="min-w-full divide-y divide-gray-200 border border-slate-300">
+                <thead>
+                    <th class="px-3 py-2 text-black text-center text-sm font-bold font-['Inter'] uppercase leading-tight tracking-wider border border-slate-300">Item of Expenditure</th>
+                    <th class="px-3 py-2 text-black text-center text-sm font-bold font-['Inter'] uppercase leading-tight tracking-wider border border-slate-300">Budget</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="px-6 py-2 text-sm text-black border border-slate-300">Personal Services</td>
+                        <td class="px-6 py-2 text-sm text-black border border-slate-300"></td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-2 text-sm text-black border border-slate-300">Maintenance and Other Operating Expenses</td>
+                        <td class="px-6 py-2 text-sm text-black border border-slate-300"></td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-2 text-sm text-black border border-slate-300">Capital/Equipment Outlay</td>
+                        <td class="px-6 py-2 text-sm text-black border border-slate-300"></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="px-6 py-2 whitespace-nowrap text-left font-semibold text-black items-center">Total</td>
+                        <td class="px-6 py-2 whitespace-nowrap text-black text-center border border-slate-300">Total Value</td>
+                    </tr>
+                </tfoot>
             </table>
         </div>
     </div>

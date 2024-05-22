@@ -40,33 +40,19 @@
                         <th class="px-2 py-4 whitespace-nowrap border border-slate-300" rowspan="2">
                             <input type="checkbox" class="form-checkbox h-4 w-4 text-indigo-600 transition duration-150 ease-in-out">
                         </th>
-                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300" rowspan="2" >Type of Contract</th>
-                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300" rowspan="2">Account Title</th>
-                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300" rowspan="2">Account Code</th>
-                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300" rowspan="2">Item/Name</th>
-                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300" rowspan="2">Description/Specification Scope of Work</th>
-                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300" rowspan="2">Qty</th>
-                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300" rowspan="2">Unit of Issue</th>
-                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300" rowspan="2">Estimated Budget</th>
-                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300" rowspan="2" >Procurement Method</th>
-                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300" colspan="12">Delivery/Implementation Schedule</th>
+                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">Type of Contract</th>
+                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">Account Title</th>
+                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">Account Code</th>
+                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">Item/Name</th>
+                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">Description/Specification Scope of Work</th>
+                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">Qty</th>
+                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">Unit of Issue</th>
+                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">Estimated Budget</th>
+                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">Procurement Method</th>
+                        <th class="px-3 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">Delivery/Implementation Schedule</th>
                         <th scope="col" class="relative px-2 py-3 border-x border-t border-slate-300" rowspan="2">
                             <span class="sr-only">Edit</span>
                         </th>
-                    </tr>
-                    <tr>
-                        <th scope="col" class="px-2 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">J</th>
-                        <th scope="col" class="px-2 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">F</th>
-                        <th scope="col" class="px-2 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">M</th>
-                        <th scope="col" class="px-2 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">A</th>
-                        <th scope="col" class="px-2 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">M</th>
-                        <th scope="col" class="px-2 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">J</th>
-                        <th scope="col" class="px-2 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">J</th>
-                        <th scope="col" class="px-2 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">A</th>
-                        <th scope="col" class="px-2 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">S</th>
-                        <th scope="col" class="px-2 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">O</th>
-                        <th scope="col" class="px-2 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border border-slate-300">N</th>
-                        <th scope="col" class="px-2 text-black text-center text-sm font-bold font-['Inter'] leading-tight tracking-wider border-x border-slate-300">D</th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -84,17 +70,7 @@
                         <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
                         <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
                         <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
+                        
                         <td class="px-6 py-4 text-sm text-black border border-slate-300">
                             <!-- Dropdown -->
                             <div class="relative z-50" x-data="{ open: false }">
@@ -127,17 +103,6 @@
                         <td class="px-2 py-4 whitespace-nowrap border border-slate-300">
                             <input type="checkbox" class="form-checkbox h-4 w-4 text-indigo-600 transition duration-150 ease-in-out">
                         </td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
-                        <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
                         <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
                         <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
                         <td class="px-6 py-4 text-sm text-black border border-slate-300"></td>
