@@ -71,7 +71,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-swreg-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-swreg-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -81,7 +81,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-swreg-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-swreg-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -91,7 +91,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-swreg-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-swreg-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -106,7 +106,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-swcasual-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-swcasual-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -116,7 +116,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-swcasual-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-swcasual-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -126,7 +126,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-swcasual-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-swcasual-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -141,7 +141,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-pera-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-pera-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -151,7 +151,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-pera-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-pera-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -161,7 +161,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-pera-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-pera-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -176,7 +176,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-repall-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-repall-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -186,7 +186,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-repall-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-repall-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -196,7 +196,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-repall-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-repall-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -211,7 +211,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-transall-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-transall-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -221,7 +221,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-transall-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-transall-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -231,7 +231,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-transall-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-transall-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -246,7 +246,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-clouniall-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-clouniall-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -256,7 +256,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-clouniall-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-clouniall-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -266,7 +266,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-clouniall-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-clouniall-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -281,7 +281,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-hnrr-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-hnrr-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -291,7 +291,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-hnrr-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-hnrr-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -301,7 +301,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-hnrr-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-hnrr-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -316,7 +316,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-hazpay-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-hazpay-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -326,7 +326,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-hazpay-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-hazpay-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -336,7 +336,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-hazpay-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-hazpay-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -351,7 +351,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-longpay-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-longpay-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -361,7 +361,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-longpay-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-longpay-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -371,7 +371,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-longpay-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-longpay-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -386,7 +386,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-ovnpay-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-ovnpay-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -396,7 +396,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-ovnpay-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-ovnpay-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -406,7 +406,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-ovnpay-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-ovnpay-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -421,7 +421,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-yrndbns-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-yrndbns-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -431,7 +431,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-yrndbns-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-yrndbns-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -441,7 +441,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-yrndbns-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-yrndbns-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -456,7 +456,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-cshgft-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-cshgft-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -466,7 +466,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-cshgft-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-cshgft-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -476,7 +476,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-cshgft-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-cshgft-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -491,7 +491,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-rlicon-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-rlicon-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -501,7 +501,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-rlicon-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01"type="text" id="apprpriatns-rlicon-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -511,7 +511,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-rlicon-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-rlicon-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -526,7 +526,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-pgibgcon-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-pgibgcon-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -536,7 +536,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-pgibgcon-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-pgibgcon-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -546,7 +546,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-pgibgcon-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-pgibgcon-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -561,7 +561,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-phlhlthcon-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-phlhlthcon-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -571,7 +571,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-phlhlthcon-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-phlhlthcon-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -581,7 +581,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-phlhlthcon-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-phlhlthcon-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -596,7 +596,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-ecip-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-ecip-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -606,7 +606,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-ecip-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-ecip-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -616,7 +616,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-ecip-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-ecip-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -631,7 +631,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-tlb-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-tlb-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -641,7 +641,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-tlb-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-tlb-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -651,7 +651,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-tlb-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-tlb-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -666,7 +666,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 py-2 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-opb-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-opb-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -676,7 +676,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-opb-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-opb-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-2 py-2">
@@ -686,7 +686,7 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-opb-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-opb-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
@@ -703,21 +703,19 @@
                         </td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 py-2 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-opb-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-opb-abcy" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
-                        <td class="px-2 py-2">
-                        </td>
+                        <td class="px-2 py-2"></td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-opb-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-opb-t" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
-                        <td class="px-2 py-2">
-                        </td>
+                        <td class="px-2 py-2"></td>
                         <td class="px-2 py-2">
                             <form class="flex-grow-0 flex-shrink-0 flex justify-center items-center">
-                                <input type="text" id="apprpriatns-opb-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="apprpriatns-opb-u" class="w-[120px] h-8 px-3 py-2 rounded-md shadow border border-zinc-200 bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                     </tr>
