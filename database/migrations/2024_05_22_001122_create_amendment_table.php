@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('amendment', function (Blueprint $table) {
-            $table->increments('amendment_no');
+            $table->integerincrements('amendment_no');
             $table->integer('plan_no_revised');
             $table->date('date_revision');
             $table->decimal('planned_ammount', 10, 2);

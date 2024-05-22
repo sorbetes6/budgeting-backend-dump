@@ -12,7 +12,7 @@ class CreateBurTable extends Migration
     public function up()
     {
         Schema::create('bur', function (Blueprint $table) {
-            $table->increments('bur_no');
+            $table->integerincrements('bur_no');
             $table->date('date');
             $table->string('payee');
             $table->string('office');

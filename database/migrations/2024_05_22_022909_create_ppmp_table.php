@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('ppmp', function (Blueprint $table) {
-            $table->increments('ppmp_id');
+            $table->integerincrements('ppmp_id');
             $table->string('college_office');
             $table->string('program_title');
             $table->string('type_contract');
