@@ -14,12 +14,12 @@ return new class extends Migration
         Schema::create('bur', function (Blueprint $table) {
             $table->increments('bur_no');
             $table->date('date');
-            $table->string('payee');
-            $table->string('office');
-            $table->string('address');
-            $table->string('responsibility_center');
-            $table->string('account_code');
-            $table->string('particulars');
+            $table->varchar('payee');
+            $table->varchar('office');
+            $table->varchar('address');
+            $table->varchar('responsibility_center');
+            $table->varchar('account_code');
+            $table->varchar('particulars');
             $table->decimal('ammount', 10, 2);
             $table->timestamps();
         });

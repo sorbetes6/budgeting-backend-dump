@@ -11,8 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('moop', function (Blueprint $table) {
-            $table->id();
+        Schema::create('mooe', function (Blueprint $table) {
+            $table->increments('mooe_no');
+            $table->varchar('college_office');
+            $table->varchar('account_code');
+            $table->varchar('items_expenditure');
+            $table->decimal('budget', 10, 2);
+            $table->varchar('justification');
             $table->timestamps();
         });
     }
@@ -22,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('moop');
+        Schema::dropIfExists('mooe');
     }
 };

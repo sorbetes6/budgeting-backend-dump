@@ -18,14 +18,14 @@ return new class extends Migration
             $table->decimal('planned_ammount', 10, 2);
             $table->date('date_submitted');
             $table->int('item_No');
-            $table->string('description');
+            $table->varchar('description');
             $table->int('quantity');
-            $table->string('unit');
+            $table->varchar('unit');
             $table->decimal('unit_cost', 10, 2);
             $table->decimal('ammount', 10, 2);
             $table->int('procurement_quantity');
             $table->decimal('procurement_ammount', 10, 2);
-            $table->string('procurement_justification');
+            $table->varchar('procurement_justification');
             $table->timestamps();
         });
     }
