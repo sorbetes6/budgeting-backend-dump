@@ -18,8 +18,8 @@ return new class extends Migration
             $table->string('office');
             $table->string('address');
             $table->string('responsibility_center');
-            $table->string('particulars');
             $table->string('account_code');
+            $table->string('particulars');
             $table->decimal('ammount', 10, 2);
         });
     }

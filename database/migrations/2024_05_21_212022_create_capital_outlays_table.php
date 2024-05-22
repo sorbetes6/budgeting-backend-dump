@@ -12,12 +12,12 @@ class CreateCapitalOutlaysTable extends Migration
     public function up()
     {
         Schema::create('capital_outlays', function (Blueprint $table) {
-            $table->increments('capitaloutlay_id');
-            $table->string('college_office');
-            $table->string('account_code');
-            $table->string('item');
+            $table->increments('capital_outlay_id');
+            $table->varchar('college_office');
+            $table->varchar('account_code');
+            $table->varchar('items_expenditure');
             $table->decimal('budget', 10, 2);
-            $table->string('justification');
+            $table->varchar('justification');
             $table->timestamps();
         });
     }
