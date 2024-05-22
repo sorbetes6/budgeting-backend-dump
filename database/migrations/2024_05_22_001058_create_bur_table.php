@@ -4,22 +4,22 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
+class CreateBurTable extends Migration
 {
     /**
      * Run the migrations.
      */
-    public function up(): void
+    public function up()
     {
         Schema::create('bur', function (Blueprint $table) {
             $table->increments('bur_no');
             $table->date('date');
-            $table->varchar('payee');
-            $table->varchar('office');
-            $table->varchar('address');
-            $table->varchar('responsibility_center');
-            $table->varchar('account_code');
-            $table->varchar('particulars');
+            $table->string('payee');
+            $table->string('office');
+            $table->string('address');
+            $table->string('responsibility_center');
+            $table->string('account_code');
+            $table->string('particulars');
             $table->decimal('ammount', 10, 2);
             $table->timestamps();
         });
@@ -28,7 +28,7 @@ return new class extends Migration
     /**
      * Reverse the migrations.
      */
-    public function down(): void
+    public function down()
     {
         Schema::dropIfExists('bur');
     }

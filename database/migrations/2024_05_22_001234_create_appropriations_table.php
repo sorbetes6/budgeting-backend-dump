@@ -13,11 +13,11 @@ return new class extends Migration
     {
         Schema::create('appropriations', function (Blueprint $table) {
             $table->increments('appropriations_id');
-            $table->varchar('college_office');
-            $table->varchar('account_code');
-            $table->varchar('items_expenditure');
+            $table->string('college_office');
+            $table->string('account_code');
+            $table->string('items_expenditure');
             $table->decimal('budget', 10, 2);
-            $table->varchar('approved_board');
+            $table->string('approved_board');
             $table->decimal('total', 10, 2);
             $table->decimal('obligations', 10,2);
             $table->decimal('unobligated', 10, 2);

@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('personnelsched', function (Blueprint $table) {
             $table->increments('personnelschedule_id');
-            $table->varchar('college_office');
-            $table->varchar('grade_step');
-            $table->varchar('position');
-            $table->varchar('name_incumbent');
+            $table->string('college_office');
+            $table->string('grade_step');
+            $table->string('position');
+            $table->string('name_incumbent');
             $table->decimal('actual_salary', 10, 2);
             $table->decimal('proposed_salary', 10, 2);
             $table->decimal('increase', 10, 2);

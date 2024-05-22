@@ -13,19 +13,19 @@ return new class extends Migration
     {
         Schema::create('amendment', function (Blueprint $table) {
             $table->increments('amendment_no');
-            $table->int('plan_no_revised');
+            $table->integer('plan_no_revised');
             $table->date('date_revision');
             $table->decimal('planned_ammount', 10, 2);
             $table->date('date_submission');
-            $table->int('item_No');
-            $table->varchar('description');
-            $table->int('quantity');
-            $table->varchar('unit');
+            $table->integer('item_No');
+            $table->string('description');
+            $table->integer('quantity');
+            $table->string('unit');
             $table->decimal('unit_cost', 10, 2);
             $table->decimal('amount', 10, 2);
-            $table->int('procurement_quantity');
+            $table->integer('procurement_quantity');
             $table->decimal('procurement_amount', 10, 2);
-            $table->varchar('procurement_justification');
+            $table->string('procurement_justification');
             $table->timestamps();
         });
     }
