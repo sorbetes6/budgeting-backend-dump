@@ -34,7 +34,7 @@
                                 <th scope="row" class="px-6 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">{{ $item['account_code'] }}</th>
                                 <td class="pr-10 py-2 text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">{{ $item['item'] }}</td>
                                 <td class="px-6 py-2">
-                                    <input type="text" wire:model="items.{{ $index }}.budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" wire:model="items.{{ $index }}.budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                     @error('items.'.$index.'.budget') <span class="text-red-500">{{ $message }}</span> @enderror
                                 </td>
                                 <td class="px-6 py-2">

@@ -49,7 +49,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-trvlngxpnseslcl-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-trvlngxpnseslcl-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -69,7 +69,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-trvlngxpnsesfrgn-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-trvlngxpnsesfrgn-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -89,7 +89,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-trvlngxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-trvlngxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -109,7 +109,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-offcspplsxpns-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-offcspplsxpns-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -129,7 +129,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-accntblefrmxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-accntblefrmxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -149,7 +149,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-drgsmdcnexpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-drgsmdcnexpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -169,7 +169,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-mdlsxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-mdlsxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -189,7 +189,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-fuoiluxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-fuoiluxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -209,7 +209,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-othrspplsmtrlsxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-othrspplsmtrlsxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -229,7 +229,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-wtrxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-wtrxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -249,7 +249,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-elctctyxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-elctctyxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -269,7 +269,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-pstgcrsrvcs-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-pstgcrsrvcs-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -289,7 +289,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-tlphnxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-tlphnxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -309,7 +309,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-intrntsbscrptnxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-intrntsbscrptnxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -334,7 +334,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-extrmiscexpnses-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
+                                    <input type="number" step="0.01" id="mooe-form-extrmiscexpnses-justification" class="w-96 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description">
                                 </form>
                             </td>
                         </tr>
@@ -349,7 +349,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-cnsltncsrvces-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-cnsltncsrvces-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -369,7 +369,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-othrprosrvces-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-othrprosrvces-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -389,7 +389,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-rmbldgothrstrctrs-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-rmbldgothrstrctrs-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -409,7 +409,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-rmmchnryeqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-rmmchnryeqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -429,7 +429,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-rmtrnprtatneqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-rmtrnprtatneqpmnt-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -449,7 +449,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-rmfurfix-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-rmfurfix-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -469,7 +469,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-fibopre-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-fibopre-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -489,7 +489,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-insrncexpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-insrncexpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -509,7 +509,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-advrtsingexpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-advrtsingexpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -529,7 +529,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-pripubexpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-pripubexpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -549,7 +549,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-rntxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-rntxpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -569,7 +569,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-mdco-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-mdco-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -588,7 +588,7 @@
                                 Subcription Expenses
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-sbcrptnexpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-sbcrptnexpnses-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -608,7 +608,7 @@
                             </td>
                             <td class="px-6 py-2">
                                 <form class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="mooe-form-omaopex-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                    <input type="number" step="0.01" id="mooe-form-omaopex-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                                 </form>
                             </td>
                             <td class="px-6 py-2">
@@ -629,7 +629,7 @@
             <div class="w-full flex justify-start items-center gap-4" style="padding-right: 380px;">
                 <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal text-center">Total Maintenance and Other Operating Expenses:</label>
                 <form class="flex-grow-0 flex-shrink-0">
-                    <input type="text" id="services-total" class="flex-shrink-0 w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                    <input type="number" step="0.01" id="mooe-total" class="flex-shrink-0 w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                 </form>
             </div>
         </div>

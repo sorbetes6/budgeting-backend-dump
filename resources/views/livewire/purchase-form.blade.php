@@ -17,7 +17,7 @@
                     <form class="space-y-2" action="#">
                         <div class="flex flex-row items-center m-1 px-2 space-x-4">
                             <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal whitespace-nowrap">Purchase Order No.</label>
-                            <input type="text" id="purchase-number-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-number" class="w-full h-8 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="0" />
+                            <input type="number" id="purchase-number-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-number" class="w-full h-8 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="0" />
                         </div>
                     </form>
                 </div>
@@ -27,7 +27,7 @@
                     <form class="space-y-2" action="#">
                         <div class="flex flex-row items-center m-1 px-2 space-x-4">
                             <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal whitespace-nowrap">PR No.</label>
-                            <input type="text" id="purchase-pr-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-pr" class="w-40 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="0" />
+                            <input type="number" id="purchase-pr-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-pr" class="w-40 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="0" />
                         </div>
                     </form>
                 </div>
@@ -41,7 +41,7 @@
                     <form class="space-y-2" action="#">
                         <div class="flex flex-row items-center m-1 px-2 space-x-4">
                             <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal whitespace-nowrap">TIN: </label>
-                            <input type="text" id="purchase-TIN-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-TIN" class="w-full h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="0" />
+                            <input type="number" id="purchase-TIN-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-TIN" class="w-full h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="0" />
                         </div>
                     </form>
                 </div>
@@ -51,7 +51,7 @@
                     <form class="space-y-2" action="#">
                         <div class="flex flex-row items-center m-1 px-2 space-x-4">
                             <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal whitespace-nowrap">Tel No.</label>
-                            <input type="text" id="purchase-tel-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-tel" class="w-40 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="0" />
+                            <input type="number" id="purchase-tel-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-tel" class="w-40 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="0" />
                         </div>
                     </form>
                 </div>
@@ -173,7 +173,7 @@
             <form class="space-y-2" action="#">
                 <div class="flex flex-col gap-y-3">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Item No.:</label>
-                    <input type="text" id="purchase-item-1-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-item-1" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                    <input type="number" id="purchase-item-1-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-item-1" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
                 </div>
             </form>
 
@@ -181,7 +181,7 @@
             <form class="space-y-2" action="#">
                 <div class="flex flex-col gap-y-3">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Quantity:</label>
-                    <input type="text" id="purchase-quantity-1-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-quantity-1" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                    <input type="number" id="purchase-quantity-1-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-quantity-1" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
                 </div>
             </form>
 
@@ -205,7 +205,7 @@
             <form class="space-y-2" action="#">
                 <div class="flex flex-col gap-y-3">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Unit Cost:</label>
-                    <input type="text" id="purchase-unit-cost-1-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-unit-cost-1" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                    <input type="number" step="0.01" id="purchase-unit-cost-1-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-unit-cost-1" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
                 </div>
             </form>
 
@@ -213,7 +213,7 @@
             <form class="space-y-2" action="#">
                 <div class="flex flex-col gap-y-3">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Amount:</label>
-                    <input type="text" id="purchase-ammount-1-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-ammount-1" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                    <input type="number" step="0.01" id="purchase-ammount-1-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-ammount-1" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
                 </div>
             </form>
         </div>
@@ -225,7 +225,7 @@
             <form class="space-y-2" action="#">
                 <div class="flex flex-col gap-y-3">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Item No.:</label>
-                    <input type="text" id="purchase-item-2-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-item-2" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                    <input type="number" id="purchase-item-2-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-item-2" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
                 </div>
             </form>
 
@@ -233,7 +233,7 @@
             <form class="space-y-2" action="#">
                 <div class="flex flex-col gap-y-3">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Quantity:</label>
-                    <input type="text" id="purchase-quantity-2-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-quantity-2" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                    <input type="number" id="purchase-quantity-2-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-quantity-2" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
                 </div>
             </form>
 
@@ -257,7 +257,7 @@
             <form class="space-y-2" action="#">
                 <div class="flex flex-col gap-y-3">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Unit Cost:</label>
-                    <input type="text" id="purchase-unit-cost-2-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-unit-cost-2" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                    <input type="number" step="0.01" id="purchase-unit-cost-2-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-unit-cost-2" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
                 </div>
             </form>
 
@@ -265,7 +265,7 @@
             <form class="space-y-2" action="#">
                 <div class="flex flex-col gap-y-3">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Ammount:</label>
-                    <input type="text" id="purchase-ammount-2-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-ammount-2" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
+                    <input type="number" step="0.01" id="purchase-ammount-2-{{ $item['id'] }}" wire:model="items.{{ $index }}.purchase-ammount-2" class="w-28 h-8 px-2 py-1.5 bg-white rounded-md shadow border border-zinc-200 focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight gap-1.5" placeholder="Description" />
                 </div>
             </form>
         </div>

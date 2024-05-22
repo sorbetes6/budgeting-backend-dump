@@ -86,7 +86,7 @@
             <form class="space-y-2" action="#">
                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Unit Price</label>
                 <form class="flex-grow-0 flex-shrink-0">
-                    <input type="text" id="ppmp-form-untprce" class="w-40 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                    <input type="number" step="0.01" id="ppmp-form-untprce" class="w-40 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
                 </form>
             </form>
         </div>
@@ -101,7 +101,7 @@
             <form class="space-y-2" action="#">
                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Quantity</label>
                 <form class="flex-grow-0 flex-shrink-0">
-                    <input type="text" id="ppmp-form-qntty" class="w-40 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="0" />
+                    <input type="number" id="ppmp-form-qntty" class="w-40 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="0" />
                 </form>
             </form>
         </div>
@@ -141,7 +141,7 @@
             <form class="space-y-2" action="#">
                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Estimated Budget</label>
                 <form class="flex-grow-0 flex-shrink-0">
-                    <input type="text" id="ppmp-form-estmtdbdgt" class="w-40 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                    <input type="number" step="0.01" id="ppmp-form-estmtdbdgt" class="w-40 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
                 </form>
             </form>
         </div>
@@ -152,7 +152,7 @@
         <div class="w-[1200px] h-40 px-5 py-3.5 bg-white rounded-xl shadow border border-zinc-200 flex-col justify-start items-start gap-2.5 inline-flex">
             <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Delivery/Implementation Schedule</label>
             <form class="w-[1150px]">
-                <input type="text" id="ppmp-form-schdle" class="w-full h-[100px] py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" style="overflow-wrap: break-word;" />
+                <input type="date" id="ppmp-form-schdle" class="w-full h-[100px] py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" style="overflow-wrap: break-word;" />
             </form>
         </div>
     </div>

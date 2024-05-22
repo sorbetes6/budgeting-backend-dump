@@ -19,7 +19,7 @@
             <div class="flex justify-center items-center flex-row">
                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal mr-2">Item No.</label>
                 <form class="flex">
-                    <input type="text" id="persched-form-itmno" class="w-[80px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="0" />
+                    <input type="number" id="persched-form-itmno" class="w-[80px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="0" />
                 </form>
             </div>
         </form>
@@ -65,7 +65,7 @@
                 <div class="flex items-center flex-row">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">CY 2023 (Current Year) Actual Salary/Annum</label>
                     <form class="flex ml-[210px] justify-end">
-                        <input type="text" id="persched-form-crntyr" class="w-[230px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00" />
+                        <input type="number" step="0.01" id="persched-form-crntyr" class="w-[230px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00" />
                     </form>
                 </div>
             </div>
@@ -79,7 +79,7 @@
                 <div class="flex items-center flex-row">
                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">CY 2024 (Budget Year) Proposed Salary/Annum </label>
                     <form class="flex ml-[190px]">
-                        <input type="text" id="persched-form-bdgtyr" class="w-[230px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00" />
+                        <input type="number" step="0.01" id="persched-form-bdgtyr" class="w-[230px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00" />
                     </form>
                 </div>
             </div>
@@ -93,7 +93,7 @@
             <form class="space-y-2" action="#">
                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Increase</label>
                 <form class="flex-grow-0 flex-shrink-0">
-                    <input type="text" id="persched-form-incrs" class="w-[200px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
+                    <input type="number" step="0.01" id="persched-form-incrs" class="w-[200px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="Description" />
                 </form>
             </form>
         </div>
@@ -105,7 +105,7 @@
             <form class="space-y-2" action="#">
                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Sub-total</label>
                 <form class="flex-grow-0 flex-shrink-0">
-                    <input type="text" id="persched-form-subttl" class="w-[200px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                    <input type="number" step="0.01" id="persched-form-subttl" class="w-[200px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                 </form>
             </form>
             
@@ -113,7 +113,7 @@
             <form class="space-y-2 ml-[20px]" action="#">
                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-normal">Total</label>
                 <form class="flex-grow-0 flex-shrink-0">
-                    <input type="text" id="persched-form-ttl" class="w-[200px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00" />
+                    <input type="number" step="0.01" id="persched-form-ttl" class="w-[200px] h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00" />
                 </form>
             </form>
         </div>

@@ -49,7 +49,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-salary-regular-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-salary-regular-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -69,7 +69,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-salary-casual-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-salary-casual-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -89,7 +89,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-personal-economic-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-personal-economic-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -109,7 +109,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-representation-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-representation-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -129,7 +129,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-transportation-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-transportation-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -149,7 +149,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-clothing-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-clothing-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -169,7 +169,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-subsistence-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-subsistence-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -189,7 +189,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-laundry-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-laundry-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -209,7 +209,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-honoraria-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-honoraria-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -229,7 +229,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-hazard-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-hazard-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -249,7 +249,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-longevity-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-longevity-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -269,7 +269,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-overtime-night-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-overtime-night-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -289,7 +289,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-year-end-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-year-end-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -309,7 +309,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-cash-gift-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-cash-gift-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -329,7 +329,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-retirement-insurance-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-retirement-insurance-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -349,7 +349,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-pagibig-contributions-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-pagibig-contributions-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -369,7 +369,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-philhealth-contributions-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-philhealth-contributions-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -389,7 +389,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-ecc-contributions-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-ecc-contributions-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -409,7 +409,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-leave-benefits-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-leave-benefits-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -429,7 +429,7 @@
                         </td>
                         <td class="px-6 py-2">
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="services-other-benefits-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                                <input type="number" step="0.01" id="services-other-benefits-budget" class="w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                             </form>
                         </td>
                         <td class="px-6 py-2">
@@ -449,7 +449,7 @@
             <div class="w-full flex justify-start items-center gap-4" style="padding-right: 415px;">
                 <label class="text-zinc-950 text-base font-semibold font-['Inter'] leading-normal text-center">Total Personal Services:</label>
                 <form class="flex-grow-0 flex-shrink-0">
-                    <input type="text" id="services-total" class="flex-shrink-0 w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
+                    <input type="number" step="0.01" id="services-total" class="flex-shrink-0 w-36 h-8 px-3 py-2 rounded-md shadow border border-zinc-200 items-center gap-2 inline-flex bg-transparent text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱ 0.00">
                 </form>
             </div>
         </div>

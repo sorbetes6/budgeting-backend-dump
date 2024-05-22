@@ -72,7 +72,7 @@
                                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Personal Services:</label>
                             </div>
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="activity-personal-services" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                                <input type="number" step="0.01" id="activity-personal-services" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
                             </form>
                         </div>
                     </li>
@@ -83,7 +83,7 @@
                                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Maintenance and other Operating Expenses:</label>
                             </div>
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="activity-mooe" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                                <input type="number" step="0.01" id="activity-mooe" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
                             </form>
                         </div>
                     </li>
@@ -94,7 +94,7 @@
                                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Capital/Equipment Outlay:</label>
                             </div>
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="activity-outlay" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                                <input type="number" step="0.01" id="activity-outlay" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
                             </form>
                         </div>
                     </li>
@@ -105,7 +105,7 @@
                                 <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Total:</label>
                             </div>
                             <form class="flex-grow-0 flex-shrink-0">
-                                <input type="text" id="activity-total-justification" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                                <input type="number" step="0.01" id="activity-total-justification" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
                             </form>
                         </div>
                     </li>
@@ -130,7 +130,7 @@
                                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Estimated Number of Students:</label>
                                 </div>
                                 <div class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="activity-estimated-students" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="0" />
+                                    <input type="number" id="activity-estimated-students" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="0" />
                                 </div>
                             </div>
                         </li>
@@ -141,7 +141,7 @@
                                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Total Cost (excluding Capital Outlay):</label>
                                 </div>
                                 <div class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="activity-totalcost-justification" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                                    <input type="number" step="0.01" id="activity-totalcost-justification" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
                                 </div>
                             </div>
                         </li>
@@ -152,7 +152,7 @@
                                     <label class="text-zinc-950 text-sm font-medium font-['Inter'] leading-snug">Cost per Student:</label>
                                 </div>
                                 <div class="flex-grow-0 flex-shrink-0">
-                                    <input type="text" id="activity-cost-student" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
+                                    <input type="number" step="0.01"" id="activity-cost-student" class="w-32 h-8 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-start items-center gap-2 inline-flex focus:ring-blue-500 focus:border-blue-500 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight" placeholder="₱0.00" />
                                 </div>
                             </div>
                         </li>
