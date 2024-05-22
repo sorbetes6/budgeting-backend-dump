@@ -27,7 +27,9 @@ return new class extends Migration
             $table->int('item_no');
             $table->int('quantity');
             $table->varchar('unit');
-            $table->decimal('ammount', 10, 2);
+            $table->varchar('description');
+            $table->decimal('unit_cost', 10, 2);
+            $table->decimal('amount', 10, 2);
             $table->timestamps();
         });
     }

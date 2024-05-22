@@ -16,15 +16,15 @@ return new class extends Migration
             $table->int('plan_no_revised');
             $table->date('date_revision');
             $table->decimal('planned_ammount', 10, 2);
-            $table->date('date_submitted');
+            $table->date('date_submission');
             $table->int('item_No');
             $table->varchar('description');
             $table->int('quantity');
             $table->varchar('unit');
             $table->decimal('unit_cost', 10, 2);
-            $table->decimal('ammount', 10, 2);
+            $table->decimal('amount', 10, 2);
             $table->int('procurement_quantity');
-            $table->decimal('procurement_ammount', 10, 2);
+            $table->decimal('procurement_amount', 10, 2);
             $table->varchar('procurement_justification');
             $table->timestamps();
         });
