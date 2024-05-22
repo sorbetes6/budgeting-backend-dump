@@ -12,8 +12,23 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('purchase_order', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->increments('purchase_order_no');
+            $table->int('PR_no');
+            $table->int('TIN');
+            $table->int('tel_no');
+            $table->string('supplier');
+            $table->date('date');
+            $table->string('address');
+            $table->string('mode_procurement');
+            $table->string('price_validity');
+            $table->string('payment_terms');
+            $table->string('place_delivery');
+            $table->date('date_delivery');
+            $table->int('item_no');
+            $table->int('quantity');
+            $table->string('unit');
+            $table->decimal('unit_cost');
+            $table->decimal('ammount');
         });
     }
 

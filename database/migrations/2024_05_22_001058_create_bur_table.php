@@ -12,8 +12,15 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('bur', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->increments('bur_no');
+            $table->date('date');
+            $table->string('payee');
+            $table->string('office');
+            $table->string('address');
+            $table->string('responsibility_center');
+            $table->string('particulars');
+            $table->string('account_code');
+            $table->decimal('ammount', 10, 2);
         });
     }
 
