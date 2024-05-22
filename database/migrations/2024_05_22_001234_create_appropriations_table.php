@@ -12,7 +12,14 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('appropriations', function (Blueprint $table) {
-            $table->id();
+            $table->increments('appropriations_no');
+            $table->string('college_office');
+            $table->string('account_code');
+            $table->decimal('budget', 10, 2);
+            $table->string('approved_board');
+            $table->decimal('total', 10, 2);
+            $table->string('obligations');
+            $table->decimal('unobligated', 10, 2);
             $table->timestamps();
         });
     }

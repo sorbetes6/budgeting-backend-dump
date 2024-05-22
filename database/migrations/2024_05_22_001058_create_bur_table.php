@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('particulars');
             $table->string('account_code');
             $table->decimal('ammount', 10, 2);
+            $table->timestamps();
         });
     }
 
