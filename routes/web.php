@@ -15,12 +15,9 @@ use App\Livewire\CapitalOutlay;
 use App\Livewire\CapitalOutlayForm;
 use App\Livewire\PPMP;
 use App\Livewire\PpmpForm;
-use App\Livewire\BudgetCall;
 use App\Livewire\BUR;
-use App\Livewire\PurchaseOrder;
 use App\Livewire\Amendment;
 use App\Livewire\BurForm;
-use App\Livewire\PurchaseForm;
 use App\Livewire\AmendmentForm;
 use App\Livewire\Appropriations;
 use Illuminate\Support\Facades\DB;
@@ -70,11 +67,7 @@ Route::get('/PPMP', PPMP::class);
 
 Route::get('/PPMP-form', PpmpForm::class);
 
-Route::get('/budgetcall', BudgetCall::class);
-
 Route::get('/BUR', BUR::class);
-
-Route::get('/purchase-order', PurchaseOrder::class);
 
 Route::get('/appropriations', Appropriations::class);
 
@@ -82,11 +75,11 @@ Route::get('/amendment', Amendment::class);
 
 Route::get('/BUR-form', BurForm::class);
 
-Route::get('/purchase-order-form', PurchaseForm::class);
 
 Route::get('/amendment-form', AmendmentForm::class);
 
 Route::get('/capital-outlay-form', CapitalOutlayForm::class); 
+
 
 Route::get('/test-db', function () {
     try {
