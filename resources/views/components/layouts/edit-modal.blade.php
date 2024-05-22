@@ -1,5 +1,5 @@
 <div>
-    <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex mx-auto max-w-md">
+    <div class="w-9 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex mx-auto">
         <div class="w-3.5 h-3.5 relative">
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
                 <g clip-path="url(#clip0_4744_10818)">

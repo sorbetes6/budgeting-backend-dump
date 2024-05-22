@@ -95,47 +95,48 @@
     </div>
 
     <!-- Right Column -->
-    <div class="flex flex-col w-2/4 py-40 place-content-center space-y-4">
+    <div class="flex flex-col w-2/4 py-40 place-content-center space-y-4 items-start">
         <!-- Buttons -->
-        <button class="w-64 h-9 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-x-2 inline-flex">
+        <button class="w-64 h-9 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-2 inline-flex text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">
             <div class="w-4 h-4 relative">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M3.33301 8.00065H12.6663M7.99967 3.33398V12.6673" stroke="#18181B" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10M11.3333 5.33333L8 2M8 2L4.66667 5.33333M8 2V10" stroke="#18181B" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
-            <label type="button" class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">Upload Disbursement Voucher</label>
+            Upload Disbursement Voucher
         </button>
-        <button class="w-80 h-9 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-x-2 inline-flex">
+        <button class="w-80 h-9 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-2 inline-flex text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">
             <div class="w-4 h-4 relative">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M3.33301 8.00065H12.6663M7.99967 3.33398V12.6673" stroke="#18181B" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10M11.3333 5.33333L8 2M8 2L4.66667 5.33333M8 2V10" stroke="#18181B" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
-            <label type="button" class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">Upload Certificate of Funds Availability</label>
+            Upload Certificate of Funds Availability
         </button>
-        <button class="w-52 h-9 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-x-2 inline-flex">
+
+        <button class="w-52 h-9 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-2 inline-flex text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">
             <div class="w-4 h-4 relative">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M3.33301 8.00065H12.6663M7.99967 3.33398V12.6673" stroke="#18181B" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10M11.3333 5.33333L8 2M8 2L4.66667 5.33333M8 2V10" stroke="#18181B" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
-            <label type="button" class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">Upload Purchase Order</label>
+            Upload Purchase Order
         </button>
-        <button class="w-56 h-9 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-x-2 inline-flex">
+        <button class="w-56 h-9 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-2 inline-flex text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">
             <div class="w-4 h-4 relative">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M3.33301 8.00065H12.6663M7.99967 3.33398V12.6673" stroke="#18181B" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10M11.3333 5.33333L8 2M8 2L4.66667 5.33333M8 2V10" stroke="#18181B" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
-            <label type="button" class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">Upload Purchase Request</label>
+            Upload Purchase Request
         </button>
-        <button class="w-64 h-9 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-x-2 inline-flex">
+        <button class="w-64 h-9 px-3 py-2 bg-white rounded-md shadow border border-zinc-200 justify-center items-center gap-2 inline-flex text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">
             <div class="w-4 h-4 relative">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M3.33301 8.00065H12.6663M7.99967 3.33398V12.6673" stroke="#18181B" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10M11.3333 5.33333L8 2M8 2L4.66667 5.33333M8 2V10" stroke="#18181B" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
-            <label type="button" class="text-zinc-950 text-sm font-medium font-['Inter'] leading-tight">Upload Completed Staff Work</label>
+            Upload Completed Staff Work
         </button>
         <div class="flex flex-col place-self-center">
             <!-- Submit button -->

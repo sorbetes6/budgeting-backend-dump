@@ -1,5 +1,5 @@
 <div>
-    <div class="w-24 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
+    <div class="w-9 px-1.5 py-1 rounded justify-start items-center gap-1.5 inline-flex">
         <div class="w-3.5 h-3.5 relative">
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                 <path d="M2.50928 4.27426H12.3743M11.2782 4.27426V11.9471C11.2782 12.4951 10.7301 13.0432 10.1821 13.0432H4.70151C4.15345 13.0432 3.60539 12.4951 3.60539 11.9471V4.27426M5.24956 4.27426V3.17815C5.24956 2.63009 5.79762 2.08203 6.34568 2.08203H8.53791C9.08597 2.08203 9.63402 2.63009 9.63402 3.17815V4.27426" stroke="#71717A" stroke-width="0.822086" stroke-linecap="round" stroke-linejoin="round"/>
